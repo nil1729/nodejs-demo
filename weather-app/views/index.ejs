@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <style>
+        ::selection{
+            color: red;
+            background-color: rgb(202, 197, 197);
+        }
+        span{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <div class="jumbotron jumbotron-fluid p-2">
+        <h1 class="display-4 text-center">Weather App</h1>
+        <div class="container">
+            <hr class="my-3">
+            <p class="lead text-center">This is a Weather Detail Provider Service made by using NodeJS</p>
+        </div>
+    </div>
+    <div class="container p-2 text-center">
+        <p class="lead">Search Weather For a Location Here</p>
+        <form action="/" method="post">
+            <div class="form-group">
+                <input required placeholder="Search Location ..." type="text" name="location" id="" class="form-control">
+            </div>
+            <button type="submit" class="btn btn-success" style="min-width: 30%">Submit</button>
+        </form>
+    </div>
+    <hr class="my-3">
+    <% if(typeof data!= 'undefined') { %>
+    <% if(data.success === false){ %>
+        <div class="display-4 text-danger text-center">
+            Not Found data for this Location
+        </div>
+    <% } else{%>  
+    
+    <div class="container lead text-primary">
+        <div class="row d-flex align-items-center">
+            <div class="col-md-4">
+                <img src="<%= data.current.weather_icons[0]  %> " alt="..." class="mb-2 img-thumbnail">
+                <p><%= data.location.name %> </p>
+                <p>Country: <span><%= data.location.country%></span></p>
+            </div>
+            <div class="col-md-4">
+                <p>Localtime: <span><%= data.location.localtime %></span></p>
+                <p>Temperature: <span><%= data.current.temperature %> °C</span></p>
+                <p>Description: <span><%= data.current.weather_descriptions[0] %></span></p>
+            </div>
+            <div class="col-md-4">
+                <p>Wind: <span><%= data.current.wind_speed%>km/h <%=data.current.wind_degree %>°<%= data.current.wind_dir%></span></p>
+                <p>Precipitation: <span><%= data.current.precip %> mm</span></p>
+                <p>Humidity: <span><%= data.current.humidity %> %</span></p>
+                <p>Pressure: <span><%= data.current.pressure %> mb</span></p>
+            </div>
+        </div>
+    </div>
+    <% } %> 
+    <% } %> 
+</body>
+</html>
