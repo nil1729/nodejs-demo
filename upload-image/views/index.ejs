@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Upload</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <style>
+        ::-webkit-scrollbar{
+            width: 0;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="container">
+        <h1>File Upload</h1>
+        <h5><%= typeof error !== 'undefined' ? error : '' %> </h5>
+        <form action="/upload" method="post" enctype="multipart/form-data">
+            <div class="file-field input-field">
+              <div class="btn">
+                <span>File</span>
+                <input type="file" name="image">
+              </div>
+              <div class="file-path-wrapper">
+                <input class="file-path validate" type="text" name="avatar-name">
+              </div>
+            </div>
+            <button class="btn waves-effect waves-light" type="submit">Submit</button>
+        </form>
+    </div>
+    <div class="container">
+        <br>
+        <% if(typeof image != 'undefined'){ %>
+            <img   class="responsive-img" src="/uploads/<%= image  %>">
+        <% } %> 
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</body>
+</html>
