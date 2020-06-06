@@ -1,0 +1,21 @@
+<%- include ('./partials/_header')  %>
+
+    <div class="container mt-3">
+        <%- include ('./partials/_msg')  %> 
+        <% if(ideas.length === 0){ %>
+            <p class="lead">No Video ideas listed.</p>
+        <% }else{ %>
+            <% ideas.forEach(idea=>{ %>
+                <div class="container my-2 border rounded p-3">
+                    <p class="lead font-weight-bold"><%= idea.title  %></p>
+                    <p><%= idea.details  %> </p>
+                    <a href="/videos/edit/<%= idea._id %>" class="btn btn-sm btn-dark col">Edit</a>
+                    <form action="/videos/delete/<%= idea._id %>?_method=DELETE" method="POST" class="my-2">
+                        <button type="submit" class="btn btn-sm btn-danger col">Delete</button>
+                    </form>
+                </div>
+            <% }) %>   
+        <% } %> 
+    </div>
+
+<%- include ('./partials/_footer')  %> 

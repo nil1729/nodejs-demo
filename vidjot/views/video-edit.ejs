@@ -1,0 +1,13 @@
+<%- include ('./partials/_header')  %>
+<div class="jumbotron jumbotron-fluid p-4">
+    <div class="container">
+        <h1 class="display-4">Edit <%= idea.title  %> </h1>
+        <hr>
+        <%- include ('./partials/_msg')  %> 
+            <form action="/videos/edit/<%= idea._id  %>?_method=PUT" method="POST">
+                <%- include ('./partials/_video-form') %> 
+                <button type="submit" class="btn btn-sm btn-success">Update</button>
+            </form>
+    </div>
+</div>
+<%- include ('./partials/_footer')  %> 

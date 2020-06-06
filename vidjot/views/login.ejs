@@ -1,0 +1,20 @@
+<%- include ('./partials/_header')  %>
+<div class="jumbotron jumbotron-fluid p-4">
+            <div class="container form-container mb-4">
+                <h1 class="text-center ">Account Login</h1>
+                <%- include ('./partials/_msg')  %> 
+                <hr>
+                <form action="/users/login" method="POST">
+                    <div class="form-group">
+                        <label for="email"><h6>Email address</h6> </label>
+                        <input required type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email eg: xyz@abc.com" name="email" value="<%= typeof user == 'undefined' ? '' : newUser.email %>">
+                    </div>
+                    <div class="form-group">
+                        <label for="password"><h6>Password</h6> </label>
+                        <input required type="password" class="form-control" id="password" placeholder="Password" name="password" value="<%= typeof newUser == 'undefined' ? '' : user.password %>">
+                    </div>
+                    <button type="submit" class="btn btn-success btn-sm">Login</button>
+                </form>
+            </div>
+</div>
+<%- include ('./partials/_footer')  %> 

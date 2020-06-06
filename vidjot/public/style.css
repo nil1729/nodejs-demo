@@ -1,0 +1,11 @@
+::-webkit-scrollbar{
+    width: 0;
+}
+.form-container{
+    width: 35%
+}
+@media only screen and (max-width: 600px){
+    .form-container{
+        width: auto;
+    }
+}

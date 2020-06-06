@@ -1,0 +1,14 @@
+<div class="form-group">
+    <label for="title"><h5>Title</h5> </label>
+    <input 
+        required 
+        type="text" 
+        class="form-control" 
+        placeholder="Enter idea Title eg: Heroku Crash Course" 
+        name="title"
+        value="<%= typeof idea == 'undefined'? '':idea.title %>">
+</div>
+<div class="form-group">
+    <label for="details"><h5>Details</h5></label>
+    <textarea required class="form-control" name="details" id="details" rows="3"><%= typeof idea !== 'undefined'? idea.details: '' %></textarea>
+</div>

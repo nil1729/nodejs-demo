@@ -1,0 +1,31 @@
+<%- include ('./partials/_header')  %>
+<div class="jumbotron jumbotron-fluid p-4 mb-0">
+            <div class="container form-container">
+                <h1 class="text-center ">Account Register</h1>
+                <%- include ('./partials/_msg')  %> 
+                <hr>
+                <form action="/users/register" method="POST">
+                    <div class="form-group">
+                        <label for="name"><h6>Name</h6> </label>
+                        <input required type="text" class="form-control" id="name" aria-describedby="nameHelp" placeholder="Enter Your name" name="name" value="<%= typeof newUser == 'undefined' ? '' : newUser.name %>">
+                        <small id="nameHelp" class="form-text text-muted">Name should be have only Alphabets</small>
+                    </div>
+                    <div class="form-group">
+                        <label for="email"><h6>Email address</h6> </label>
+                        <input required type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email eg: xyz@abc.com" name="email" value="<%= typeof newUser == 'undefined' ? '' : newUser.email %>">
+                        <small class="form-text text-muted">We'll never share your email with anyone else.</small>
+                    </div>
+                    <div class="form-group">
+                        <label for="password"><h6>Password</h6> </label>
+                        <input required type="password" minlength="6" class="form-control" id="password" placeholder="Password" name="password" value="<%= typeof newUser == 'undefined' ? '' : newUser.password %>">
+                        <small class="form-text text-muted">Password must be atlaest 6 characters</small>
+                    </div>
+                    <div class="form-group">
+                        <label for="password"><h6>Confirm Password</h6> </label>
+                        <input required type="password" minlength="6" class="form-control" id="password" placeholder="Confirm Password" name="password2" value="<%= typeof newUser == 'undefined' ? '' : newUser.password2 %>">
+                    </div>
+                    <button type="submit" class="btn btn-sm btn-success">Register</button>
+                </form>
+            </div>
+</div>
+<%- include ('./partials/_footer')  %> 

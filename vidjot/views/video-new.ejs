@@ -1,0 +1,13 @@
+<%- include ('./partials/_header')  %>
+<div class="jumbotron jumbotron-fluid p-4">
+    <div class="container">
+        <h1 class="display-4">Add Video Idea</h1>
+        <hr>
+        <%- include ('./partials/_msg')  %> 
+            <form action="/videos/new" method="POST">
+                <%- include ('./partials/_video-form') %> 
+                <button type="submit" class="btn btn-sm btn-success">Add</button>
+            </form>
+    </div>
+</div>
+<%- include ('./partials/_footer')  %> 
