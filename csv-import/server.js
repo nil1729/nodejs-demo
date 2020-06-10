@@ -74,11 +74,12 @@ app.post('/upload',  async (req, res) => {
                 let s = new Student(student);
                 await s.save();
             });
-            fs.unlink(filePath, (err)=> {
+            fs.unlink(filePath, async (err)=> {
                 if(err){
                     res.render('index', {error: 'Server Error'});
                 }else{
-                    res.render('index', {error: 'File Uploaded'});
+                    const students = await Student.find();
+                    res.render('index', {error: 'File Uploaded', students});
                 }
             });
         }
