@@ -17,7 +17,7 @@
 #### Task 5 ( Vidjot using Passport Authentication )
 * This is a fully functional app using Express as a Server. Here I learn how to use `Passport` for authentication, how to override the request using `method-override`, about flash messages using `Connect-flash` and the main thing how to interact with Database (MongoDB) in Backend.
 ---
-#### Task 6 ( CSV import using `Multer` and `csvtojson` module )
+#### Task 6 ( CSV import using `Multer` and `csvtojson` module & CSV export using `json2csv` module )
 * This is a basic implementation by which we can upload a bunch of data into Database by uploading a CSV file.
 ---
 #### Made with :heart: by [Nilanjan Deb](https://github.com/nil1729).
