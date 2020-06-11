@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSV Import</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <style>
         ::-webkit-scrollbar{
@@ -29,8 +30,13 @@
                 <input class="file-path validate" type="text" name="csv-title">
               </div>
             </div>
-            <button class="btn waves-effect waves-light" type="submit">Upload</button>
+            <button class="btn waves-effect waves-light" type="submit"><i class="large material-icons right">send</i>Upload</button>
         </form>
+        <div class="fixed-action-btn">
+          <a class="btn-floating btn-large red" href="/exports/export.csv" download>
+            <i class="large material-icons">file_download</i>
+          </a>
+        </div>
     </div>
     <% if(typeof students !== 'undefined' && students.length > 0) {%>
         <div class="container center z-depth-1">

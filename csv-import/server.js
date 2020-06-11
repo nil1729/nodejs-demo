@@ -6,6 +6,7 @@ const mongoose = require('mongoose');
 const Student = require('./models/Student');
 const csv = require('csvtojson');
 const fs = require('fs');
+const { Parser } = require('json2csv');
 
 // Connect to DB
 const connectDB = async () => {
@@ -55,8 +56,18 @@ const upload = multer({
 }).single('csv');
 
 // Index Route
-app.get('/', (req, res) => {
-    res.render('index');
+app.get('/', async(req, res) => {
+    const students = await Student.find();
+    const fields = ['marks__s1','marks__s2','marks__s3','marks__s4','marks__s5','createdAt','_id','name','school_id','class','email','__v'];
+    const opts = { fields };
+    try {
+        const parser = new Parser(opts);
+        const csv = parser.parse(students);
+        fs.writeFileSync('./public/exports/export.csv', csv);
+        res.render('index');
+    } catch (err) {
+        console.error(err);
+    }
 });
 
 // Upload Route
