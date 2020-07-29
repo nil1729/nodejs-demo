@@ -27,7 +27,12 @@
 							enctype="multipart/form-data"
 						>
 							<div class="custom-file">
-								<input type="file" class="custom-file-input" id="customFile" />
+								<input
+									name="dbFile"
+									type="file"
+									class="custom-file-input"
+									id="customFile"
+								/>
 								<label class="custom-file-label" for="customFile">
 									Choose file
 								</label>
@@ -38,6 +43,36 @@
 						</form>
 					</div>
 				</div>
+			</div>
+			<hr class="my-3" />
+			<div class="container text-center">
+				<% if(typeof images != 'undefined') { %> <% if(images.length === 0) { %>
+				<p class="lead">No Images Found to Show</p>
+				<% } else { %> <% images.forEach(image => { %>
+				<div class="container my-3 p-4 border">
+					<div class="card m-auto" style="width: 23rem;">
+						<a href="/api/images/<%= image.filename %>" target="_blank">
+							<img
+								style="width: 100%;"
+								class="card-img-top"
+								src="/api/images/<%= image.filename %>"
+								alt="gfs"
+							/>
+						</a>
+						<div class="card-body text-center">
+							<p class="lead"><small><%= image.filename %></small></p>
+							<form
+								action="/api/images/<%= image._id %>?_method=DELETE"
+								method="POST"
+							>
+								<button class="btn btn-sm btn-block btn-danger">
+									Delete Image
+								</button>
+							</form>
+						</div>
+					</div>
+				</div>
+				<% }) %> <% } %> <% } %>
 			</div>
 		</div>
 	</body>
