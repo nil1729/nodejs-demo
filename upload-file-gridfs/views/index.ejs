@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>MongoDB GridFS File Upload</title>
+		<link
+			rel="stylesheet"
+			href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+			integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+			crossorigin="anonymous"
+		/>
+	</head>
+	<body>
+		<div class="container">
+			<h1 class="display-4 text-center">
+				MongoDB GridFS File Upload
+			</h1>
+			<hr class="my-3" />
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6 m-auto">
+						<form
+							action="/api/upload"
+							class="m-auto"
+							method="POST"
+							enctype="multipart/form-data"
+						>
+							<div class="custom-file">
+								<input type="file" class="custom-file-input" id="customFile" />
+								<label class="custom-file-label" for="customFile">
+									Choose file
+								</label>
+							</div>
+							<button class="btn btn-sm btn-primary btn-block my-3">
+								Upload
+							</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
