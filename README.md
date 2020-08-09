@@ -1,6 +1,6 @@
 ## Learning NodeJS
 
-- Simple Tasks done by me while learning `Node JS`.
+- Understanding and Learning about `Node JS`.
 
 ---
 
@@ -45,6 +45,24 @@
 - This is a Simple Express App that uploads Files on MongoDB, here we don't store any files on our local File System. It can be used in Production Level Applications.
 
 - Here I use `Multer` for uploading files as usual. Also I used `multer-gridfs-storage` to store files directly on MongoDB GridFS Bucket and `gridfs-stream` for dealing CRUD operations with files on MongoDB GridFS.
+
+---
+
+### Run on Local Environment
+
+- Clone this Repository
+- Go to the directory you want to see Demo
+- Install all dependencies
+- Configure Database whenever necessary
+- Start the App.
+- Code Sample
+  ```
+    >> git clone https://github.com/nil1729/Learning-NodeJS.git
+    >> cd <Specific Directory>
+    >> npm install
+    // TODO: Configure MongoDB on Local Environment or use MongoDB Atlas
+    >> npm run server
+  ```
 
 ---
 
