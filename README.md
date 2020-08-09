@@ -55,7 +55,7 @@
 - Install all dependencies
 - Configure Database whenever necessary
 - Start the App.
-- Code Sample
+- **Code Sample**
   ```
     >> git clone https://github.com/nil1729/Learning-NodeJS.git
     >> cd <Specific Directory>
