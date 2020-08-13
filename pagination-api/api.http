@@ -4,4 +4,7 @@ GET http://localhost:5050/users?page=1&limit=8
 ###
 GET http://localhost:5050/posts?page=3&limit=8
 
+###
+
+GET http://localhost:5050/db-users?page=2&limit=10
 
