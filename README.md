@@ -40,11 +40,17 @@
 
 ---
 
-#### Task 7 ( File Uploade on MongoDB GridFS )
+#### Task 7 ( File Uploads on MongoDB GridFS )
 
 - This is a Simple Express App that uploads Files on MongoDB, here we don't store any files on our local File System. It can be used in Production Level Applications.
 
 - Here I use `Multer` for uploading files as usual. Also I used `multer-gridfs-storage` to store files directly on MongoDB GridFS Bucket and `gridfs-stream` for dealing CRUD operations with files on MongoDB GridFS.
+
+---
+
+#### Task 7 ( Pagination in NodeJS )
+
+- Pagination is very important topic for Backend Web Development. We don't want to send all data to the client in a single request. If Data become quite large, it may cause problems with the server and may result in Server Errors due to overloaded Data. Here I implement a Simple Pagination query using Node JS and MongoDB.
 
 ---
 
