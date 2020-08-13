@@ -36,14 +36,20 @@ const paginateDBResults = model => {
 				limit: limit,
 			};
 		}
-		if (endIndex < (await model.countDocuments().exec())) {
-			results.nextPage = {
-				page: page + 1,
-				limit: limit,
-			};
+		try {
+			if (endIndex < (await model.countDocuments().exec())) {
+				results.nextPage = {
+					page: page + 1,
+					limit: limit,
+				};
+			}
+			results.results = await model.find().limit(limit).skip(startIndex).exec();
+			res.paginatedResults = results;
+		} catch (e) {
+			res.status(500).json({
+				message: e,
+			});
 		}
-		results.results = await model.find().limit(limit).skip(startIndex).exec();
-		res.paginatedResults = results;
 		next();
 	};
 };
