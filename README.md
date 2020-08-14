@@ -54,6 +54,12 @@
 
 ---
 
+#### Task 8 ( Understanding NodeJS CLI )
+
+- This is a simple example how to use CLI to interact with the Database. Here I use `Commander` and `Inquirer` Module for building Commands and asking Questions, MongoDB used as Database to store the information of Customer.
+
+---
+
 ### Run on Local Environment
 
 - Clone this Repository
