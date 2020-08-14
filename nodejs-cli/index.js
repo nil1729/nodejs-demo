@@ -4,6 +4,7 @@ const {
 	updateCustomer,
 	removeCustomer,
 	findCustomer,
+	listCustomers,
 } = require('./db/customers');
 const { connectDB } = require('./db');
 const inquirer = require('inquirer');
@@ -60,8 +61,13 @@ program
 	.description('Remove an existing Customer with given ID')
 	.action(id => removeCustomer(id));
 program
-	.command('find <text>')
+	.command('find <name>')
 	.alias('f')
 	.description('Find Customers with given Name')
-	.action(text => findCustomer(text));
+	.action(name => findCustomer(name));
+program
+	.command('list')
+	.alias('l')
+	.description('Find all Customers saved on Database')
+	.action(listCustomers);
 program.parseAsync(process.argv);
