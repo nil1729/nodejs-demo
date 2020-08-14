@@ -1,0 +1,14 @@
+{
+  "name": "nodejs-cli",
+  "version": "1.2.0",
+  "description": "Customer Management using NodeJS CLI",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nilanjan Deb",
+  "license": "MIT",
+  "dependencies": {
+    "mongoose": "^5.9.29"
+  }
+}
