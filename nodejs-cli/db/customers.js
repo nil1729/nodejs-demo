@@ -21,10 +21,30 @@ const updateCustomer = async (customer, id) => {
 
 const removeCustomer = async id => {
 	try {
-		await Customer.remove({ _id: id });
+		await Customer.deleteOne({ _id: id });
 		console.info(`Customer with ID ${id} Removed Successfully`);
 	} catch (e) {
 		console.log("Mongoose Error! Customer didn't Deleted from Database");
+	}
+	db.close();
+};
+
+const findCustomer = async text => {
+	try {
+		const search = new RegExp(text, 'i');
+		const results = await Customer.find({
+			$or: [{ firstName: search }, { lastName: search }],
+		});
+		console.info(results);
+		if (results.length > 0) {
+			console.info(
+				`Customers found with given name. Search Results ${results.length}`
+			);
+		} else {
+			console.info(`No customers found with given name`);
+		}
+	} catch (e) {
+		console.log("Mongoose Error! Can't find Customers on Database");
 	}
 	db.close();
 };
@@ -33,4 +53,5 @@ module.exports = {
 	addCustomer,
 	updateCustomer,
 	removeCustomer,
+	findCustomer,
 };

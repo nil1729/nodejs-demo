@@ -8,7 +8,7 @@ module.exports = {
 				useUnifiedTopology: true,
 				useFindAndModify: true,
 			});
-			console.log('MongoDB Connected Successfully');
+			// console.log('MongoDB Connected Successfully');
 		} catch (e) {
 			console.log('MongoDB Connect Error');
 		}

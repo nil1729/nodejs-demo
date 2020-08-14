@@ -1,5 +1,10 @@
 require('dotenv').config();
-const { addCustomer, updateCustomer } = require('./db/customers');
+const {
+	addCustomer,
+	updateCustomer,
+	removeCustomer,
+	findCustomer,
+} = require('./db/customers');
 const { connectDB } = require('./db');
 const inquirer = require('inquirer');
 
@@ -42,7 +47,6 @@ program
 	.action(() => {
 		prompt(questions).then(answer => addCustomer(answer));
 	});
-
 program
 	.command('update <id>')
 	.alias('u')
@@ -50,4 +54,14 @@ program
 	.action(id => {
 		prompt(questions).then(answer => updateCustomer(answer, id));
 	});
+program
+	.command('remove <id>')
+	.alias('r')
+	.description('Remove an existing Customer with given ID')
+	.action(id => removeCustomer(id));
+program
+	.command('find <text>')
+	.alias('f')
+	.description('Find Customers with given Name')
+	.action(text => findCustomer(text));
 program.parseAsync(process.argv);
