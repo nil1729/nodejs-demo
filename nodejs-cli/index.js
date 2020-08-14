@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 require('dotenv').config();
 const {
 	addCustomer,
@@ -6,6 +7,7 @@ const {
 	findCustomer,
 	listCustomers,
 } = require('./db/customers');
+
 const { connectDB } = require('./db');
 const inquirer = require('inquirer');
 
