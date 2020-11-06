@@ -20,6 +20,9 @@ app.use(express.json());
 // Enable cors
 app.use(cors());
 
+// Set Static Folders
+app.use(express.static(__dirname + '/public'));
+
 // Routes
 app.use('/api/v1/stores', require('./routes/stores'));
 

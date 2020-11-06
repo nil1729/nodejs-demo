@@ -7,7 +7,7 @@ POST http://localhost:5000/api/v1/stores
 Content-Type: application/json
 
 {
-    "storeId": "1050",
-    "address": "New Delhi"
+    "storeId": "0001",
+    "address": "Vasant Vihar, New Delhi, Delhi"
 }
 
