@@ -48,6 +48,7 @@ const getStores = async () => {
 				},
 			};
 		});
+		// console.log(stores);
 		loadMapWithStores(stores);
 	} catch (error) {
 		console.log(error);
