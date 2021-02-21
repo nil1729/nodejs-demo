@@ -1,10 +1,10 @@
 const fs = require('fs');
-const path = require('path');
 const bufferFile = fs.readFileSync('data.json');
 let JSONData = bufferFile.toString();
 const tt = JSON.parse(JSONData);
 let totalCourses = [];
 
+// DayCode to Full Day
 const daysMapper = {
 	M: 'Monday',
 	T: 'Tuesday',
@@ -15,11 +15,12 @@ const daysMapper = {
 	S: 'Sunday',
 };
 
+// Class Hours to actual timings
 const hoursMapper = {
 	1: '08:00 - 08:50',
 	2: '09:00 - 09:50',
 	3: '10:00 - 10:50',
-	4: '11:00 - 1:50',
+	4: '11:00 - 11:50',
 	5: '12:00 - 12:50',
 	6: '13:00 - 13:50',
 	7: '14:00 - 14:50',
@@ -30,6 +31,7 @@ const hoursMapper = {
 	12: '19:00 - 19:50',
 };
 
+// Extract only Course Object
 tt.forEach((obj, index) => {
 	if (obj['COM COD'].trim().length > 0) {
 		obj.startIndex = index;
@@ -37,14 +39,12 @@ tt.forEach((obj, index) => {
 	}
 });
 
+// iterate through all courses and extract all objects related to this course from the whole Array
 for (let i = 0; i < totalCourses.length; i++) {
 	let currObj = totalCourses[i];
 	let nextObjStart =
 		i + 1 === totalCourses.length ? tt.length : totalCourses[i + 1].startIndex;
-	let courseArr = tt.slice(currObj.startIndex, nextObjStart);
-	let tutArr;
-	let labArr;
-	let lectures = { exists: false };
+	let courseArr = tt.slice(currObj.startIndex, nextObjStart); // all course related objects together
 
 	// replicate Course Objects
 	let courseNo = currObj['COM COD'],
@@ -53,6 +53,7 @@ for (let i = 0; i < totalCourses.length; i++) {
 		units = currObj['U'],
 		comprehensiveExamDate = currObj['COMPRE DATE & SESSION'];
 
+	// Course Object
 	let course = {
 		courseNo,
 		courseCode,
@@ -60,6 +61,19 @@ for (let i = 0; i < totalCourses.length; i++) {
 		units,
 		comprehensiveExamDate,
 	};
+
+	// Check for Lectures
+	let lectures = { exists: false };
+	lectures.sections = [];
+	for (let j = 0; j < courseArr.length; j++) {
+		if (courseArr[j]['SEC'].startsWith('L')) {
+			lectures.exists = true;
+			lectures.sections.push({
+				...courseArr[j],
+				startIndex: j,
+			});
+		}
+	}
 
 	// Tutorials Checks
 	let tutorial = { exists: false };
@@ -87,17 +101,19 @@ for (let i = 0; i < totalCourses.length; i++) {
 		}
 	}
 
-	// Check both and slicing
+	/**
+	 *  Check both and slicing
+	 * 	set START and END index for lectures, tutorials, labs
+	 *
+	 */
 	if (!tutorial.exists && !practical.exists) {
 		lectures.endIndex = courseArr.length;
 	} else if (tutorial.exists && !practical.exists) {
 		lectures.endIndex = tutorial.sections[0].startIndex;
 		tutorial.endIndex = courseArr.length;
-		// tutArr = courseArr.slice(tutorial.startIndex, tutorial.endIndex);
 	} else if (!tutorial.exists && practical.exists) {
 		lectures.endIndex = practical.sections[0].startIndex;
 		practical.endIndex = courseArr.length;
-		// labArr = courseArr.slice(practical.startIndex, practical.endIndex);
 	} else if (tutorial.exists && practical.exists) {
 		if (tutorial.sections[0].startIndex > practical.sections[0].startIndex) {
 			lectures.endIndex = practical.sections[0].startIndex;
@@ -108,22 +124,9 @@ for (let i = 0; i < totalCourses.length; i++) {
 			tutorial.endIndex = practical.sections[0].startIndex;
 			practical.endIndex = courseArr.length;
 		}
-		// tutArr = courseArr.slice(tutorial.startIndex, tutorial.endIndex);
-		// labArr = courseArr.slice(practical.startIndex, practical.endIndex);
 	}
 
-	// Test for Lectures
-	lectures.sections = [];
-	for (let j = 0; j < courseArr.length; j++) {
-		if (courseArr[j]['SEC'].startsWith('L')) {
-			lectures.exists = true;
-			lectures.sections.push({
-				...courseArr[j],
-				startIndex: j,
-			});
-		}
-	}
-
+	// Storing all profs for the particular course
 	let profs = [];
 
 	// if lecture exists
@@ -228,6 +231,7 @@ for (let i = 0; i < totalCourses.length; i++) {
 	totalCourses[i] = course;
 }
 
+// Comprehensive Exam Date parser
 function parseCompreDate(str) {
 	let [dt, session] = str.split(' ');
 	let [d, m] = dt.split('/');
@@ -240,6 +244,7 @@ function parseCompreDate(str) {
 	return new Date(`${date}:${time}`);
 }
 
+// Capitalize the profs name
 function capitalize(str) {
 	return str
 		.split(' ')
@@ -253,6 +258,7 @@ function capitalize(str) {
 		.join(' ');
 }
 
+// Parsing lecture and tutorials timings
 function parseLecTutTiming(str) {
 	let arr = str.split(' ').filter((i) => i.length !== 0);
 	let timings = [];
@@ -277,6 +283,7 @@ function parseLecTutTiming(str) {
 	return timings;
 }
 
+// Parsing Lab Timings
 function parseLabTiming(str) {
 	let arr = str.split(' ').filter((i) => i.length !== 0);
 	let timings = [];
@@ -305,6 +312,7 @@ function parseLabTiming(str) {
 	return timings;
 }
 
+// Refactor the whole course array for better understanding
 for (let i = 0; i < totalCourses.length; i++) {
 	let course = totalCourses[i];
 
@@ -368,10 +376,7 @@ for (let i = 0; i < totalCourses.length; i++) {
 	course.tutorials = tutorials;
 	course.labs = labs;
 
-	totalCourses[i] = {
-		IC: course.IC,
-		...course,
-	};
+	totalCourses[i] = course;
 }
 
 fs.writeFileSync('course.json', JSON.stringify(totalCourses), 'utf8');

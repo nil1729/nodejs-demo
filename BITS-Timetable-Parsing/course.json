@@ -1,6 +1,5 @@
 [
 	{
-		"IC": "Meghana Tare",
 		"courseNo": 1001,
 		"courseCode": "BIO F110",
 		"courseName": "BIOLOGY LABORATORY",
@@ -16,11 +15,11 @@
 				"instructors": ["Meghana Tare"]
 			}
 		],
+		"IC": "Meghana Tare",
 		"lectures": [],
 		"tutorials": []
 	},
 	{
-		"IC": "Manoj Kannan",
 		"courseNo": 1002,
 		"courseCode": "BIO F111",
 		"courseName": "GENERAL BIOLOGY",
@@ -164,10 +163,10 @@
 				"instructors": ["Harshita Sharma(rs)"]
 			}
 		],
+		"IC": "Manoj Kannan",
 		"labs": []
 	},
 	{
-		"IC": "Prabhat Nath Jha",
 		"courseNo": 1114,
 		"courseCode": "BIO F212",
 		"courseName": "MICROBIOLOGY",
@@ -211,10 +210,10 @@
 				]
 			}
 		],
+		"IC": "Prabhat Nath Jha",
 		"tutorials": []
 	},
 	{
-		"IC": "Shibasish Chowdhury",
 		"courseNo": 1423,
 		"courseCode": "BIO F215",
 		"courseName": "BIOPHYSICS",
@@ -225,8 +224,8 @@
 				"section": "L1",
 				"dhString": "T Th 4 W 10",
 				"timings": [
-					{ "day": "Tuesday", "dayCode": "T", "time": "11:00 - 1:50" },
-					{ "day": "Thursday", "dayCode": "Th", "time": "11:00 - 1:50" },
+					{ "day": "Tuesday", "dayCode": "T", "time": "11:00 - 11:50" },
+					{ "day": "Thursday", "dayCode": "Th", "time": "11:00 - 11:50" },
 					{ "day": "Wednesday", "dayCode": "W", "time": "17:00 - 17:50" }
 				],
 				"instructors": ["Shibasish Chowdhury", "Navin Singh"]
@@ -242,10 +241,10 @@
 				"instructors": ["Shibasish Chowdhury", "Navin Singh"]
 			}
 		],
+		"IC": "Shibasish Chowdhury",
 		"labs": []
 	},
 	{
-		"IC": "Shibasish Chowdhury",
 		"courseNo": 1430,
 		"courseCode": "BIO F242",
 		"courseName": "INTRO TO BIOINFORMATICS",
@@ -268,15 +267,15 @@
 				"section": "T1",
 				"dhString": "M 4",
 				"timings": [
-					{ "day": "Monday", "dayCode": "M", "time": "11:00 - 1:50" }
+					{ "day": "Monday", "dayCode": "M", "time": "11:00 - 11:50" }
 				],
 				"instructors": ["Ashish Katyal (RS)", "Harshita Sharma .(rs)"]
 			}
 		],
+		"IC": "Shibasish Chowdhury",
 		"labs": []
 	},
 	{
-		"IC": "Manoj Kannan",
 		"courseNo": 1425,
 		"courseCode": "BIO F243",
 		"courseName": "GENETICS",
@@ -307,15 +306,15 @@
 				"section": "T2",
 				"dhString": "T 4",
 				"timings": [
-					{ "day": "Tuesday", "dayCode": "T", "time": "11:00 - 1:50" }
+					{ "day": "Tuesday", "dayCode": "T", "time": "11:00 - 11:50" }
 				],
 				"instructors": ["Manoj Kannan"]
 			}
 		],
+		"IC": "Manoj Kannan",
 		"labs": []
 	},
 	{
-		"IC": "Pankaj Kumar Sharma",
 		"courseNo": 1426,
 		"courseCode": "BIO F244",
 		"courseName": "INSTRU METHODS OF ANAL",
@@ -359,10 +358,10 @@
 				"instructors": ["Pankaj Kumar Sharma"]
 			}
 		],
+		"IC": "Pankaj Kumar Sharma",
 		"tutorials": []
 	},
 	{
-		"IC": "P R Deepa",
 		"courseNo": 1651,
 		"courseCode": "BIO F266",
 		"courseName": "STUDY PROJECT",
@@ -376,11 +375,11 @@
 				"instructors": ["P R Deepa"]
 			}
 		],
+		"IC": "P R Deepa",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Sandhya Amol Marathe",
 		"courseNo": 1454,
 		"courseCode": "BIO F314",
 		"courseName": "CONSERVATION BIOLOGY",
@@ -407,10 +406,10 @@
 				"instructors": ["Sandhya Amol Marathe"]
 			}
 		],
+		"IC": "Sandhya Amol Marathe",
 		"tutorials": []
 	},
 	{
-		"IC": "Sudeshna Mukherjee",
 		"courseNo": 2287,
 		"courseCode": "BIO F315",
 		"courseName": "APPLIED NUTRITION & NUTRACEUTI",
@@ -427,11 +426,11 @@
 				"instructors": ["Sudeshna Mukherjee"]
 			}
 		],
+		"IC": "Sudeshna Mukherjee",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Meghana Tare",
 		"courseNo": 1431,
 		"courseCode": "BIO F341",
 		"courseName": "DEVELOPMENTAL BIOLOGY",
@@ -454,15 +453,15 @@
 				"section": "T1",
 				"dhString": "W 4",
 				"timings": [
-					{ "day": "Wednesday", "dayCode": "W", "time": "11:00 - 1:50" }
+					{ "day": "Wednesday", "dayCode": "W", "time": "11:00 - 11:50" }
 				],
 				"instructors": ["Meghana Tare"]
 			}
 		],
+		"IC": "Meghana Tare",
 		"labs": []
 	},
 	{
-		"IC": "Uma S Dubey",
 		"courseNo": 1432,
 		"courseCode": "BIO F342",
 		"courseName": "IMMUNOLOGY",
@@ -490,10 +489,10 @@
 				"instructors": ["Uma S Dubey"]
 			}
 		],
+		"IC": "Uma S Dubey",
 		"labs": []
 	},
 	{
-		"IC": "P R Deepa",
 		"courseNo": 1650,
 		"courseCode": "BIO F366",
 		"courseName": "LABORATORY PROJECT",
@@ -507,11 +506,11 @@
 				"instructors": ["P R Deepa"]
 			}
 		],
+		"IC": "P R Deepa",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "P R Deepa",
 		"courseNo": 1736,
 		"courseCode": "BIO F367",
 		"courseName": "LABORATORY PROJECT",
@@ -525,11 +524,11 @@
 				"instructors": ["P R Deepa"]
 			}
 		],
+		"IC": "P R Deepa",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "P R Deepa",
 		"courseNo": 1685,
 		"courseCode": "BIO F376",
 		"courseName": "DESIGN PROJECT",
@@ -543,11 +542,11 @@
 				"instructors": ["P R Deepa"]
 			}
 		],
+		"IC": "P R Deepa",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "P R Deepa",
 		"courseNo": 1752,
 		"courseCode": "BIO F377",
 		"courseName": "DESIGN PROJECT",
@@ -561,11 +560,11 @@
 				"instructors": ["P R Deepa"]
 			}
 		],
+		"IC": "P R Deepa",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Meghana Tare",
 		"courseNo": 1618,
 		"courseCode": "BIO F411",
 		"courseName": "LABORATORY",
@@ -591,11 +590,11 @@
 				]
 			}
 		],
+		"IC": "Meghana Tare",
 		"lectures": [],
 		"tutorials": []
 	},
 	{
-		"IC": "P R Deepa",
 		"courseNo": 1710,
 		"courseCode": "BIO F491",
 		"courseName": "SPECIAL PROJECT",
@@ -609,11 +608,11 @@
 				"instructors": ["P R Deepa"]
 			}
 		],
+		"IC": "P R Deepa",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "S K Verma",
 		"courseNo": 388,
 		"courseCode": "BIO G513",
 		"courseName": "MICROBIAL FERMENT TECHNO",
@@ -631,11 +630,11 @@
 				"instructors": ["S K Verma", "Suresh Gupta"]
 			}
 		],
+		"IC": "S K Verma",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Rajdeep Chowdhury",
 		"courseNo": 111,
 		"courseCode": "BIO G515",
 		"courseName": "STEM CELL & REGENER BIO",
@@ -646,18 +645,18 @@
 				"section": "L1",
 				"dhString": "M W F 4",
 				"timings": [
-					{ "day": "Monday", "dayCode": "M", "time": "11:00 - 1:50" },
-					{ "day": "Wednesday", "dayCode": "W", "time": "11:00 - 1:50" },
-					{ "day": "Friday", "dayCode": "F", "time": "11:00 - 1:50" }
+					{ "day": "Monday", "dayCode": "M", "time": "11:00 - 11:50" },
+					{ "day": "Wednesday", "dayCode": "W", "time": "11:00 - 11:50" },
+					{ "day": "Friday", "dayCode": "F", "time": "11:00 - 11:50" }
 				],
 				"instructors": ["Rajdeep Chowdhury"]
 			}
 		],
+		"IC": "Rajdeep Chowdhury",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Uma S Dubey",
 		"courseNo": 2008,
 		"courseCode": "BIO G524",
 		"courseName": "ANIMAL CELL TECHNOLOGY",
@@ -690,10 +689,10 @@
 				]
 			}
 		],
+		"IC": "Uma S Dubey",
 		"tutorials": []
 	},
 	{
-		"IC": "Vishal Saxena",
 		"courseNo": 2124,
 		"courseCode": "BIO G545",
 		"courseName": "MOL PARASIT & VECTOR BIO",
@@ -711,11 +710,11 @@
 				"instructors": ["Vishal Saxena"]
 			}
 		],
+		"IC": "Vishal Saxena",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Ashis Kumar Das",
 		"courseNo": 2168,
 		"courseCode": "BIO G561",
 		"courseName": "ADV RECOMBINANT DNA TECH",
@@ -733,11 +732,11 @@
 				"instructors": ["Ashis Kumar Das"]
 			}
 		],
+		"IC": "Ashis Kumar Das",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Syamantak Majumder",
 		"courseNo": 203,
 		"courseCode": "BIO G642",
 		"courseName": "EXPERIMENTAL TECHNIQUES",
@@ -769,10 +768,10 @@
 				]
 			}
 		],
+		"IC": "Syamantak Majumder",
 		"tutorials": []
 	},
 	{
-		"IC": "Jitendra Panwar",
 		"courseNo": 956,
 		"courseCode": "BIO G643",
 		"courseName": "PLANT BIOTECHNOLOGY",
@@ -783,8 +782,8 @@
 				"section": "L1",
 				"dhString": "T Th 4 W 10",
 				"timings": [
-					{ "day": "Tuesday", "dayCode": "T", "time": "11:00 - 1:50" },
-					{ "day": "Thursday", "dayCode": "Th", "time": "11:00 - 1:50" },
+					{ "day": "Tuesday", "dayCode": "T", "time": "11:00 - 11:50" },
+					{ "day": "Thursday", "dayCode": "Th", "time": "11:00 - 11:50" },
 					{ "day": "Wednesday", "dayCode": "W", "time": "17:00 - 17:50" }
 				],
 				"instructors": ["Jitendra Panwar", "Mukul Joshi"]
@@ -800,10 +799,10 @@
 				"instructors": ["Mukul Joshi", "Shobham (RS)", "Swarnima Kushwaha (RS)"]
 			}
 		],
+		"IC": "Jitendra Panwar",
 		"tutorials": []
 	},
 	{
-		"IC": "Vishal Saxena",
 		"courseNo": 1374,
 		"courseCode": "BIOT F416",
 		"courseName": "INTRO TO PHARMA BIOTECH",
@@ -821,11 +820,11 @@
 				"instructors": ["Vishal Saxena"]
 			}
 		],
+		"IC": "Vishal Saxena",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Jitendra Panwar",
 		"courseNo": 549,
 		"courseCode": "BITS C790T",
 		"courseName": "INDEPENDENT STUDY",
@@ -839,11 +838,11 @@
 				"instructors": ["Jitendra Panwar"]
 			}
 		],
+		"IC": "Jitendra Panwar",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Jitendra Panwar",
 		"courseNo": 596,
 		"courseCode": "BITS C791T",
 		"courseName": "TEACHING PRACTICE I",
@@ -857,11 +856,11 @@
 				"instructors": ["Jitendra Panwar"]
 			}
 		],
+		"IC": "Jitendra Panwar",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Jitendra Panwar",
 		"courseNo": 520,
 		"courseCode": "BITS C797T",
 		"courseName": "PH D SEMINAR",
@@ -875,11 +874,11 @@
 				"instructors": ["Jitendra Panwar"]
 			}
 		],
+		"IC": "Jitendra Panwar",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Jitendra Panwar",
 		"courseNo": 553,
 		"courseCode": "BITS C799T",
 		"courseName": "PH D THESIS",
@@ -893,11 +892,11 @@
 				"instructors": ["Jitendra Panwar"]
 			}
 		],
+		"IC": "Jitendra Panwar",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Jitendra Panwar",
 		"courseNo": 857,
 		"courseCode": "BITS E793T",
 		"courseName": "PRACTICE LECT SERIES I",
@@ -911,11 +910,11 @@
 				"instructors": ["Jitendra Panwar"]
 			}
 		],
+		"IC": "Jitendra Panwar",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Gaurav Watts",
 		"courseNo": 1003,
 		"courseCode": "BITS F110",
 		"courseName": "ENGINEERING GRAPHICS",
@@ -1016,10 +1015,10 @@
 				"instructors": ["Vimal Chauhan (RS)", "Aniruddha Tangirala (RS)"]
 			}
 		],
+		"IC": "Gaurav Watts",
 		"tutorials": []
 	},
 	{
-		"IC": "Pushp Lata",
 		"courseNo": 1005,
 		"courseCode": "BITS F112",
 		"courseName": "TECHNICAL REPORT WRITING",
@@ -1081,11 +1080,11 @@
 				"instructors": ["Vijayakumar C"]
 			}
 		],
+		"IC": "Pushp Lata",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Trilok Mathur",
 		"courseNo": 1860,
 		"courseCode": "BITS F114",
 		"courseName": "GENERAL MATHEMATICS II",
@@ -1113,10 +1112,10 @@
 				"instructors": ["Trilok Mathur"]
 			}
 		],
+		"IC": "Trilok Mathur",
 		"labs": []
 	},
 	{
-		"IC": "Sunita Raina",
 		"courseNo": 1892,
 		"courseCode": "BITS F214",
 		"courseName": "SCIENCE TECH & MODERNITY",
@@ -1134,11 +1133,11 @@
 				"instructors": ["Sunita Raina"]
 			}
 		],
+		"IC": "Sunita Raina",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Smita Raghuvanshi",
 		"courseNo": 1632,
 		"courseCode": "BITS F225",
 		"courseName": "ENVIRONMENTAL STUDIES",
@@ -1166,11 +1165,11 @@
 				]
 			}
 		],
+		"IC": "Smita Raghuvanshi",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Sangeeta Sharma",
 		"courseNo": 2303,
 		"courseCode": "BITS F226",
 		"courseName": "SOFT SKILLS FOR PROFESSIONALS",
@@ -1188,11 +1187,11 @@
 				"instructors": ["Sangeeta Sharma"]
 			}
 		],
+		"IC": "Sangeeta Sharma",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Raj Kumar Gupta",
 		"courseNo": 1332,
 		"courseCode": "BITS F311",
 		"courseName": "IMAGE PROCESSING",
@@ -1210,11 +1209,11 @@
 				"instructors": ["Raj Kumar Gupta"]
 			}
 		],
+		"IC": "Raj Kumar Gupta",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Bijoy Krishna Mukherjee",
 		"courseNo": 1334,
 		"courseCode": "BITS F312",
 		"courseName": "NEURAL NET & FUZZY LOGIC",
@@ -1232,11 +1231,11 @@
 				"instructors": ["Bijoy Krishna Mukherjee", "Surekha Bhanot"]
 			}
 		],
+		"IC": "Bijoy Krishna Mukherjee",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Tapomoy Guha Sarkar",
 		"courseNo": 1511,
 		"courseCode": "BITS F316",
 		"courseName": "NONLINEAR DYNA & CHAOS",
@@ -1254,11 +1253,11 @@
 				"instructors": ["Tapomoy Guha Sarkar"]
 			}
 		],
+		"IC": "Tapomoy Guha Sarkar",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Revendranath Tirumalsety",
 		"courseNo": 2312,
 		"courseCode": "BITS F322",
 		"courseName": "VENTURE TEAM DEVELOPMENT AND O",
@@ -1276,11 +1275,11 @@
 				"instructors": ["Revendranath Tirumalsety"]
 			}
 		],
+		"IC": "Revendranath Tirumalsety",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Suresh Gupta",
 		"courseNo": 1791,
 		"courseCode": "BITS F382",
 		"courseName": "READING COURSE",
@@ -1294,11 +1293,11 @@
 				"instructors": ["Suresh Gupta"]
 			}
 		],
+		"IC": "Suresh Gupta",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Madhurima Das",
 		"courseNo": 1512,
 		"courseCode": "BITS F385",
 		"courseName": "INTRO TO GENDER STUDIES",
@@ -1316,11 +1315,11 @@
 				"instructors": ["Madhurima Das"]
 			}
 		],
+		"IC": "Madhurima Das",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Rashmi Ranjan Mishra",
 		"courseNo": 1337,
 		"courseCode": "BITS F386",
 		"courseName": "QUANTUM INFO & COMPUTING",
@@ -1338,11 +1337,11 @@
 				"instructors": ["Rashmi Ranjan Mishra"]
 			}
 		],
+		"IC": "Rashmi Ranjan Mishra",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Ps Dean",
 		"courseNo": 1592,
 		"courseCode": "BITS F412",
 		"courseName": "PRACTICE SCHOOL II",
@@ -1356,11 +1355,11 @@
 				"instructors": ["Ps Dean"]
 			}
 		],
+		"IC": "Ps Dean",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Ps Dean",
 		"courseNo": 1615,
 		"courseCode": "BITS F413",
 		"courseName": "PRACTICE SCHOOL II",
@@ -1374,11 +1373,11 @@
 				"instructors": ["Ps Dean"]
 			}
 		],
+		"IC": "Ps Dean",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "S U Belgamwar",
 		"courseNo": 1248,
 		"courseCode": "BITS F415",
 		"courseName": "INTRODUCTION TO MEMS",
@@ -1389,18 +1388,18 @@
 				"section": "L1",
 				"dhString": "T Th 4 W 10",
 				"timings": [
-					{ "day": "Tuesday", "dayCode": "T", "time": "11:00 - 1:50" },
-					{ "day": "Thursday", "dayCode": "Th", "time": "11:00 - 1:50" },
+					{ "day": "Tuesday", "dayCode": "T", "time": "11:00 - 11:50" },
+					{ "day": "Thursday", "dayCode": "Th", "time": "11:00 - 11:50" },
 					{ "day": "Wednesday", "dayCode": "W", "time": "17:00 - 17:50" }
 				],
 				"instructors": ["S U Belgamwar"]
 			}
 		],
+		"IC": "S U Belgamwar",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Suresh Gupta",
 		"courseNo": 1593,
 		"courseCode": "BITS F421T",
 		"courseName": "THESIS",
@@ -1414,11 +1413,11 @@
 				"instructors": ["Suresh Gupta"]
 			}
 		],
+		"IC": "Suresh Gupta",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Suresh Gupta",
 		"courseNo": 1616,
 		"courseCode": "BITS F422T",
 		"courseName": "THESIS",
@@ -1432,11 +1431,11 @@
 				"instructors": ["Suresh Gupta"]
 			}
 		],
+		"IC": "Suresh Gupta",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Suresh Gupta",
 		"courseNo": 1617,
 		"courseCode": "BITS F423T",
 		"courseName": "THESIS",
@@ -1450,11 +1449,11 @@
 				"instructors": ["Suresh Gupta"]
 			}
 		],
+		"IC": "Suresh Gupta",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Suresh Gupta",
 		"courseNo": 1619,
 		"courseCode": "BITS F424T",
 		"courseName": "THESIS",
@@ -1468,11 +1467,11 @@
 				"instructors": ["Suresh Gupta"]
 			}
 		],
+		"IC": "Suresh Gupta",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Achint Nigam",
 		"courseNo": 2317,
 		"courseCode": "BITS F427",
 		"courseName": "DIGITAL MARKETING",
@@ -1490,11 +1489,11 @@
 				"instructors": ["Achint Nigam"]
 			}
 		],
+		"IC": "Achint Nigam",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Etika Krishna Chaitanya",
 		"courseNo": 1899,
 		"courseCode": "BITS F429",
 		"courseName": "NANOTECH FOR RENEW ENRGY & ENV",
@@ -1512,11 +1511,11 @@
 				"instructors": ["Etika Krishna Chaitanya", "Banasri Roy"]
 			}
 		],
+		"IC": "Etika Krishna Chaitanya",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Bijay Kumar Rout",
 		"courseNo": 1811,
 		"courseCode": "BITS F441",
 		"courseName": "ROBOTICS",
@@ -1534,11 +1533,11 @@
 				"instructors": ["Bijay Kumar Rout"]
 			}
 		],
+		"IC": "Bijay Kumar Rout",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Amit Dua",
 		"courseNo": 2434,
 		"courseCode": "BITS F452",
 		"courseName": "BLOCKCHAIN TECHNOLOGY",
@@ -1556,11 +1555,11 @@
 				"instructors": ["Amit Dua", "Ashutosh Bhatia"]
 			}
 		],
+		"IC": "Amit Dua",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Abhishek Mishra",
 		"courseNo": 1338,
 		"courseCode": "BITS F463",
 		"courseName": "CRYPTOGRAPHY",
@@ -1571,18 +1570,18 @@
 				"section": "L1",
 				"dhString": "T Th 4 W 10",
 				"timings": [
-					{ "day": "Tuesday", "dayCode": "T", "time": "11:00 - 1:50" },
-					{ "day": "Thursday", "dayCode": "Th", "time": "11:00 - 1:50" },
+					{ "day": "Tuesday", "dayCode": "T", "time": "11:00 - 11:50" },
+					{ "day": "Thursday", "dayCode": "Th", "time": "11:00 - 11:50" },
 					{ "day": "Wednesday", "dayCode": "W", "time": "17:00 - 17:50" }
 				],
 				"instructors": ["Abhishek Mishra", "Shashank Gupta"]
 			}
 		],
+		"IC": "Abhishek Mishra",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Kamlesh Tiwari",
 		"courseNo": 1339,
 		"courseCode": "BITS F464",
 		"courseName": "MACHINE LEARNING",
@@ -1618,10 +1617,10 @@
 				"instructors": ["Stuti Chug (RS)"]
 			}
 		],
+		"IC": "Kamlesh Tiwari",
 		"tutorials": []
 	},
 	{
-		"IC": "R Mahesh",
 		"courseNo": 1379,
 		"courseCode": "BITS F467",
 		"courseName": "BIOETHICS & BIOSAFETY",
@@ -1639,11 +1638,11 @@
 				"instructors": ["R Mahesh"]
 			}
 		],
+		"IC": "R Mahesh",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Jyoti",
 		"courseNo": 1797,
 		"courseCode": "BITS F468",
 		"courseName": "NEW VENTURE CREATION",
@@ -1660,11 +1659,11 @@
 				"instructors": ["Jyoti"]
 			}
 		],
+		"IC": "Jyoti",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Arya Kumar",
 		"courseNo": 1641,
 		"courseCode": "BITS F482",
 		"courseName": "CREAT & LEAD ENTREP ORGN",
@@ -1682,11 +1681,11 @@
 				"instructors": ["Arya Kumar"]
 			}
 		],
+		"IC": "Arya Kumar",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Jitendra Panwar",
 		"courseNo": 499,
 		"courseCode": "BITS G511",
 		"courseName": "ADVANCED PROJECT",
@@ -1700,11 +1699,11 @@
 				"instructors": ["Jitendra Panwar"]
 			}
 		],
+		"IC": "Jitendra Panwar",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Jitendra Panwar",
 		"courseNo": 547,
 		"courseCode": "BITS G513",
 		"courseName": "STUDY IN ADVANCED TOPICS",
@@ -1718,11 +1717,11 @@
 				"instructors": ["Jitendra Panwar"]
 			}
 		],
+		"IC": "Jitendra Panwar",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Jitendra Panwar",
 		"courseNo": 754,
 		"courseCode": "BITS G529",
 		"courseName": "RESEARCH PROJECT I",
@@ -1736,11 +1735,11 @@
 				"instructors": ["Jitendra Panwar"]
 			}
 		],
+		"IC": "Jitendra Panwar",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Jitendra Panwar",
 		"courseNo": 755,
 		"courseCode": "BITS G539",
 		"courseName": "RESEARCH PROJECT II",
@@ -1754,11 +1753,11 @@
 				"instructors": ["Jitendra Panwar"]
 			}
 		],
+		"IC": "Jitendra Panwar",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Jitendra Panwar",
 		"courseNo": 2003,
 		"courseCode": "BITS G540",
 		"courseName": "RESEARCH PRACTICE",
@@ -1772,11 +1771,11 @@
 				"instructors": ["Jitendra Panwar"]
 			}
 		],
+		"IC": "Jitendra Panwar",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Ps Dean",
 		"courseNo": 559,
 		"courseCode": "BITS G560",
 		"courseName": "PRACTICE SCHOOL",
@@ -1790,11 +1789,11 @@
 				"instructors": ["Ps Dean"]
 			}
 		],
+		"IC": "Ps Dean",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Jitendra Panwar",
 		"courseNo": 575,
 		"courseCode": "BITS G561T",
 		"courseName": "DISSERTATION",
@@ -1808,11 +1807,11 @@
 				"instructors": ["Jitendra Panwar"]
 			}
 		],
+		"IC": "Jitendra Panwar",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Jitendra Panwar",
 		"courseNo": 2165,
 		"courseCode": "BITS G563T",
 		"courseName": "DISSERTATION",
@@ -1826,11 +1825,11 @@
 				"instructors": ["Jitendra Panwar"]
 			}
 		],
+		"IC": "Jitendra Panwar",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Jitendra Panwar",
 		"courseNo": 756,
 		"courseCode": "BITS G629T",
 		"courseName": "DISSERTATION",
@@ -1844,11 +1843,11 @@
 				"instructors": ["Jitendra Panwar"]
 			}
 		],
+		"IC": "Jitendra Panwar",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Ps Dean",
 		"courseNo": 809,
 		"courseCode": "BITS G639",
 		"courseName": "PRACTICE SCHOOL",
@@ -1862,11 +1861,11 @@
 				"instructors": ["Ps Dean"]
 			}
 		],
+		"IC": "Ps Dean",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Jitendra Panwar",
 		"courseNo": 757,
 		"courseCode": "BITS G649",
 		"courseName": "READING COURSE",
@@ -1880,11 +1879,11 @@
 				"instructors": ["Jitendra Panwar"]
 			}
 		],
+		"IC": "Jitendra Panwar",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Anshuman",
 		"courseNo": 1191,
 		"courseCode": "CE F241",
 		"courseName": "ANALYSIS OF STRUCTURES",
@@ -1920,10 +1919,10 @@
 				"instructors": ["Danish Fayaz (RS)", "Rishabh Bajpai (RS)"]
 			}
 		],
+		"IC": "Anshuman",
 		"labs": []
 	},
 	{
-		"IC": "Muthukumar G",
 		"courseNo": 1192,
 		"courseCode": "CE F242",
 		"courseName": "CONSTRUCTION PLAN & TECH",
@@ -1959,10 +1958,10 @@
 				"instructors": ["Shreyas Pranav (RS)"]
 			}
 		],
+		"IC": "Muthukumar G",
 		"labs": []
 	},
 	{
-		"IC": "Nishant Roy",
 		"courseNo": 1193,
 		"courseCode": "CE F243",
 		"courseName": "SOIL MECHANICS",
@@ -2024,10 +2023,10 @@
 					"Sayantan Chakraborty"
 				]
 			}
-		]
+		],
+		"IC": "Nishant Roy"
 	},
 	{
-		"IC": "B S Shashank",
 		"courseNo": 1194,
 		"courseCode": "CE F244",
 		"courseName": "HIGHWAY ENGINEERING",
@@ -2038,8 +2037,8 @@
 				"section": "L1",
 				"dhString": "T Th 4 W 10",
 				"timings": [
-					{ "day": "Tuesday", "dayCode": "T", "time": "11:00 - 1:50" },
-					{ "day": "Thursday", "dayCode": "Th", "time": "11:00 - 1:50" },
+					{ "day": "Tuesday", "dayCode": "T", "time": "11:00 - 11:50" },
+					{ "day": "Thursday", "dayCode": "Th", "time": "11:00 - 11:50" },
 					{ "day": "Wednesday", "dayCode": "W", "time": "17:00 - 17:50" }
 				],
 				"instructors": ["B S Shashank"]
@@ -2088,10 +2087,10 @@
 				],
 				"instructors": ["B S Shashank", "Anant Mishra(rs)"]
 			}
-		]
+		],
+		"IC": "B S Shashank"
 	},
 	{
-		"IC": "Anupam Singhal",
 		"courseNo": 1652,
 		"courseCode": "CE F266",
 		"courseName": "STUDY PROJECT",
@@ -2105,11 +2104,11 @@
 				"instructors": ["Anupam Singhal"]
 			}
 		],
+		"IC": "Anupam Singhal",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Ravi Kant Mittal",
 		"courseNo": 1197,
 		"courseCode": "CE F313",
 		"courseName": "FOUNDATION ENGINEERING",
@@ -2137,10 +2136,10 @@
 				"instructors": ["Ravi Kant Mittal"]
 			}
 		],
+		"IC": "Ravi Kant Mittal",
 		"labs": []
 	},
 	{
-		"IC": "Manoj Kumar",
 		"courseNo": 2281,
 		"courseCode": "CE F320",
 		"courseName": "DESIGN OF RE CONCRETE STRU",
@@ -2166,10 +2165,10 @@
 				"instructors": ["Manoj Kumar"]
 			}
 		],
+		"IC": "Manoj Kumar",
 		"labs": []
 	},
 	{
-		"IC": "Rallapalli Srinivas",
 		"courseNo": 2282,
 		"courseCode": "CE F321",
 		"courseName": "ENGINEERING HYDROLOGY",
@@ -2180,9 +2179,9 @@
 				"section": "L1",
 				"dhString": "M W F 4",
 				"timings": [
-					{ "day": "Monday", "dayCode": "M", "time": "11:00 - 1:50" },
-					{ "day": "Wednesday", "dayCode": "W", "time": "11:00 - 1:50" },
-					{ "day": "Friday", "dayCode": "F", "time": "11:00 - 1:50" }
+					{ "day": "Monday", "dayCode": "M", "time": "11:00 - 11:50" },
+					{ "day": "Wednesday", "dayCode": "W", "time": "11:00 - 11:50" },
+					{ "day": "Friday", "dayCode": "F", "time": "11:00 - 11:50" }
 				],
 				"instructors": ["Rallapalli Srinivas"]
 			}
@@ -2205,10 +2204,10 @@
 				"instructors": ["Akshay Kumar (RS)"]
 			}
 		],
+		"IC": "Rallapalli Srinivas",
 		"labs": []
 	},
 	{
-		"IC": "Shibani Khanra Jha",
 		"courseNo": 1217,
 		"courseCode": "CE F324",
 		"courseName": "NUMERICAL ANALYSIS",
@@ -2219,18 +2218,18 @@
 				"section": "L1",
 				"dhString": "T Th 4 W 10",
 				"timings": [
-					{ "day": "Tuesday", "dayCode": "T", "time": "11:00 - 1:50" },
-					{ "day": "Thursday", "dayCode": "Th", "time": "11:00 - 1:50" },
+					{ "day": "Tuesday", "dayCode": "T", "time": "11:00 - 11:50" },
+					{ "day": "Thursday", "dayCode": "Th", "time": "11:00 - 11:50" },
 					{ "day": "Wednesday", "dayCode": "W", "time": "17:00 - 17:50" }
 				],
 				"instructors": ["Shibani Khanra Jha"]
 			}
 		],
+		"IC": "Shibani Khanra Jha",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Anupam Singhal",
 		"courseNo": 1199,
 		"courseCode": "CE F342",
 		"courseName": "WATER & WASTEWATER TREAT",
@@ -2283,10 +2282,10 @@
 				],
 				"instructors": ["Srishti Khare (RS)", "Soumya Kar (RS)"]
 			}
-		]
+		],
+		"IC": "Anupam Singhal"
 	},
 	{
-		"IC": "S B Singh",
 		"courseNo": 1200,
 		"courseCode": "CE F343",
 		"courseName": "DES OF STEEL STRUCTURES",
@@ -2322,10 +2321,10 @@
 				"instructors": ["Dipendu Bhunia", "Manigandan (RS)"]
 			}
 		],
+		"IC": "S B Singh",
 		"labs": []
 	},
 	{
-		"IC": "Anupam Singhal",
 		"courseNo": 1667,
 		"courseCode": "CE F366",
 		"courseName": "LABORATORY PROJECT",
@@ -2339,11 +2338,11 @@
 				"instructors": ["Anupam Singhal"]
 			}
 		],
+		"IC": "Anupam Singhal",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Anupam Singhal",
 		"courseNo": 1737,
 		"courseCode": "CE F367",
 		"courseName": "LABORATORY PROJECT",
@@ -2357,11 +2356,11 @@
 				"instructors": ["Anupam Singhal"]
 			}
 		],
+		"IC": "Anupam Singhal",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Anupam Singhal",
 		"courseNo": 1686,
 		"courseCode": "CE F376",
 		"courseName": "DESIGN PROJECT",
@@ -2375,11 +2374,11 @@
 				"instructors": ["Anupam Singhal"]
 			}
 		],
+		"IC": "Anupam Singhal",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Anupam Singhal",
 		"courseNo": 1753,
 		"courseCode": "CE F377",
 		"courseName": "DESIGN PROJECT",
@@ -2393,11 +2392,11 @@
 				"instructors": ["Anupam Singhal"]
 			}
 		],
+		"IC": "Anupam Singhal",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Manoj Kumar",
 		"courseNo": 1223,
 		"courseCode": "CE F415",
 		"courseName": "DES OF PREST CONC STRUCT",
@@ -2408,18 +2407,18 @@
 				"section": "L1",
 				"dhString": "T Th 4 W 10",
 				"timings": [
-					{ "day": "Tuesday", "dayCode": "T", "time": "11:00 - 1:50" },
-					{ "day": "Thursday", "dayCode": "Th", "time": "11:00 - 1:50" },
+					{ "day": "Tuesday", "dayCode": "T", "time": "11:00 - 11:50" },
+					{ "day": "Thursday", "dayCode": "Th", "time": "11:00 - 11:50" },
 					{ "day": "Wednesday", "dayCode": "W", "time": "17:00 - 17:50" }
 				],
 				"instructors": ["Manoj Kumar"]
 			}
 		],
+		"IC": "Manoj Kumar",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Kamalesh Kumar",
 		"courseNo": 1232,
 		"courseCode": "CE F419",
 		"courseName": "GEOTECH EQ ENG & MC FOUN",
@@ -2437,11 +2436,11 @@
 				"instructors": ["Kamalesh Kumar"]
 			}
 		],
+		"IC": "Kamalesh Kumar",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Manoj Kumar",
 		"courseNo": 1233,
 		"courseCode": "CE F420",
 		"courseName": "INTRO TO BRIDGE ENGG",
@@ -2459,11 +2458,11 @@
 				"instructors": ["Manoj Kumar"]
 			}
 		],
+		"IC": "Manoj Kumar",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Rajiv Gupta",
 		"courseNo": 1236,
 		"courseCode": "CE F423",
 		"courseName": "GREEN BUILD & ENER CONSE",
@@ -2481,11 +2480,11 @@
 				"instructors": ["Rajiv Gupta"]
 			}
 		],
+		"IC": "Rajiv Gupta",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Muthukumar G",
 		"courseNo": 1224,
 		"courseCode": "CE F428",
 		"courseName": "EARTHQUAKE RES DES & CON",
@@ -2503,11 +2502,11 @@
 				"instructors": ["Muthukumar G"]
 			}
 		],
+		"IC": "Muthukumar G",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Ravi Kant Mittal",
 		"courseNo": 1225,
 		"courseCode": "CE F429",
 		"courseName": "DES OF FOUNDATION SYSTEM",
@@ -2525,11 +2524,11 @@
 				"instructors": ["Ravi Kant Mittal"]
 			}
 		],
+		"IC": "Ravi Kant Mittal",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Dipendu Bhunia",
 		"courseNo": 1219,
 		"courseCode": "CE F432",
 		"courseName": "STRUCTURAL DYNAMICS",
@@ -2547,11 +2546,11 @@
 				"instructors": ["Dipendu Bhunia"]
 			}
 		],
+		"IC": "Dipendu Bhunia",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Anupam Singhal",
 		"courseNo": 1711,
 		"courseCode": "CE F491",
 		"courseName": "SPECIAL PROJECT",
@@ -2565,11 +2564,11 @@
 				"instructors": ["Anupam Singhal"]
 			}
 		],
+		"IC": "Anupam Singhal",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Ajit Pratap Singh",
 		"courseNo": 804,
 		"courseCode": "CE G516",
 		"courseName": "MULTICRITER ANAL IN ENGG",
@@ -2587,11 +2586,11 @@
 				"instructors": ["Ajit Pratap Singh"]
 			}
 		],
+		"IC": "Ajit Pratap Singh",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Vijay Kakade",
 		"courseNo": 256,
 		"courseCode": "CE G518",
 		"courseName": "PAVEMENT ANALYSIS & DES",
@@ -2609,11 +2608,11 @@
 				"instructors": ["Vijay Kakade", "Abraham,sarah Mariam"]
 			}
 		],
+		"IC": "Vijay Kakade",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Rajiv Gupta",
 		"courseNo": 347,
 		"courseCode": "CE G520",
 		"courseName": "INFRASTRUC PLAN & MANAG",
@@ -2631,11 +2630,11 @@
 				"instructors": ["Rajiv Gupta"]
 			}
 		],
+		"IC": "Rajiv Gupta",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "S N Patel",
 		"courseNo": 532,
 		"courseCode": "CE G553",
 		"courseName": "THEORY OF PLATES & SHELL",
@@ -2653,11 +2652,11 @@
 				"instructors": ["S N Patel"]
 			}
 		],
+		"IC": "S N Patel",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Mukund Lahoti",
 		"courseNo": 2199,
 		"courseCode": "CE G562",
 		"courseName": "ADVD CONCRETE TECHNOLOGY",
@@ -2668,18 +2667,18 @@
 				"section": "L1",
 				"dhString": "M W F 4",
 				"timings": [
-					{ "day": "Monday", "dayCode": "M", "time": "11:00 - 1:50" },
-					{ "day": "Wednesday", "dayCode": "W", "time": "11:00 - 1:50" },
-					{ "day": "Friday", "dayCode": "F", "time": "11:00 - 1:50" }
+					{ "day": "Monday", "dayCode": "M", "time": "11:00 - 11:50" },
+					{ "day": "Wednesday", "dayCode": "W", "time": "11:00 - 11:50" },
+					{ "day": "Friday", "dayCode": "F", "time": "11:00 - 11:50" }
 				],
 				"instructors": ["Mukund Lahoti"]
 			}
 		],
+		"IC": "Mukund Lahoti",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "S B Singh",
 		"courseNo": 2332,
 		"courseCode": "CE G564",
 		"courseName": "STRUCT HEALTH ASS. AND REHAB.",
@@ -2697,11 +2696,11 @@
 				"instructors": ["S B Singh"]
 			}
 		],
+		"IC": "S B Singh",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Durgesh Vikram",
 		"courseNo": 2338,
 		"courseCode": "CE G566",
 		"courseName": "PUBLIC TRANSPORTATION",
@@ -2712,18 +2711,18 @@
 				"section": "L1",
 				"dhString": "T Th 4 W 10",
 				"timings": [
-					{ "day": "Tuesday", "dayCode": "T", "time": "11:00 - 1:50" },
-					{ "day": "Thursday", "dayCode": "Th", "time": "11:00 - 1:50" },
+					{ "day": "Tuesday", "dayCode": "T", "time": "11:00 - 11:50" },
+					{ "day": "Thursday", "dayCode": "Th", "time": "11:00 - 11:50" },
 					{ "day": "Wednesday", "dayCode": "W", "time": "17:00 - 17:50" }
 				],
 				"instructors": ["Durgesh Vikram"]
 			}
 		],
+		"IC": "Durgesh Vikram",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Vijay Kakade",
 		"courseNo": 2342,
 		"courseCode": "CE G570",
 		"courseName": "HIGHWAY CONSTRUCTION TECH",
@@ -2741,6 +2740,7 @@
 				"instructors": ["Vijay Kakade"]
 			}
 		],
+		"IC": "Vijay Kakade",
 		"tutorials": [],
 		"labs": []
 	},
@@ -2766,7 +2766,6 @@
 		"labs": []
 	},
 	{
-		"IC": "Rajesh Kumar",
 		"courseNo": 688,
 		"courseCode": "CE G613",
 		"courseName": "ADV CONCRETE STRUCTURES",
@@ -2784,11 +2783,11 @@
 				"instructors": ["Rajesh Kumar"]
 			}
 		],
+		"IC": "Rajesh Kumar",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Ravi Kant Mittal",
 		"courseNo": 108,
 		"courseCode": "CE G615",
 		"courseName": "EARTHQUAKE ENGINEERING",
@@ -2806,11 +2805,11 @@
 				"instructors": ["Ravi Kant Mittal"]
 			}
 		],
+		"IC": "Ravi Kant Mittal",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Anshuman",
 		"courseNo": 621,
 		"courseCode": "CE G618",
 		"courseName": "DESIGN OF MULTI-STOR STR",
@@ -2828,11 +2827,11 @@
 				"instructors": ["Anshuman"]
 			}
 		],
+		"IC": "Anshuman",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Banasri Roy",
 		"courseNo": 1180,
 		"courseCode": "CHE F241",
 		"courseName": "HEAT TRANSFER",
@@ -2868,10 +2867,10 @@
 				"instructors": ["Srinivas Appari"]
 			}
 		],
+		"IC": "Banasri Roy",
 		"labs": []
 	},
 	{
-		"IC": "Sheth Pratik N",
 		"courseNo": 1181,
 		"courseCode": "CHE F242",
 		"courseName": "NUM METHOD FOR CHEM ENGG",
@@ -2907,10 +2906,10 @@
 				"instructors": ["Ajita Neogi (RS)"]
 			}
 		],
+		"IC": "Sheth Pratik N",
 		"labs": []
 	},
 	{
-		"IC": "Etika Krishna Chaitanya",
 		"courseNo": 1182,
 		"courseCode": "CHE F243",
 		"courseName": "MATERIAL SCIENCE & ENGG",
@@ -2921,8 +2920,8 @@
 				"section": "L1",
 				"dhString": "T Th 4 W 10",
 				"timings": [
-					{ "day": "Tuesday", "dayCode": "T", "time": "11:00 - 1:50" },
-					{ "day": "Thursday", "dayCode": "Th", "time": "11:00 - 1:50" },
+					{ "day": "Tuesday", "dayCode": "T", "time": "11:00 - 11:50" },
+					{ "day": "Thursday", "dayCode": "Th", "time": "11:00 - 11:50" },
 					{ "day": "Wednesday", "dayCode": "W", "time": "17:00 - 17:50" }
 				],
 				"instructors": ["Etika Krishna Chaitanya"]
@@ -2946,10 +2945,10 @@
 				"instructors": ["Seriyala Anil Kumar (RS)"]
 			}
 		],
+		"IC": "Etika Krishna Chaitanya",
 		"labs": []
 	},
 	{
-		"IC": "Suresh Gupta",
 		"courseNo": 1183,
 		"courseCode": "CHE F244",
 		"courseName": "SEPARATION PROCESSES I",
@@ -2985,10 +2984,10 @@
 				"instructors": ["Anil Kumar K (RS)"]
 			}
 		],
+		"IC": "Suresh Gupta",
 		"labs": []
 	},
 	{
-		"IC": "Banasri Roy",
 		"courseNo": 1653,
 		"courseCode": "CHE F266",
 		"courseName": "STUDY PROJECT",
@@ -3002,11 +3001,11 @@
 				"instructors": ["Banasri Roy"]
 			}
 		],
+		"IC": "Banasri Roy",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Arvind Kumar Sharma",
 		"courseNo": 1187,
 		"courseCode": "CHE F314",
 		"courseName": "PROCESS DES PRINCIPLES I",
@@ -3017,9 +3016,9 @@
 				"section": "L1",
 				"dhString": "M W F 4",
 				"timings": [
-					{ "day": "Monday", "dayCode": "M", "time": "11:00 - 1:50" },
-					{ "day": "Wednesday", "dayCode": "W", "time": "11:00 - 1:50" },
-					{ "day": "Friday", "dayCode": "F", "time": "11:00 - 1:50" }
+					{ "day": "Monday", "dayCode": "M", "time": "11:00 - 11:50" },
+					{ "day": "Wednesday", "dayCode": "W", "time": "11:00 - 11:50" },
+					{ "day": "Friday", "dayCode": "F", "time": "11:00 - 11:50" }
 				],
 				"instructors": ["Arvind Kumar Sharma"]
 			}
@@ -3032,10 +3031,10 @@
 				"instructors": ["Arvind Kumar Sharma"]
 			}
 		],
+		"IC": "Arvind Kumar Sharma",
 		"labs": []
 	},
 	{
-		"IC": "Bhanu Vardhan Reddy Kuncharam",
 		"courseNo": 1188,
 		"courseCode": "CHE F341",
 		"courseName": "CHEMICAL ENGG LAB II",
@@ -3061,11 +3060,11 @@
 				"instructors": ["Bhanu Vardhan Reddy Kuncharam", "Hare Krishna Mohanta"]
 			}
 		],
+		"IC": "Bhanu Vardhan Reddy Kuncharam",
 		"lectures": [],
 		"tutorials": []
 	},
 	{
-		"IC": "Hare Krishna Mohanta",
 		"courseNo": 1189,
 		"courseCode": "CHE F342",
 		"courseName": "PROCESS DYN & CONTROL",
@@ -3101,10 +3100,10 @@
 				"instructors": ["Venkata Vijayan S (RS)"]
 			}
 		],
+		"IC": "Hare Krishna Mohanta",
 		"labs": []
 	},
 	{
-		"IC": "P Chattopadhyay",
 		"courseNo": 1190,
 		"courseCode": "CHE F343",
 		"courseName": "PROCESS DES PRINCIPLE II",
@@ -3140,10 +3139,10 @@
 				"instructors": ["T Priya Shreedatta (RS)"]
 			}
 		],
+		"IC": "P Chattopadhyay",
 		"labs": []
 	},
 	{
-		"IC": "Banasri Roy",
 		"courseNo": 1668,
 		"courseCode": "CHE F366",
 		"courseName": "LABORATORY PROJECT",
@@ -3157,11 +3156,11 @@
 				"instructors": ["Banasri Roy"]
 			}
 		],
+		"IC": "Banasri Roy",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Banasri Roy",
 		"courseNo": 1738,
 		"courseCode": "CHE F367",
 		"courseName": "LABORATORY PROJECT",
@@ -3175,11 +3174,11 @@
 				"instructors": ["Banasri Roy"]
 			}
 		],
+		"IC": "Banasri Roy",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Banasri Roy",
 		"courseNo": 1687,
 		"courseCode": "CHE F376",
 		"courseName": "DESIGN PROJECT",
@@ -3193,11 +3192,11 @@
 				"instructors": ["Banasri Roy"]
 			}
 		],
+		"IC": "Banasri Roy",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Banasri Roy",
 		"courseNo": 1754,
 		"courseCode": "CHE F377",
 		"courseName": "DESIGN PROJECT",
@@ -3211,11 +3210,11 @@
 				"instructors": ["Banasri Roy"]
 			}
 		],
+		"IC": "Banasri Roy",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Somak Chatterjee",
 		"courseNo": 1207,
 		"courseCode": "CHE F412",
 		"courseName": "PROCESS EQUIPMENT DESIGN",
@@ -3233,11 +3232,11 @@
 				"instructors": ["Somak Chatterjee"]
 			}
 		],
+		"IC": "Somak Chatterjee",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Priya Christina S",
 		"courseNo": 1204,
 		"courseCode": "CHE F413",
 		"courseName": "PROCESS PLANT SAFETY",
@@ -3255,11 +3254,11 @@
 				"instructors": ["Priya Christina S"]
 			}
 		],
+		"IC": "Priya Christina S",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Bhanu Vardhan Reddy Kuncharam",
 		"courseNo": 1201,
 		"courseCode": "CHE F414",
 		"courseName": "TRANSPORT PHENOMENA",
@@ -3270,18 +3269,18 @@
 				"section": "L1",
 				"dhString": "T Th 4 W 10",
 				"timings": [
-					{ "day": "Tuesday", "dayCode": "T", "time": "11:00 - 1:50" },
-					{ "day": "Thursday", "dayCode": "Th", "time": "11:00 - 1:50" },
+					{ "day": "Tuesday", "dayCode": "T", "time": "11:00 - 11:50" },
+					{ "day": "Thursday", "dayCode": "Th", "time": "11:00 - 11:50" },
 					{ "day": "Wednesday", "dayCode": "W", "time": "17:00 - 17:50" }
 				],
 				"instructors": ["Bhanu Vardhan Reddy Kuncharam"]
 			}
 		],
+		"IC": "Bhanu Vardhan Reddy Kuncharam",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Srinivas Appari",
 		"courseNo": 1213,
 		"courseCode": "CHE F418",
 		"courseName": "MODEL & SIMU IN CHE ENGG",
@@ -3299,11 +3298,11 @@
 				"instructors": ["Srinivas Appari"]
 			}
 		],
+		"IC": "Srinivas Appari",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Smita Raghuvanshi",
 		"courseNo": 1203,
 		"courseCode": "CHE F419",
 		"courseName": "CHEMICAL PROCESS TECH",
@@ -3321,11 +3320,11 @@
 				"instructors": ["Smita Raghuvanshi"]
 			}
 		],
+		"IC": "Smita Raghuvanshi",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Amit Jain",
 		"courseNo": 1205,
 		"courseCode": "CHE F421",
 		"courseName": "BIOCHEMICAL ENGINEERING",
@@ -3343,11 +3342,11 @@
 				"instructors": ["Amit Jain"]
 			}
 		],
+		"IC": "Amit Jain",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Banasri Roy",
 		"courseNo": 1209,
 		"courseCode": "CHE F491",
 		"courseName": "SPECIAL PROJECTS",
@@ -3361,11 +3360,11 @@
 				"instructors": ["Banasri Roy"]
 			}
 		],
+		"IC": "Banasri Roy",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Etika Krishna Chaitanya",
 		"courseNo": 2084,
 		"courseCode": "CHE G528",
 		"courseName": "INTRO TO NANO SCI & TECH",
@@ -3383,11 +3382,11 @@
 				"instructors": ["Etika Krishna Chaitanya", "Banasri Roy"]
 			}
 		],
+		"IC": "Etika Krishna Chaitanya",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Arvind Kumar Sharma",
 		"courseNo": 2146,
 		"courseCode": "CHE G552",
 		"courseName": "ADV TRANSPORT PHENOMENA",
@@ -3405,11 +3404,11 @@
 				"instructors": ["Arvind Kumar Sharma"]
 			}
 		],
+		"IC": "Arvind Kumar Sharma",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Sheth Pratik N",
 		"courseNo": 2148,
 		"courseCode": "CHE G554",
 		"courseName": "COMPUT FLUID DYNAMICS",
@@ -3420,18 +3419,18 @@
 				"section": "L1",
 				"dhString": "M W F 4",
 				"timings": [
-					{ "day": "Monday", "dayCode": "M", "time": "11:00 - 1:50" },
-					{ "day": "Wednesday", "dayCode": "W", "time": "11:00 - 1:50" },
-					{ "day": "Friday", "dayCode": "F", "time": "11:00 - 1:50" }
+					{ "day": "Monday", "dayCode": "M", "time": "11:00 - 11:50" },
+					{ "day": "Wednesday", "dayCode": "W", "time": "11:00 - 11:50" },
+					{ "day": "Friday", "dayCode": "F", "time": "11:00 - 11:50" }
 				],
 				"instructors": ["Sheth Pratik N"]
 			}
 		],
+		"IC": "Sheth Pratik N",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Suresh Gupta",
 		"courseNo": 337,
 		"courseCode": "CHE G619",
 		"courseName": "PROCESS INTENSIFICATION",
@@ -3442,18 +3441,18 @@
 				"section": "L1",
 				"dhString": "T Th 4 W 10",
 				"timings": [
-					{ "day": "Tuesday", "dayCode": "T", "time": "11:00 - 1:50" },
-					{ "day": "Thursday", "dayCode": "Th", "time": "11:00 - 1:50" },
+					{ "day": "Tuesday", "dayCode": "T", "time": "11:00 - 11:50" },
+					{ "day": "Thursday", "dayCode": "Th", "time": "11:00 - 11:50" },
 					{ "day": "Wednesday", "dayCode": "W", "time": "17:00 - 17:50" }
 				],
 				"instructors": ["Suresh Gupta"]
 			}
 		],
+		"IC": "Suresh Gupta",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Amit Jain",
 		"courseNo": 729,
 		"courseCode": "CHE G641",
 		"courseName": "REACTION ENGINEERING",
@@ -3471,11 +3470,11 @@
 				"instructors": ["Amit Jain"]
 			}
 		],
+		"IC": "Amit Jain",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Paritosh Shukla",
 		"courseNo": 1007,
 		"courseCode": "CHEM F111",
 		"courseName": "GENERAL CHEMISTRY",
@@ -3585,10 +3584,10 @@
 				"instructors": ["Madhushree Sarkar"]
 			}
 		],
+		"IC": "Paritosh Shukla",
 		"labs": []
 	},
 	{
-		"IC": "Surojit Pande",
 		"courseNo": 1554,
 		"courseCode": "CHEM F241",
 		"courseName": "INORGANIC CHEMISTRY II",
@@ -3616,10 +3615,10 @@
 				"instructors": ["Surojit Pande"]
 			}
 		],
+		"IC": "Surojit Pande",
 		"labs": []
 	},
 	{
-		"IC": "Indresh Kumar",
 		"courseNo": 1555,
 		"courseCode": "CHEM F242",
 		"courseName": "CHEMICAL EXPER I",
@@ -3665,11 +3664,11 @@
 				]
 			}
 		],
+		"IC": "Indresh Kumar",
 		"lectures": [],
 		"tutorials": []
 	},
 	{
-		"IC": "Anil Kumar",
 		"courseNo": 1556,
 		"courseCode": "CHEM F243",
 		"courseName": "ORGANIC CHEMISTRY II",
@@ -3697,10 +3696,10 @@
 				"instructors": ["Anil Kumar"]
 			}
 		],
+		"IC": "Anil Kumar",
 		"labs": []
 	},
 	{
-		"IC": "Ram Kinkar Roy",
 		"courseNo": 1557,
 		"courseCode": "CHEM F244",
 		"courseName": "PHYSICAL CHEMISTRY III",
@@ -3711,8 +3710,8 @@
 				"section": "L1",
 				"dhString": "T Th 4 W 10",
 				"timings": [
-					{ "day": "Tuesday", "dayCode": "T", "time": "11:00 - 1:50" },
-					{ "day": "Thursday", "dayCode": "Th", "time": "11:00 - 1:50" },
+					{ "day": "Tuesday", "dayCode": "T", "time": "11:00 - 11:50" },
+					{ "day": "Thursday", "dayCode": "Th", "time": "11:00 - 11:50" },
 					{ "day": "Wednesday", "dayCode": "W", "time": "17:00 - 17:50" }
 				],
 				"instructors": ["Ram Kinkar Roy"]
@@ -3728,10 +3727,10 @@
 				"instructors": ["Ram Kinkar Roy"]
 			}
 		],
+		"IC": "Ram Kinkar Roy",
 		"labs": []
 	},
 	{
-		"IC": "Ram Kinkar Roy",
 		"courseNo": 1654,
 		"courseCode": "CHEM F266",
 		"courseName": "STUDY PROJECT",
@@ -3745,11 +3744,11 @@
 				"instructors": ["Ram Kinkar Roy"]
 			}
 		],
+		"IC": "Ram Kinkar Roy",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "I R Laskar",
 		"courseNo": 1586,
 		"courseCode": "CHEM F336",
 		"courseName": "NANOCHEMISTRY",
@@ -3767,11 +3766,11 @@
 				"instructors": ["I R Laskar"]
 			}
 		],
+		"IC": "I R Laskar",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Madhushree Sarkar",
 		"courseNo": 1561,
 		"courseCode": "CHEM F341",
 		"courseName": "CHEMICAL EXPER II",
@@ -3816,11 +3815,11 @@
 				]
 			}
 		],
+		"IC": "Madhushree Sarkar",
 		"lectures": [],
 		"tutorials": []
 	},
 	{
-		"IC": "Rajeev Sakhuja",
 		"courseNo": 1562,
 		"courseCode": "CHEM F342",
 		"courseName": "ORGANIC CHEMISTRY IV",
@@ -3843,15 +3842,15 @@
 				"section": "T1",
 				"dhString": "F 4",
 				"timings": [
-					{ "day": "Friday", "dayCode": "F", "time": "11:00 - 1:50" }
+					{ "day": "Friday", "dayCode": "F", "time": "11:00 - 11:50" }
 				],
 				"instructors": ["Rajeev Sakhuja"]
 			}
 		],
+		"IC": "Rajeev Sakhuja",
 		"labs": []
 	},
 	{
-		"IC": "Ajay Kumar Sah",
 		"courseNo": 1563,
 		"courseCode": "CHEM F343",
 		"courseName": "INORGANIC CHEMISTRY III",
@@ -3879,10 +3878,10 @@
 				"instructors": ["Ajay Kumar Sah"]
 			}
 		],
+		"IC": "Ajay Kumar Sah",
 		"labs": []
 	},
 	{
-		"IC": "Ram Kinkar Roy",
 		"courseNo": 1669,
 		"courseCode": "CHEM F366",
 		"courseName": "LABORATORY PROJECT",
@@ -3896,11 +3895,11 @@
 				"instructors": ["Ram Kinkar Roy"]
 			}
 		],
+		"IC": "Ram Kinkar Roy",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Ram Kinkar Roy",
 		"courseNo": 1739,
 		"courseCode": "CHEM F367",
 		"courseName": "LABORATORY PROJECT",
@@ -3914,11 +3913,11 @@
 				"instructors": ["Ram Kinkar Roy"]
 			}
 		],
+		"IC": "Ram Kinkar Roy",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Ram Kinkar Roy",
 		"courseNo": 1688,
 		"courseCode": "CHEM F376",
 		"courseName": "DESIGN PROJECT",
@@ -3932,11 +3931,11 @@
 				"instructors": ["Ram Kinkar Roy"]
 			}
 		],
+		"IC": "Ram Kinkar Roy",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Ram Kinkar Roy",
 		"courseNo": 1755,
 		"courseCode": "CHEM F377",
 		"courseName": "DESIGN PROJECT",
@@ -3950,11 +3949,11 @@
 				"instructors": ["Ram Kinkar Roy"]
 			}
 		],
+		"IC": "Ram Kinkar Roy",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Dalip Kumar",
 		"courseNo": 1581,
 		"courseCode": "CHEM F415",
 		"courseName": "FRONTIERS IN ORGANIC SYN",
@@ -3972,11 +3971,11 @@
 				"instructors": ["Dalip Kumar"]
 			}
 		],
+		"IC": "Dalip Kumar",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Shamik Chakraborty",
 		"courseNo": 2284,
 		"courseCode": "CHEM F430",
 		"courseName": "ATMOSPHERIC CHEMISTRY",
@@ -3994,11 +3993,11 @@
 				"instructors": ["Shamik Chakraborty"]
 			}
 		],
+		"IC": "Shamik Chakraborty",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Bibhas Ranjan Sarkar",
 		"courseNo": 2285,
 		"courseCode": "CHEM F431",
 		"courseName": "SUST CHEMISTRY USING RENE",
@@ -4016,11 +4015,11 @@
 				"instructors": ["Bibhas Ranjan Sarkar"]
 			}
 		],
+		"IC": "Bibhas Ranjan Sarkar",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Ram Kinkar Roy",
 		"courseNo": 1713,
 		"courseCode": "CHEM F491",
 		"courseName": "SPECIAL PROJECT",
@@ -4034,11 +4033,11 @@
 				"instructors": ["Ram Kinkar Roy"]
 			}
 		],
+		"IC": "Ram Kinkar Roy",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Bharti Khungar",
 		"courseNo": 7,
 		"courseCode": "CHEM G552",
 		"courseName": "ADV INORGANIC CHEMISTRY",
@@ -4056,11 +4055,11 @@
 				"instructors": ["Bharti Khungar"]
 			}
 		],
+		"IC": "Bharti Khungar",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "S C Sivasubramanian",
 		"courseNo": 242,
 		"courseCode": "CHEM G554",
 		"courseName": "PHY METHODS IN CHEMISTRY",
@@ -4078,11 +4077,11 @@
 				"instructors": ["S C Sivasubramanian"]
 			}
 		],
+		"IC": "S C Sivasubramanian",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Pratik Narang",
 		"courseNo": 1008,
 		"courseCode": "CS F111",
 		"courseName": "COMPUTER PROGRAMMING",
@@ -4115,7 +4114,7 @@
 				"section": "P1",
 				"dhString": "T  3 4",
 				"timings": [
-					{ "day": "Tuesday", "dayCode": "T", "time": "10:00 -  1:50" }
+					{ "day": "Tuesday", "dayCode": "T", "time": "10:00 - 11:50" }
 				],
 				"instructors": ["Sakshi (RS)"]
 			},
@@ -4123,7 +4122,7 @@
 				"section": "P2",
 				"dhString": "T  3 4",
 				"timings": [
-					{ "day": "Tuesday", "dayCode": "T", "time": "10:00 -  1:50" }
+					{ "day": "Tuesday", "dayCode": "T", "time": "10:00 - 11:50" }
 				],
 				"instructors": ["Ankit Soni (RS)"]
 			},
@@ -4131,7 +4130,7 @@
 				"section": "P3",
 				"dhString": "T  3 4",
 				"timings": [
-					{ "day": "Tuesday", "dayCode": "T", "time": "10:00 -  1:50" }
+					{ "day": "Tuesday", "dayCode": "T", "time": "10:00 - 11:50" }
 				],
 				"instructors": ["Ashish Verma (RS)"]
 			},
@@ -4139,7 +4138,7 @@
 				"section": "P4",
 				"dhString": "T  3 4",
 				"timings": [
-					{ "day": "Tuesday", "dayCode": "T", "time": "10:00 -  1:50" }
+					{ "day": "Tuesday", "dayCode": "T", "time": "10:00 - 11:50" }
 				],
 				"instructors": ["Vijay Kumari (RS)"]
 			},
@@ -4147,7 +4146,7 @@
 				"section": "P5",
 				"dhString": "T  3 4",
 				"timings": [
-					{ "day": "Tuesday", "dayCode": "T", "time": "10:00 -  1:50" }
+					{ "day": "Tuesday", "dayCode": "T", "time": "10:00 - 11:50" }
 				],
 				"instructors": ["Pediredla Praveen Kumar (RS)"]
 			},
@@ -4171,7 +4170,7 @@
 				"section": "P8",
 				"dhString": "Th 3 4",
 				"timings": [
-					{ "day": "Thursday", "dayCode": "Th", "time": "10:00 -  1:50" }
+					{ "day": "Thursday", "dayCode": "Th", "time": "10:00 - 11:50" }
 				],
 				"instructors": ["Ankit Soni (RS)"]
 			},
@@ -4179,7 +4178,7 @@
 				"section": "P9",
 				"dhString": "Th 3 4",
 				"timings": [
-					{ "day": "Thursday", "dayCode": "Th", "time": "10:00 -  1:50" }
+					{ "day": "Thursday", "dayCode": "Th", "time": "10:00 - 11:50" }
 				],
 				"instructors": ["Sakshi (RS)"]
 			},
@@ -4187,7 +4186,7 @@
 				"section": "P10",
 				"dhString": "Th 3 4",
 				"timings": [
-					{ "day": "Thursday", "dayCode": "Th", "time": "10:00 -  1:50" }
+					{ "day": "Thursday", "dayCode": "Th", "time": "10:00 - 11:50" }
 				],
 				"instructors": ["Ashish Verma (RS)"]
 			},
@@ -4195,7 +4194,7 @@
 				"section": "P11",
 				"dhString": "Th 3 4",
 				"timings": [
-					{ "day": "Thursday", "dayCode": "Th", "time": "10:00 -  1:50" }
+					{ "day": "Thursday", "dayCode": "Th", "time": "10:00 - 11:50" }
 				],
 				"instructors": ["Vijay Kumari (RS)"]
 			},
@@ -4203,15 +4202,15 @@
 				"section": "P12",
 				"dhString": "Th 3 4",
 				"timings": [
-					{ "day": "Thursday", "dayCode": "Th", "time": "10:00 -  1:50" }
+					{ "day": "Thursday", "dayCode": "Th", "time": "10:00 - 11:50" }
 				],
 				"instructors": ["Pediredla Praveen Kumar (RS)"]
 			}
 		],
+		"IC": "Pratik Narang",
 		"tutorials": []
 	},
 	{
-		"IC": "Vishal Gupta",
 		"courseNo": 1094,
 		"courseCode": "CS F211",
 		"courseName": "DATA STRUCTURES & ALGO",
@@ -4287,10 +4286,10 @@
 				"instructors": ["Oshin Rawlley (RS)"]
 			}
 		],
+		"IC": "Vishal Gupta",
 		"tutorials": []
 	},
 	{
-		"IC": "Amit Dua",
 		"courseNo": 1095,
 		"courseCode": "CS F212",
 		"courseName": "DATABASE SYSTEMS",
@@ -4301,8 +4300,8 @@
 				"section": "L1",
 				"dhString": "T Th 4 W 10",
 				"timings": [
-					{ "day": "Tuesday", "dayCode": "T", "time": "11:00 - 1:50" },
-					{ "day": "Thursday", "dayCode": "Th", "time": "11:00 - 1:50" },
+					{ "day": "Tuesday", "dayCode": "T", "time": "11:00 - 11:50" },
+					{ "day": "Thursday", "dayCode": "Th", "time": "11:00 - 11:50" },
 					{ "day": "Wednesday", "dayCode": "W", "time": "17:00 - 17:50" }
 				],
 				"instructors": ["Amit Dua", "Mukesh Kumar Rohil"]
@@ -4350,10 +4349,10 @@
 				"instructors": ["Upendra Singh (RS)"]
 			}
 		],
+		"IC": "Amit Dua",
 		"tutorials": []
 	},
 	{
-		"IC": "J. Jennifer Ranjani",
 		"courseNo": 1092,
 		"courseCode": "CS F213",
 		"courseName": "OBJECT ORIENTED PROG",
@@ -4413,10 +4412,10 @@
 				"instructors": ["Prateek Verma (RS)"]
 			}
 		],
+		"IC": "J. Jennifer Ranjani",
 		"tutorials": []
 	},
 	{
-		"IC": "Nitin Chaturvedi",
 		"courseNo": 1313,
 		"courseCode": "CS F241",
 		"courseName": "MICROPROC & INTERFACING",
@@ -4437,8 +4436,8 @@
 				"section": "L2",
 				"dhString": "T Th 4 W 10",
 				"timings": [
-					{ "day": "Tuesday", "dayCode": "T", "time": "11:00 - 1:50" },
-					{ "day": "Thursday", "dayCode": "Th", "time": "11:00 - 1:50" },
+					{ "day": "Tuesday", "dayCode": "T", "time": "11:00 - 11:50" },
+					{ "day": "Thursday", "dayCode": "Th", "time": "11:00 - 11:50" },
 					{ "day": "Wednesday", "dayCode": "W", "time": "17:00 - 17:50" }
 				],
 				"instructors": ["Nitin Chaturvedi"]
@@ -4607,10 +4606,10 @@
 				],
 				"instructors": ["Gorla Praveen (RS)", "Sumitra (RS)"]
 			}
-		]
+		],
+		"IC": "Nitin Chaturvedi"
 	},
 	{
-		"IC": "Sudeept Mohan",
 		"courseNo": 1655,
 		"courseCode": "CS F266",
 		"courseName": "STUDY PROJECT",
@@ -4624,11 +4623,11 @@
 				"instructors": ["Sudeept Mohan"]
 			}
 		],
+		"IC": "Sudeept Mohan",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "V S Shekhawat",
 		"courseNo": 1320,
 		"courseCode": "CS F303",
 		"courseName": "COMPUTER NETWORKS",
@@ -4680,10 +4679,10 @@
 				"instructors": ["Nisha (RS)"]
 			}
 		],
+		"IC": "V S Shekhawat",
 		"tutorials": []
 	},
 	{
-		"IC": "Navneet Goyal",
 		"courseNo": 2266,
 		"courseCode": "CS F320",
 		"courseName": "FOUNDATIONS OF DATA SCIENCE",
@@ -4701,11 +4700,11 @@
 				"instructors": ["Navneet Goyal"]
 			}
 		],
+		"IC": "Navneet Goyal",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "S Gurunarayanan",
 		"courseNo": 1317,
 		"courseCode": "CS F342",
 		"courseName": "COMPUTER ARCHITECTURE",
@@ -4716,8 +4715,8 @@
 				"section": "L1",
 				"dhString": "T Th 4 W 10",
 				"timings": [
-					{ "day": "Tuesday", "dayCode": "T", "time": "11:00 - 1:50" },
-					{ "day": "Thursday", "dayCode": "Th", "time": "11:00 - 1:50" },
+					{ "day": "Tuesday", "dayCode": "T", "time": "11:00 - 11:50" },
+					{ "day": "Thursday", "dayCode": "Th", "time": "11:00 - 11:50" },
 					{ "day": "Wednesday", "dayCode": "W", "time": "17:00 - 17:50" }
 				],
 				"instructors": ["S Gurunarayanan"]
@@ -4733,10 +4732,10 @@
 				"instructors": ["Karri Babu Ravi Teja"]
 			}
 		],
+		"IC": "S Gurunarayanan",
 		"tutorials": []
 	},
 	{
-		"IC": "Shashank Gupta",
 		"courseNo": 1318,
 		"courseCode": "CS F363",
 		"courseName": "COMPILER CONSTRUCTION",
@@ -4747,9 +4746,9 @@
 				"section": "L1",
 				"dhString": "M W F 4",
 				"timings": [
-					{ "day": "Monday", "dayCode": "M", "time": "11:00 - 1:50" },
-					{ "day": "Wednesday", "dayCode": "W", "time": "11:00 - 1:50" },
-					{ "day": "Friday", "dayCode": "F", "time": "11:00 - 1:50" }
+					{ "day": "Monday", "dayCode": "M", "time": "11:00 - 11:50" },
+					{ "day": "Wednesday", "dayCode": "W", "time": "11:00 - 11:50" },
+					{ "day": "Friday", "dayCode": "F", "time": "11:00 - 11:50" }
 				],
 				"instructors": [
 					"Shashank Gupta",
@@ -4758,11 +4757,11 @@
 				]
 			}
 		],
+		"IC": "Shashank Gupta",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Abhishek Mishra",
 		"courseNo": 1319,
 		"courseCode": "CS F364",
 		"courseName": "DESIGN & ANAL OF ALGO",
@@ -4814,10 +4813,10 @@
 				"instructors": ["Ravi Kant (RS)"]
 			}
 		],
+		"IC": "Abhishek Mishra",
 		"labs": []
 	},
 	{
-		"IC": "Sudeept Mohan",
 		"courseNo": 1670,
 		"courseCode": "CS F366",
 		"courseName": "LABORATORY PROJECT",
@@ -4831,11 +4830,11 @@
 				"instructors": ["Sudeept Mohan"]
 			}
 		],
+		"IC": "Sudeept Mohan",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Sudeept Mohan",
 		"courseNo": 1740,
 		"courseCode": "CS F367",
 		"courseName": "LABORATORY PROJECT",
@@ -4849,11 +4848,11 @@
 				"instructors": ["Sudeept Mohan"]
 			}
 		],
+		"IC": "Sudeept Mohan",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Janardan Prasad Misra",
 		"courseNo": 1315,
 		"courseCode": "CS F372",
 		"courseName": "OPERATING SYSTEMS",
@@ -4881,10 +4880,10 @@
 				"instructors": ["Avinash Gautam"]
 			}
 		],
+		"IC": "Janardan Prasad Misra",
 		"labs": []
 	},
 	{
-		"IC": "Sudeept Mohan",
 		"courseNo": 1689,
 		"courseCode": "CS F376",
 		"courseName": "DESIGN PROJECT",
@@ -4898,11 +4897,11 @@
 				"instructors": ["Sudeept Mohan"]
 			}
 		],
+		"IC": "Sudeept Mohan",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Sudeept Mohan",
 		"courseNo": 1756,
 		"courseCode": "CS F377",
 		"courseName": "DESIGN PROJECT",
@@ -4916,11 +4915,11 @@
 				"instructors": ["Sudeept Mohan"]
 			}
 		],
+		"IC": "Sudeept Mohan",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Mukesh Kumar Rohil",
 		"courseNo": 1327,
 		"courseCode": "CS F401",
 		"courseName": "MULTIMEDIA COMPUTING",
@@ -4938,11 +4937,11 @@
 				"instructors": ["Mukesh Kumar Rohil"]
 			}
 		],
+		"IC": "Mukesh Kumar Rohil",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Navneet Goyal",
 		"courseNo": 1333,
 		"courseCode": "CS F407",
 		"courseName": "ARTIFICIAL INTELLIGENCE",
@@ -4960,11 +4959,11 @@
 				"instructors": ["Navneet Goyal"]
 			}
 		],
+		"IC": "Navneet Goyal",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Yashvardhan Sharma",
 		"courseNo": 1322,
 		"courseCode": "CS F415",
 		"courseName": "DATA MINING",
@@ -4998,10 +4997,10 @@
 				"instructors": ["Divya Bharadwaj (RS)"]
 			}
 		],
+		"IC": "Yashvardhan Sharma",
 		"tutorials": []
 	},
 	{
-		"IC": "Hari Babu Kotakula",
 		"courseNo": 1323,
 		"courseCode": "CS F422",
 		"courseName": "PARALLEL COMPUTING",
@@ -5019,11 +5018,11 @@
 				"instructors": ["Hari Babu Kotakula"]
 			}
 		],
+		"IC": "Hari Babu Kotakula",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Janardan Prasad Misra",
 		"courseNo": 1326,
 		"courseCode": "CS F446",
 		"courseName": "DATA STORAGE TECH & NETW",
@@ -5034,18 +5033,18 @@
 				"section": "L1",
 				"dhString": "T Th 4 W 10",
 				"timings": [
-					{ "day": "Tuesday", "dayCode": "T", "time": "11:00 - 1:50" },
-					{ "day": "Thursday", "dayCode": "Th", "time": "11:00 - 1:50" },
+					{ "day": "Tuesday", "dayCode": "T", "time": "11:00 - 11:50" },
+					{ "day": "Thursday", "dayCode": "Th", "time": "11:00 - 11:50" },
 					{ "day": "Wednesday", "dayCode": "W", "time": "17:00 - 17:50" }
 				],
 				"instructors": ["Janardan Prasad Misra"]
 			}
 		],
+		"IC": "Janardan Prasad Misra",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Vinti Agarwal",
 		"courseNo": 1857,
 		"courseCode": "CS F469",
 		"courseName": "INFORMATION RETRIEVAL",
@@ -5056,18 +5055,18 @@
 				"section": "L1",
 				"dhString": "T Th 4 W 10",
 				"timings": [
-					{ "day": "Tuesday", "dayCode": "T", "time": "11:00 - 1:50" },
-					{ "day": "Thursday", "dayCode": "Th", "time": "11:00 - 1:50" },
+					{ "day": "Tuesday", "dayCode": "T", "time": "11:00 - 11:50" },
+					{ "day": "Thursday", "dayCode": "Th", "time": "11:00 - 11:50" },
 					{ "day": "Wednesday", "dayCode": "W", "time": "17:00 - 17:50" }
 				],
 				"instructors": ["Vinti Agarwal"]
 			}
 		],
+		"IC": "Vinti Agarwal",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Sudeept Mohan",
 		"courseNo": 1714,
 		"courseCode": "CS F491",
 		"courseName": "SPECIAL PROJECT",
@@ -5081,11 +5080,11 @@
 				"instructors": ["Sudeept Mohan"]
 			}
 		],
+		"IC": "Sudeept Mohan",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Ashutosh Bhatia",
 		"courseNo": 507,
 		"courseCode": "CS G513",
 		"courseName": "NETWORK SECURITY",
@@ -5096,18 +5095,18 @@
 				"section": "L1",
 				"dhString": "M W F 4",
 				"timings": [
-					{ "day": "Monday", "dayCode": "M", "time": "11:00 - 1:50" },
-					{ "day": "Wednesday", "dayCode": "W", "time": "11:00 - 1:50" },
-					{ "day": "Friday", "dayCode": "F", "time": "11:00 - 1:50" }
+					{ "day": "Monday", "dayCode": "M", "time": "11:00 - 11:50" },
+					{ "day": "Wednesday", "dayCode": "W", "time": "11:00 - 11:50" },
+					{ "day": "Friday", "dayCode": "F", "time": "11:00 - 11:50" }
 				],
 				"instructors": ["Ashutosh Bhatia"]
 			}
 		],
+		"IC": "Ashutosh Bhatia",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Poonam Goyal",
 		"courseNo": 2106,
 		"courseCode": "CS G520",
 		"courseName": "ADVANCED DATA MINING",
@@ -5125,11 +5124,11 @@
 				"instructors": ["Poonam Goyal"]
 			}
 		],
+		"IC": "Poonam Goyal",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Meetha V. Shenoy",
 		"courseNo": 2052,
 		"courseCode": "CS G523",
 		"courseName": "SOFTWARE FOR EMBEDDE SYS",
@@ -5147,11 +5146,11 @@
 				"instructors": ["Meetha V. Shenoy"]
 			}
 		],
+		"IC": "Meetha V. Shenoy",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Sudeept Mohan",
 		"courseNo": 2006,
 		"courseCode": "CS G524",
 		"courseName": "ADV COMPUTER ARCHITECTUR",
@@ -5162,18 +5161,18 @@
 				"section": "L1",
 				"dhString": "T Th 4 W 10",
 				"timings": [
-					{ "day": "Tuesday", "dayCode": "T", "time": "11:00 - 1:50" },
-					{ "day": "Thursday", "dayCode": "Th", "time": "11:00 - 1:50" },
+					{ "day": "Tuesday", "dayCode": "T", "time": "11:00 - 11:50" },
+					{ "day": "Thursday", "dayCode": "Th", "time": "11:00 - 11:50" },
 					{ "day": "Wednesday", "dayCode": "W", "time": "17:00 - 17:50" }
 				],
 				"instructors": ["Sudeept Mohan"]
 			}
 		],
+		"IC": "Sudeept Mohan",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Sharad Shrivastava",
 		"courseNo": 436,
 		"courseCode": "DE G514",
 		"courseName": "FRACTURE MECHANICS",
@@ -5191,11 +5190,11 @@
 				"instructors": ["Sharad Shrivastava"]
 			}
 		],
+		"IC": "Sharad Shrivastava",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Srikanta Routroy",
 		"courseNo": 144,
 		"courseCode": "DE G522",
 		"courseName": "DESIGN PROJECTS",
@@ -5209,11 +5208,11 @@
 				"instructors": ["Srikanta Routroy"]
 			}
 		],
+		"IC": "Srikanta Routroy",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Rahul Arora",
 		"courseNo": 1023,
 		"courseCode": "ECON F211",
 		"courseName": "PRINCIPLES OF ECONOMICS",
@@ -5391,10 +5390,10 @@
 				"instructors": ["Megha (RS)"]
 			}
 		],
+		"IC": "Rahul Arora",
 		"labs": []
 	},
 	{
-		"IC": "Byomakesh Debata",
 		"courseNo": 1120,
 		"courseCode": "ECON F212",
 		"courseName": "FUNDA OF FIN AND ACCOUNT",
@@ -5412,11 +5411,11 @@
 				"instructors": ["Byomakesh Debata"]
 			}
 		],
+		"IC": "Byomakesh Debata",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "N V Muralidhar Rao",
 		"courseNo": 1442,
 		"courseCode": "ECON F241",
 		"courseName": "ECONOMETRIC METHODS",
@@ -5444,10 +5443,10 @@
 				"instructors": ["N V Muralidhar Rao"]
 			}
 		],
+		"IC": "N V Muralidhar Rao",
 		"labs": []
 	},
 	{
-		"IC": "Geetilaxmi Mohapatra",
 		"courseNo": 1443,
 		"courseCode": "ECON F242",
 		"courseName": "MICROECONOMICS",
@@ -5458,8 +5457,8 @@
 				"section": "L1",
 				"dhString": "T Th 4 W 10",
 				"timings": [
-					{ "day": "Tuesday", "dayCode": "T", "time": "11:00 - 1:50" },
-					{ "day": "Thursday", "dayCode": "Th", "time": "11:00 - 1:50" },
+					{ "day": "Tuesday", "dayCode": "T", "time": "11:00 - 11:50" },
+					{ "day": "Thursday", "dayCode": "Th", "time": "11:00 - 11:50" },
 					{ "day": "Wednesday", "dayCode": "W", "time": "17:00 - 17:50" }
 				],
 				"instructors": ["Geetilaxmi Mohapatra"]
@@ -5475,10 +5474,10 @@
 				"instructors": ["Geetilaxmi Mohapatra"]
 			}
 		],
+		"IC": "Geetilaxmi Mohapatra",
 		"labs": []
 	},
 	{
-		"IC": "Arun Kumar Giri",
 		"courseNo": 1444,
 		"courseCode": "ECON F243",
 		"courseName": "MACROECONOMICS",
@@ -5506,10 +5505,10 @@
 				"instructors": ["Arun Kumar Giri"]
 			}
 		],
+		"IC": "Arun Kumar Giri",
 		"labs": []
 	},
 	{
-		"IC": "Rahul Arora",
 		"courseNo": 1445,
 		"courseCode": "ECON F244",
 		"courseName": "ECONOMIC OF GROWTH & DEV",
@@ -5537,10 +5536,10 @@
 				"instructors": ["Rahul Arora"]
 			}
 		],
+		"IC": "Rahul Arora",
 		"labs": []
 	},
 	{
-		"IC": "Arun Kumar Giri",
 		"courseNo": 1656,
 		"courseCode": "ECON F266",
 		"courseName": "STUDY PROJECT",
@@ -5554,11 +5553,11 @@
 				"instructors": ["Arun Kumar Giri"]
 			}
 		],
+		"IC": "Arun Kumar Giri",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Rajan Pandey",
 		"courseNo": 1923,
 		"courseCode": "ECON F315",
 		"courseName": "FINANCIAL MANAGEMENT",
@@ -5569,18 +5568,18 @@
 				"section": "L1",
 				"dhString": "T Th 4 W 10",
 				"timings": [
-					{ "day": "Tuesday", "dayCode": "T", "time": "11:00 - 1:50" },
-					{ "day": "Thursday", "dayCode": "Th", "time": "11:00 - 1:50" },
+					{ "day": "Tuesday", "dayCode": "T", "time": "11:00 - 11:50" },
+					{ "day": "Thursday", "dayCode": "Th", "time": "11:00 - 11:50" },
 					{ "day": "Wednesday", "dayCode": "W", "time": "17:00 - 17:50" }
 				],
 				"instructors": ["Rajan Pandey", "Byomakesh Debata"]
 			}
 		],
+		"IC": "Rajan Pandey",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Arun Kumar Giri",
 		"courseNo": 1449,
 		"courseCode": "ECON F341",
 		"courseName": "PUBLIC FIN THEO & POLICY",
@@ -5591,9 +5590,9 @@
 				"section": "L1",
 				"dhString": "M W F 4",
 				"timings": [
-					{ "day": "Monday", "dayCode": "M", "time": "11:00 - 1:50" },
-					{ "day": "Wednesday", "dayCode": "W", "time": "11:00 - 1:50" },
-					{ "day": "Friday", "dayCode": "F", "time": "11:00 - 1:50" }
+					{ "day": "Monday", "dayCode": "M", "time": "11:00 - 11:50" },
+					{ "day": "Wednesday", "dayCode": "W", "time": "11:00 - 11:50" },
+					{ "day": "Friday", "dayCode": "F", "time": "11:00 - 11:50" }
 				],
 				"instructors": ["Arun Kumar Giri"]
 			}
@@ -5608,10 +5607,10 @@
 				"instructors": ["Arun Kumar Giri"]
 			}
 		],
+		"IC": "Arun Kumar Giri",
 		"labs": []
 	},
 	{
-		"IC": "N V Muralidhar Rao",
 		"courseNo": 1450,
 		"courseCode": "ECON F342",
 		"courseName": "APPLIED ECONOMETRICS",
@@ -5639,10 +5638,10 @@
 				"instructors": ["N V Muralidhar Rao"]
 			}
 		],
+		"IC": "N V Muralidhar Rao",
 		"labs": []
 	},
 	{
-		"IC": "Krishna M",
 		"courseNo": 1451,
 		"courseCode": "ECON F343",
 		"courseName": "ECONOMIC ANAL OF PUB POL",
@@ -5670,10 +5669,10 @@
 				"instructors": ["Krishna M"]
 			}
 		],
+		"IC": "Krishna M",
 		"labs": []
 	},
 	{
-		"IC": "Arun Kumar Vaish",
 		"courseNo": 1565,
 		"courseCode": "ECON F354",
 		"courseName": "DERIVATIVES & RISK MGMT",
@@ -5691,11 +5690,11 @@
 				"instructors": ["Arun Kumar Vaish"]
 			}
 		],
+		"IC": "Arun Kumar Vaish",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Arun Kumar Giri",
 		"courseNo": 1684,
 		"courseCode": "ECON F366",
 		"courseName": "LABORATORY PROJECT",
@@ -5709,11 +5708,11 @@
 				"instructors": ["Arun Kumar Giri"]
 			}
 		],
+		"IC": "Arun Kumar Giri",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Arun Kumar Giri",
 		"courseNo": 1741,
 		"courseCode": "ECON F367",
 		"courseName": "LABORATORY PROJECT",
@@ -5727,11 +5726,11 @@
 				"instructors": ["Arun Kumar Giri"]
 			}
 		],
+		"IC": "Arun Kumar Giri",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Arun Kumar Giri",
 		"courseNo": 1690,
 		"courseCode": "ECON F376",
 		"courseName": "DESIGN PROJECT",
@@ -5745,11 +5744,11 @@
 				"instructors": ["Arun Kumar Giri"]
 			}
 		],
+		"IC": "Arun Kumar Giri",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Arun Kumar Giri",
 		"courseNo": 1757,
 		"courseCode": "ECON F377",
 		"courseName": "DESIGN PROJECT",
@@ -5763,11 +5762,11 @@
 				"instructors": ["Arun Kumar Giri"]
 			}
 		],
+		"IC": "Arun Kumar Giri",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Arya Kumar",
 		"courseNo": 1566,
 		"courseCode": "ECON F412",
 		"courseName": "SECUR ANAL & PORTFOL MGT",
@@ -5785,11 +5784,11 @@
 				"instructors": ["Arya Kumar"]
 			}
 		],
+		"IC": "Arya Kumar",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Arun Kumar Vaish",
 		"courseNo": 1551,
 		"courseCode": "ECON F413",
 		"courseName": "FINANCIAL ENGINEERING",
@@ -5807,11 +5806,11 @@
 				"instructors": ["Arun Kumar Vaish"]
 			}
 		],
+		"IC": "Arun Kumar Vaish",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Arya Kumar",
 		"courseNo": 1552,
 		"courseCode": "ECON F414",
 		"courseName": "CREAT & LEAD ENTREP ORGN",
@@ -5829,11 +5828,11 @@
 				"instructors": ["Arya Kumar"]
 			}
 		],
+		"IC": "Arya Kumar",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Jyoti",
 		"courseNo": 1553,
 		"courseCode": "ECON F415",
 		"courseName": "NEW VENTURE CREATION",
@@ -5850,11 +5849,11 @@
 				"instructors": ["Jyoti"]
 			}
 		],
+		"IC": "Jyoti",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Arun Kumar Giri",
 		"courseNo": 1726,
 		"courseCode": "ECON F491",
 		"courseName": "SPECIAL PROJECT",
@@ -5868,11 +5867,11 @@
 				"instructors": ["Arun Kumar Giri"]
 			}
 		],
+		"IC": "Arun Kumar Giri",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Karunesh Kr Gupta",
 		"courseNo": 1009,
 		"courseCode": "EEE F111",
 		"courseName": "ELECTRICAL SCIENCES",
@@ -5925,7 +5924,7 @@
 				"section": "T1",
 				"dhString": "F 4",
 				"timings": [
-					{ "day": "Friday", "dayCode": "F", "time": "11:00 - 1:50" }
+					{ "day": "Friday", "dayCode": "F", "time": "11:00 - 11:50" }
 				],
 				"instructors": ["Rahul Kumar"]
 			},
@@ -5933,7 +5932,7 @@
 				"section": "T2",
 				"dhString": "F 4",
 				"timings": [
-					{ "day": "Friday", "dayCode": "F", "time": "11:00 - 1:50" }
+					{ "day": "Friday", "dayCode": "F", "time": "11:00 - 11:50" }
 				],
 				"instructors": ["Sandeep Joshi"]
 			},
@@ -5941,7 +5940,7 @@
 				"section": "T3",
 				"dhString": "M 4",
 				"timings": [
-					{ "day": "Monday", "dayCode": "M", "time": "11:00 - 1:50" }
+					{ "day": "Monday", "dayCode": "M", "time": "11:00 - 11:50" }
 				],
 				"instructors": ["Harshavardhan Settibhaktini"]
 			},
@@ -5949,7 +5948,7 @@
 				"section": "T4",
 				"dhString": "M 4",
 				"timings": [
-					{ "day": "Monday", "dayCode": "M", "time": "11:00 - 1:50" }
+					{ "day": "Monday", "dayCode": "M", "time": "11:00 - 11:50" }
 				],
 				"instructors": ["Rahul Kumar"]
 			},
@@ -5957,7 +5956,7 @@
 				"section": "T5",
 				"dhString": "M 4",
 				"timings": [
-					{ "day": "Monday", "dayCode": "M", "time": "11:00 - 1:50" }
+					{ "day": "Monday", "dayCode": "M", "time": "11:00 - 11:50" }
 				],
 				"instructors": ["Karri Babu Ravi Teja"]
 			},
@@ -5965,7 +5964,7 @@
 				"section": "T6",
 				"dhString": "M 4",
 				"timings": [
-					{ "day": "Monday", "dayCode": "M", "time": "11:00 - 1:50" }
+					{ "day": "Monday", "dayCode": "M", "time": "11:00 - 11:50" }
 				],
 				"instructors": ["Shishir Maheshwari"]
 			},
@@ -5973,7 +5972,7 @@
 				"section": "T7",
 				"dhString": "M 4",
 				"timings": [
-					{ "day": "Monday", "dayCode": "M", "time": "11:00 - 1:50" }
+					{ "day": "Monday", "dayCode": "M", "time": "11:00 - 11:50" }
 				],
 				"instructors": ["Sandeep Joshi"]
 			},
@@ -5981,7 +5980,7 @@
 				"section": "T8",
 				"dhString": "M 4",
 				"timings": [
-					{ "day": "Monday", "dayCode": "M", "time": "11:00 - 1:50" }
+					{ "day": "Monday", "dayCode": "M", "time": "11:00 - 11:50" }
 				],
 				"instructors": ["Anantha Krishna Chintanpalli"]
 			},
@@ -6018,10 +6017,10 @@
 				"instructors": ["Abhijit Rameshwar Asati"]
 			}
 		],
+		"IC": "Karunesh Kr Gupta",
 		"labs": []
 	},
 	{
-		"IC": "Nitin Chaturvedi",
 		"courseNo": 1238,
 		"courseCode": "EEE F241",
 		"courseName": "MICROPROC & INTERFACING",
@@ -6042,8 +6041,8 @@
 				"section": "L2",
 				"dhString": "T Th 4 W 10",
 				"timings": [
-					{ "day": "Tuesday", "dayCode": "T", "time": "11:00 - 1:50" },
-					{ "day": "Thursday", "dayCode": "Th", "time": "11:00 - 1:50" },
+					{ "day": "Tuesday", "dayCode": "T", "time": "11:00 - 11:50" },
+					{ "day": "Thursday", "dayCode": "Th", "time": "11:00 - 11:50" },
 					{ "day": "Wednesday", "dayCode": "W", "time": "17:00 - 17:50" }
 				],
 				"instructors": ["Nitin Chaturvedi"]
@@ -6212,10 +6211,10 @@
 				],
 				"instructors": ["Gorla Praveen (RS)", "Sumitra (RS)"]
 			}
-		]
+		],
+		"IC": "Nitin Chaturvedi"
 	},
 	{
-		"IC": "Bijoy Krishna Mukherjee",
 		"courseNo": 1239,
 		"courseCode": "EEE F242",
 		"courseName": "CONTROL SYSTEMS",
@@ -6293,10 +6292,10 @@
 				"instructors": ["Aditya Raw Gautam"]
 			}
 		],
+		"IC": "Bijoy Krishna Mukherjee",
 		"labs": []
 	},
 	{
-		"IC": "Anantha Krishna Chintanpalli",
 		"courseNo": 1240,
 		"courseCode": "EEE F243",
 		"courseName": "SIGNALS & SYSTEMS",
@@ -6374,10 +6373,10 @@
 				"instructors": ["Anantha Krishna Chintanpalli"]
 			}
 		],
+		"IC": "Anantha Krishna Chintanpalli",
 		"labs": []
 	},
 	{
-		"IC": "Anu Gupta",
 		"courseNo": 1241,
 		"courseCode": "EEE F244",
 		"courseName": "MICROELECTRONIC CIRCUITS",
@@ -6398,8 +6397,8 @@
 				"section": "L2",
 				"dhString": "T Th 4 W 10",
 				"timings": [
-					{ "day": "Tuesday", "dayCode": "T", "time": "11:00 - 1:50" },
-					{ "day": "Thursday", "dayCode": "Th", "time": "11:00 - 1:50" },
+					{ "day": "Tuesday", "dayCode": "T", "time": "11:00 - 11:50" },
+					{ "day": "Thursday", "dayCode": "Th", "time": "11:00 - 11:50" },
 					{ "day": "Wednesday", "dayCode": "W", "time": "17:00 - 17:50" }
 				],
 				"instructors": ["Anu Gupta"]
@@ -6447,10 +6446,10 @@
 				"instructors": ["Samatha Benedict"]
 			}
 		],
+		"IC": "Anu Gupta",
 		"labs": []
 	},
 	{
-		"IC": "Yenuganti Sujan",
 		"courseNo": 1900,
 		"courseCode": "EEE F246",
 		"courseName": "E & E CIRCUIT LABORATORY",
@@ -6466,11 +6465,11 @@
 				"instructors": ["Yenuganti Sujan"]
 			}
 		],
+		"IC": "Yenuganti Sujan",
 		"lectures": [],
 		"tutorials": []
 	},
 	{
-		"IC": "H D Mathur",
 		"courseNo": 1657,
 		"courseCode": "EEE F266",
 		"courseName": "STUDY PROJECT",
@@ -6484,11 +6483,11 @@
 				"instructors": ["H D Mathur"]
 			}
 		],
+		"IC": "H D Mathur",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Dheerendra Singh",
 		"courseNo": 1244,
 		"courseCode": "EEE F312",
 		"courseName": "POWER SYSTEMS",
@@ -6532,10 +6531,10 @@
 				"instructors": ["Rajneesh Kumar"]
 			}
 		],
+		"IC": "Dheerendra Singh",
 		"labs": []
 	},
 	{
-		"IC": "V K Chaubey",
 		"courseNo": 1245,
 		"courseCode": "EEE F341",
 		"courseName": "ANALOG ELECTRONICS",
@@ -6546,9 +6545,9 @@
 				"section": "L1",
 				"dhString": "M W F 4",
 				"timings": [
-					{ "day": "Monday", "dayCode": "M", "time": "11:00 - 1:50" },
-					{ "day": "Wednesday", "dayCode": "W", "time": "11:00 - 1:50" },
-					{ "day": "Friday", "dayCode": "F", "time": "11:00 - 1:50" }
+					{ "day": "Monday", "dayCode": "M", "time": "11:00 - 11:50" },
+					{ "day": "Wednesday", "dayCode": "W", "time": "11:00 - 11:50" },
+					{ "day": "Friday", "dayCode": "F", "time": "11:00 - 11:50" }
 				],
 				"instructors": ["Arnab Hazra"]
 			},
@@ -6654,10 +6653,10 @@
 				],
 				"instructors": ["Ashish Kumar Verma (RS)", "Pavitra Sharma (RS)"]
 			}
-		]
+		],
+		"IC": "V K Chaubey"
 	},
 	{
-		"IC": "Rajneesh Kumar",
 		"courseNo": 1246,
 		"courseCode": "EEE F342",
 		"courseName": "POWER ELECTRONICS",
@@ -6668,9 +6667,9 @@
 				"section": "L1",
 				"dhString": "M W F 4",
 				"timings": [
-					{ "day": "Monday", "dayCode": "M", "time": "11:00 - 1:50" },
-					{ "day": "Wednesday", "dayCode": "W", "time": "11:00 - 1:50" },
-					{ "day": "Friday", "dayCode": "F", "time": "11:00 - 1:50" }
+					{ "day": "Monday", "dayCode": "M", "time": "11:00 - 11:50" },
+					{ "day": "Wednesday", "dayCode": "W", "time": "11:00 - 11:50" },
+					{ "day": "Friday", "dayCode": "F", "time": "11:00 - 11:50" }
 				],
 				"instructors": ["Ashish Patel"]
 			},
@@ -6776,10 +6775,10 @@
 				],
 				"instructors": ["Asis Kumar Sahu(rs)", "Sisir Kumar Yadav (RS)"]
 			}
-		]
+		],
+		"IC": "Rajneesh Kumar"
 	},
 	{
-		"IC": "Harshavardhan Settibhaktini",
 		"courseNo": 1255,
 		"courseCode": "EEE F346",
 		"courseName": "DATA COMMUNIC & NETWORKS",
@@ -6790,18 +6789,18 @@
 				"section": "L1",
 				"dhString": "T Th 4 W 10",
 				"timings": [
-					{ "day": "Tuesday", "dayCode": "T", "time": "11:00 - 1:50" },
-					{ "day": "Thursday", "dayCode": "Th", "time": "11:00 - 1:50" },
+					{ "day": "Tuesday", "dayCode": "T", "time": "11:00 - 11:50" },
+					{ "day": "Thursday", "dayCode": "Th", "time": "11:00 - 11:50" },
 					{ "day": "Wednesday", "dayCode": "W", "time": "17:00 - 17:50" }
 				],
 				"instructors": ["Harshavardhan Settibhaktini"]
 			}
 		],
+		"IC": "Harshavardhan Settibhaktini",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "H D Mathur",
 		"courseNo": 1731,
 		"courseCode": "EEE F366",
 		"courseName": "LABORATORY PROJECT",
@@ -6815,11 +6814,11 @@
 				"instructors": ["H D Mathur"]
 			}
 		],
+		"IC": "H D Mathur",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "H D Mathur",
 		"courseNo": 1742,
 		"courseCode": "EEE F367",
 		"courseName": "LABORATORY PROJECT",
@@ -6833,11 +6832,11 @@
 				"instructors": ["H D Mathur"]
 			}
 		],
+		"IC": "H D Mathur",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "H D Mathur",
 		"courseNo": 1691,
 		"courseCode": "EEE F376",
 		"courseName": "DESIGN PROJECT",
@@ -6851,11 +6850,11 @@
 				"instructors": ["H D Mathur"]
 			}
 		],
+		"IC": "H D Mathur",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "H D Mathur",
 		"courseNo": 1758,
 		"courseCode": "EEE F377",
 		"courseName": "DESIGN PROJECT",
@@ -6869,11 +6868,11 @@
 				"instructors": ["H D Mathur"]
 			}
 		],
+		"IC": "H D Mathur",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Vinay Chamola",
 		"courseNo": 2288,
 		"courseCode": "EEE F411",
 		"courseName": "INTERNET OF THINGS",
@@ -6891,11 +6890,11 @@
 				"instructors": ["Vinay Chamola"]
 			}
 		],
+		"IC": "Vinay Chamola",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Rahul Singhal",
 		"courseNo": 1252,
 		"courseCode": "EEE F414",
 		"courseName": "TELECOM SWIT SYS & NETWK",
@@ -6913,11 +6912,11 @@
 				"instructors": ["Rahul Singhal"]
 			}
 		],
+		"IC": "Rahul Singhal",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Syed Mohammad Zafaruddin",
 		"courseNo": 1250,
 		"courseCode": "EEE F431",
 		"courseName": "MOBILE TELECOM NETWORKS",
@@ -6935,11 +6934,11 @@
 				"instructors": ["Syed Mohammad Zafaruddin"]
 			}
 		],
+		"IC": "Syed Mohammad Zafaruddin",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Yenuganti Sujan",
 		"courseNo": 1247,
 		"courseCode": "EEE F432",
 		"courseName": "MEDICAL INSTRUMENTATION",
@@ -6950,18 +6949,18 @@
 				"section": "L1",
 				"dhString": "T Th 4 W 10",
 				"timings": [
-					{ "day": "Tuesday", "dayCode": "T", "time": "11:00 - 1:50" },
-					{ "day": "Thursday", "dayCode": "Th", "time": "11:00 - 1:50" },
+					{ "day": "Tuesday", "dayCode": "T", "time": "11:00 - 11:50" },
+					{ "day": "Thursday", "dayCode": "Th", "time": "11:00 - 11:50" },
 					{ "day": "Wednesday", "dayCode": "W", "time": "17:00 - 17:50" }
 				],
 				"instructors": ["Yenuganti Sujan"]
 			}
 		],
+		"IC": "Yenuganti Sujan",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Praveen Kumar A.v.",
 		"courseNo": 2335,
 		"courseCode": "EEE F436",
 		"courseName": "ELECTROMAGNETIC COMPATIBILITY",
@@ -6979,11 +6978,11 @@
 				"instructors": ["Praveen Kumar A.v."]
 			}
 		],
+		"IC": "Praveen Kumar A.v.",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Satyendra Kumar Mourya",
 		"courseNo": 1895,
 		"courseCode": "EEE F477",
 		"courseName": "MODELING OF FIELD-EFFECT NANO",
@@ -7001,11 +7000,11 @@
 				"instructors": ["Satyendra Kumar Mourya"]
 			}
 		],
+		"IC": "Satyendra Kumar Mourya",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "H D Mathur",
 		"courseNo": 1716,
 		"courseCode": "EEE F491",
 		"courseName": "SPECIAL PROJECT",
@@ -7019,11 +7018,11 @@
 				"instructors": ["H D Mathur"]
 			}
 		],
+		"IC": "H D Mathur",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Pankaj Arora",
 		"courseNo": 462,
 		"courseCode": "EEE G510",
 		"courseName": "RF MICROELECTRONICS",
@@ -7041,11 +7040,11 @@
 				"instructors": ["Pankaj Arora", "Chandra Shekhar"]
 			}
 		],
+		"IC": "Pankaj Arora",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Sandeep Joshi",
 		"courseNo": 96,
 		"courseCode": "EEE G592",
 		"courseName": "MOBILE PERSONAL COMMUNIC",
@@ -7056,8 +7055,8 @@
 				"section": "L1",
 				"dhString": "T Th 4 W 10",
 				"timings": [
-					{ "day": "Tuesday", "dayCode": "T", "time": "11:00 - 1:50" },
-					{ "day": "Thursday", "dayCode": "Th", "time": "11:00 - 1:50" },
+					{ "day": "Tuesday", "dayCode": "T", "time": "11:00 - 11:50" },
+					{ "day": "Thursday", "dayCode": "Th", "time": "11:00 - 11:50" },
 					{ "day": "Wednesday", "dayCode": "W", "time": "17:00 - 17:50" }
 				],
 				"instructors": ["Sandeep Joshi"]
@@ -7073,10 +7072,10 @@
 				"instructors": ["Sandeep Joshi"]
 			}
 		],
+		"IC": "Sandeep Joshi",
 		"tutorials": []
 	},
 	{
-		"IC": "Sainath Bitragunta",
 		"courseNo": 80,
 		"courseCode": "EEE G622",
 		"courseName": "ADVANCED DIGITAL COMMUNI",
@@ -7087,18 +7086,18 @@
 				"section": "L1",
 				"dhString": "M W F 4",
 				"timings": [
-					{ "day": "Monday", "dayCode": "M", "time": "11:00 - 1:50" },
-					{ "day": "Wednesday", "dayCode": "W", "time": "11:00 - 1:50" },
-					{ "day": "Friday", "dayCode": "F", "time": "11:00 - 1:50" }
+					{ "day": "Monday", "dayCode": "M", "time": "11:00 - 11:50" },
+					{ "day": "Wednesday", "dayCode": "W", "time": "11:00 - 11:50" },
+					{ "day": "Friday", "dayCode": "F", "time": "11:00 - 11:50" }
 				],
 				"instructors": ["Sainath Bitragunta"]
 			}
 		],
+		"IC": "Sainath Bitragunta",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Meetha V. Shenoy",
 		"courseNo": 475,
 		"courseCode": "EEE G627",
 		"courseName": "NETWORK EMBEDDED APPLI",
@@ -7116,11 +7115,11 @@
 				"instructors": ["Meetha V. Shenoy"]
 			}
 		],
+		"IC": "Meetha V. Shenoy",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Arun Kumar Giri",
 		"courseNo": 1658,
 		"courseCode": "FIN F266",
 		"courseName": "STUDY PROJECT",
@@ -7134,11 +7133,11 @@
 				"instructors": ["Arun Kumar Giri"]
 			}
 		],
+		"IC": "Arun Kumar Giri",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Arun Kumar Vaish",
 		"courseNo": 1539,
 		"courseCode": "FIN F311",
 		"courseName": "DERIVATIVES & RISK MGMT",
@@ -7156,11 +7155,11 @@
 				"instructors": ["Arun Kumar Vaish"]
 			}
 		],
+		"IC": "Arun Kumar Vaish",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Arya Kumar",
 		"courseNo": 1545,
 		"courseCode": "FIN F313",
 		"courseName": "SECUR ANAL & PORTFOL MGT",
@@ -7178,11 +7177,11 @@
 				"instructors": ["Arya Kumar"]
 			}
 		],
+		"IC": "Arya Kumar",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Rajan Pandey",
 		"courseNo": 1542,
 		"courseCode": "FIN F315",
 		"courseName": "FINANCIAL MANAGEMENT",
@@ -7193,18 +7192,18 @@
 				"section": "L1",
 				"dhString": "T Th 4 W 10",
 				"timings": [
-					{ "day": "Tuesday", "dayCode": "T", "time": "11:00 - 1:50" },
-					{ "day": "Thursday", "dayCode": "Th", "time": "11:00 - 1:50" },
+					{ "day": "Tuesday", "dayCode": "T", "time": "11:00 - 11:50" },
+					{ "day": "Thursday", "dayCode": "Th", "time": "11:00 - 11:50" },
 					{ "day": "Wednesday", "dayCode": "W", "time": "17:00 - 17:50" }
 				],
 				"instructors": ["Rajan Pandey", "Byomakesh Debata"]
 			}
 		],
+		"IC": "Rajan Pandey",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Arun Kumar Giri",
 		"courseNo": 1717,
 		"courseCode": "FIN F491",
 		"courseName": "SPECIAL PROJECT",
@@ -7218,11 +7217,11 @@
 				"instructors": ["Arun Kumar Giri"]
 			}
 		],
+		"IC": "Arun Kumar Giri",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Harikrishnan Gopinadhan Nair",
 		"courseNo": 1130,
 		"courseCode": "GS F211",
 		"courseName": "MOD POLITICAL CONCEPTS",
@@ -7233,18 +7232,18 @@
 				"section": "L1",
 				"dhString": "T Th 4 W 10",
 				"timings": [
-					{ "day": "Tuesday", "dayCode": "T", "time": "11:00 - 1:50" },
-					{ "day": "Thursday", "dayCode": "Th", "time": "11:00 - 1:50" },
+					{ "day": "Tuesday", "dayCode": "T", "time": "11:00 - 11:50" },
+					{ "day": "Thursday", "dayCode": "Th", "time": "11:00 - 11:50" },
 					{ "day": "Wednesday", "dayCode": "W", "time": "17:00 - 17:50" }
 				],
 				"instructors": ["Harikrishnan Gopinadhan Nair"]
 			}
 		],
+		"IC": "Harikrishnan Gopinadhan Nair",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Sushila Shekhawat",
 		"courseNo": 1135,
 		"courseCode": "GS F223",
 		"courseName": "INTRO TO MASS COMM",
@@ -7262,11 +7261,11 @@
 				"instructors": ["Sushila Shekhawat", "Shrija Srinivasan (RS)"]
 			}
 		],
+		"IC": "Sushila Shekhawat",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Sangeeta Sharma",
 		"courseNo": 1136,
 		"courseCode": "GS F224",
 		"courseName": "PRINT & AUDIO VISU ADVER",
@@ -7284,11 +7283,11 @@
 				"instructors": ["Sangeeta Sharma"]
 			}
 		],
+		"IC": "Sangeeta Sharma",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Sunita Raina",
 		"courseNo": 1169,
 		"courseCode": "GS F231",
 		"courseName": "DYN OF SOCIAL CHANGE",
@@ -7306,11 +7305,11 @@
 				"instructors": ["Sunita Raina"]
 			}
 		],
+		"IC": "Sunita Raina",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Tanu Shukla",
 		"courseNo": 1170,
 		"courseCode": "GS F232",
 		"courseName": "INTRODUCTORY PSYCHOLOGY",
@@ -7321,18 +7320,18 @@
 				"section": "L1",
 				"dhString": "M W F 4",
 				"timings": [
-					{ "day": "Monday", "dayCode": "M", "time": "11:00 - 1:50" },
-					{ "day": "Wednesday", "dayCode": "W", "time": "11:00 - 1:50" },
-					{ "day": "Friday", "dayCode": "F", "time": "11:00 - 1:50" }
+					{ "day": "Monday", "dayCode": "M", "time": "11:00 - 11:50" },
+					{ "day": "Wednesday", "dayCode": "W", "time": "11:00 - 11:50" },
+					{ "day": "Friday", "dayCode": "F", "time": "11:00 - 11:50" }
 				],
 				"instructors": ["Tanu Shukla"]
 			}
 		],
+		"IC": "Tanu Shukla",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Veena R",
 		"courseNo": 1171,
 		"courseCode": "GS F233",
 		"courseName": "PUBLIC POLICY",
@@ -7350,11 +7349,11 @@
 				"instructors": ["Veena R", "Yeola Kalyani Rajendra (RS)"]
 			}
 		],
+		"IC": "Veena R",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Tba By Econfin Dept.",
 		"courseNo": 1172,
 		"courseCode": "GS F234",
 		"courseName": "DEVELOPMENT ECONOMICS",
@@ -7372,11 +7371,11 @@
 				"instructors": ["Tba By Econfin Dept."]
 			}
 		],
+		"IC": "Tba By Econfin Dept.",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Devika",
 		"courseNo": 1158,
 		"courseCode": "GS F241",
 		"courseName": "CREATIVE WRITING",
@@ -7394,11 +7393,11 @@
 				"instructors": ["Devika", "Punita Raj (RS)"]
 			}
 		],
+		"IC": "Devika",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Muhammed Afzal P",
 		"courseNo": 1159,
 		"courseCode": "GS F242",
 		"courseName": "CULTURAL STUDIES",
@@ -7416,11 +7415,11 @@
 				"instructors": ["Muhammed Afzal P", "Nikhil R (RS)"]
 			}
 		],
+		"IC": "Muhammed Afzal P",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "S K Choudhary",
 		"courseNo": 1160,
 		"courseCode": "GS F243",
 		"courseName": "CURRENT AFFAIRS",
@@ -7438,11 +7437,11 @@
 				"instructors": ["S K Choudhary"]
 			}
 		],
+		"IC": "S K Choudhary",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "G S Chauhan",
 		"courseNo": 1161,
 		"courseCode": "GS F244",
 		"courseName": "REPORT & WRITE FOR MEDIA",
@@ -7453,18 +7452,18 @@
 				"section": "L1",
 				"dhString": "T Th 4 W 10",
 				"timings": [
-					{ "day": "Tuesday", "dayCode": "T", "time": "11:00 - 1:50" },
-					{ "day": "Thursday", "dayCode": "Th", "time": "11:00 - 1:50" },
+					{ "day": "Tuesday", "dayCode": "T", "time": "11:00 - 11:50" },
+					{ "day": "Thursday", "dayCode": "Th", "time": "11:00 - 11:50" },
 					{ "day": "Wednesday", "dayCode": "W", "time": "17:00 - 17:50" }
 				],
 				"instructors": ["G S Chauhan"]
 			}
 		],
+		"IC": "G S Chauhan",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Pushp Lata",
 		"courseNo": 1165,
 		"courseCode": "GS F245",
 		"courseName": "EFFECTIVE PUBLIC SPEAK",
@@ -7482,11 +7481,11 @@
 				"instructors": ["Pushp Lata"]
 			}
 		],
+		"IC": "Pushp Lata",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Devika",
 		"courseNo": 1659,
 		"courseCode": "GS F266",
 		"courseName": "STUDY PROJECT",
@@ -7500,11 +7499,11 @@
 				"instructors": ["Devika"]
 			}
 		],
+		"IC": "Devika",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Madhurima Das",
 		"courseNo": 1173,
 		"courseCode": "GS F311",
 		"courseName": "INTRO TO CONFLICT MGMT",
@@ -7522,11 +7521,11 @@
 				"instructors": ["Madhurima Das"]
 			}
 		],
+		"IC": "Madhurima Das",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Kumar Neeraj Sachdev",
 		"courseNo": 1174,
 		"courseCode": "GS F312",
 		"courseName": "APPLIED PHILOSOPHY",
@@ -7544,11 +7543,11 @@
 				"instructors": ["Kumar Neeraj Sachdev"]
 			}
 		],
+		"IC": "Kumar Neeraj Sachdev",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "K S Bhattacharya",
 		"courseNo": 1137,
 		"courseCode": "GS F322",
 		"courseName": "CRITI ANAL OF LIT & CINE",
@@ -7566,11 +7565,11 @@
 				"instructors": ["K S Bhattacharya"]
 			}
 		],
+		"IC": "K S Bhattacharya",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Tanu Shukla",
 		"courseNo": 1175,
 		"courseCode": "GS F331",
 		"courseName": "TECH IN SOCIAL RESEARCH",
@@ -7588,11 +7587,11 @@
 				"instructors": ["Tanu Shukla"]
 			}
 		],
+		"IC": "Tanu Shukla",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Harikrishnan Gopinadhan Nair",
 		"courseNo": 1176,
 		"courseCode": "GS F332",
 		"courseName": "CONTEMPORARY INDIA",
@@ -7610,11 +7609,11 @@
 				"instructors": ["Harikrishnan Gopinadhan Nair"]
 			}
 		],
+		"IC": "Harikrishnan Gopinadhan Nair",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Sailaja Nandigama",
 		"courseNo": 1177,
 		"courseCode": "GS F333",
 		"courseName": "PUBLIC ADMINISTRATION",
@@ -7632,11 +7631,11 @@
 				"instructors": ["Sailaja Nandigama"]
 			}
 		],
+		"IC": "Sailaja Nandigama",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Praveen Goyal",
 		"courseNo": 1178,
 		"courseCode": "GS F334",
 		"courseName": "GLOBAL BUSINESS TEC & KS",
@@ -7647,18 +7646,18 @@
 				"section": "L1",
 				"dhString": "M W F 4",
 				"timings": [
-					{ "day": "Monday", "dayCode": "M", "time": "11:00 - 1:50" },
-					{ "day": "Wednesday", "dayCode": "W", "time": "11:00 - 1:50" },
-					{ "day": "Friday", "dayCode": "F", "time": "11:00 - 1:50" }
+					{ "day": "Monday", "dayCode": "M", "time": "11:00 - 11:50" },
+					{ "day": "Wednesday", "dayCode": "W", "time": "11:00 - 11:50" },
+					{ "day": "Friday", "dayCode": "F", "time": "11:00 - 11:50" }
 				],
 				"instructors": ["Praveen Goyal"]
 			}
 		],
+		"IC": "Praveen Goyal",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Virendra S Nirban",
 		"courseNo": 1164,
 		"courseCode": "GS F342",
 		"courseName": "COMPUTER MEDIATED COMM",
@@ -7676,11 +7675,11 @@
 				"instructors": ["Virendra S Nirban"]
 			}
 		],
+		"IC": "Virendra S Nirban",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Sushila Shekhawat",
 		"courseNo": 1168,
 		"courseCode": "GS F343",
 		"courseName": "SHORT FILM & VIDEO PROD",
@@ -7691,18 +7690,18 @@
 				"section": "L1",
 				"dhString": "M W F 4",
 				"timings": [
-					{ "day": "Monday", "dayCode": "M", "time": "11:00 - 1:50" },
-					{ "day": "Wednesday", "dayCode": "W", "time": "11:00 - 1:50" },
-					{ "day": "Friday", "dayCode": "F", "time": "11:00 - 1:50" }
+					{ "day": "Monday", "dayCode": "M", "time": "11:00 - 11:50" },
+					{ "day": "Wednesday", "dayCode": "W", "time": "11:00 - 11:50" },
+					{ "day": "Friday", "dayCode": "F", "time": "11:00 - 11:50" }
 				],
 				"instructors": ["Sushila Shekhawat", "Shrija Srinivasan (RS)"]
 			}
 		],
+		"IC": "Sushila Shekhawat",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "G S Chauhan",
 		"courseNo": 1873,
 		"courseCode": "GS F344",
 		"courseName": "COPYWRITING",
@@ -7719,11 +7718,11 @@
 				"instructors": ["G S Chauhan"]
 			}
 		],
+		"IC": "G S Chauhan",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Devika",
 		"courseNo": 1733,
 		"courseCode": "GS F366",
 		"courseName": "LABORATORY PROJECT",
@@ -7737,11 +7736,11 @@
 				"instructors": ["Devika"]
 			}
 		],
+		"IC": "Devika",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Devika",
 		"courseNo": 1744,
 		"courseCode": "GS F367",
 		"courseName": "LABORATORY PROJECT",
@@ -7755,11 +7754,11 @@
 				"instructors": ["Devika"]
 			}
 		],
+		"IC": "Devika",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Devika",
 		"courseNo": 1693,
 		"courseCode": "GS F376",
 		"courseName": "DESIGN PROJECT",
@@ -7773,11 +7772,11 @@
 				"instructors": ["Devika"]
 			}
 		],
+		"IC": "Devika",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Devika",
 		"courseNo": 1760,
 		"courseCode": "GS F377",
 		"courseName": "DESIGN PROJECT",
@@ -7791,11 +7790,11 @@
 				"instructors": ["Devika"]
 			}
 		],
+		"IC": "Devika",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Devika",
 		"courseNo": 1718,
 		"courseCode": "GS F491",
 		"courseName": "SPECIAL PROJECT",
@@ -7809,11 +7808,11 @@
 				"instructors": ["Devika"]
 			}
 		],
+		"IC": "Devika",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "S K Choudhary",
 		"courseNo": 1603,
 		"courseCode": "HSS F222",
 		"courseName": "LINGUISTICS",
@@ -7831,11 +7830,11 @@
 				"instructors": ["S K Choudhary"]
 			}
 		],
+		"IC": "S K Choudhary",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Anil Rai",
 		"courseNo": 1596,
 		"courseCode": "HSS F223",
 		"courseName": "APPR OF INDIAN MUSIC",
@@ -7846,18 +7845,18 @@
 				"section": "L1",
 				"dhString": "M W F 4",
 				"timings": [
-					{ "day": "Monday", "dayCode": "M", "time": "11:00 - 1:50" },
-					{ "day": "Wednesday", "dayCode": "W", "time": "11:00 - 1:50" },
-					{ "day": "Friday", "dayCode": "F", "time": "11:00 - 1:50" }
+					{ "day": "Monday", "dayCode": "M", "time": "11:00 - 11:50" },
+					{ "day": "Wednesday", "dayCode": "W", "time": "11:00 - 11:50" },
+					{ "day": "Friday", "dayCode": "F", "time": "11:00 - 11:50" }
 				],
 				"instructors": ["Anil Rai"]
 			}
 		],
+		"IC": "Anil Rai",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Vijayakumar C",
 		"courseNo": 2447,
 		"courseCode": "HSS F224",
 		"courseName": "ENGLISH SKILLS FOR ACADEMICS",
@@ -7868,18 +7867,18 @@
 				"section": "L1",
 				"dhString": "M W F 4",
 				"timings": [
-					{ "day": "Monday", "dayCode": "M", "time": "11:00 - 1:50" },
-					{ "day": "Wednesday", "dayCode": "W", "time": "11:00 - 1:50" },
-					{ "day": "Friday", "dayCode": "F", "time": "11:00 - 1:50" }
+					{ "day": "Monday", "dayCode": "M", "time": "11:00 - 11:50" },
+					{ "day": "Wednesday", "dayCode": "W", "time": "11:00 - 11:50" },
+					{ "day": "Friday", "dayCode": "F", "time": "11:00 - 11:50" }
 				],
 				"instructors": ["Vijayakumar C"]
 			}
 		],
+		"IC": "Vijayakumar C",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Anupam Yadav",
 		"courseNo": 1627,
 		"courseCode": "HSS F235",
 		"courseName": "INTRODUCTORY PHILOSOPHY",
@@ -7897,11 +7896,11 @@
 				"instructors": ["Anupam Yadav", "Virosh Singh Baghel (RS)"]
 			}
 		],
+		"IC": "Anupam Yadav",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Anupam Yadav",
 		"courseNo": 1628,
 		"courseCode": "HSS F236",
 		"courseName": "SYMBOLIC LOGIC",
@@ -7912,18 +7911,18 @@
 				"section": "L1",
 				"dhString": "M W F 4",
 				"timings": [
-					{ "day": "Monday", "dayCode": "M", "time": "11:00 - 1:50" },
-					{ "day": "Wednesday", "dayCode": "W", "time": "11:00 - 1:50" },
-					{ "day": "Friday", "dayCode": "F", "time": "11:00 - 1:50" }
+					{ "day": "Monday", "dayCode": "M", "time": "11:00 - 11:50" },
+					{ "day": "Wednesday", "dayCode": "W", "time": "11:00 - 11:50" },
+					{ "day": "Friday", "dayCode": "F", "time": "11:00 - 11:50" }
 				],
 				"instructors": ["Anupam Yadav"]
 			}
 		],
+		"IC": "Anupam Yadav",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Virendra S Nirban",
 		"courseNo": 2425,
 		"courseCode": "HSS F247",
 		"courseName": "SOCIAL INFORMATICS",
@@ -7941,11 +7940,11 @@
 				"instructors": ["Virendra S Nirban"]
 			}
 		],
+		"IC": "Virendra S Nirban",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Devika",
 		"courseNo": 1776,
 		"courseCode": "HSS F266",
 		"courseName": "STUDY PROJECT",
@@ -7959,11 +7958,11 @@
 				"instructors": ["Devika"]
 			}
 		],
+		"IC": "Devika",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Rajneesh Choubisa",
 		"courseNo": 1777,
 		"courseCode": "HSS F323",
 		"courseName": "ORGANIZATIONAL PSYCHOLOGY",
@@ -7981,11 +7980,11 @@
 				"instructors": ["Rajneesh Choubisa"]
 			}
 		],
+		"IC": "Rajneesh Choubisa",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Rajneesh Choubisa",
 		"courseNo": 1609,
 		"courseCode": "HSS F328",
 		"courseName": "HUMAN RESOURCE DEVELOP",
@@ -8003,11 +8002,11 @@
 				"instructors": ["Rajneesh Choubisa"]
 			}
 		],
+		"IC": "Rajneesh Choubisa",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Anil Rai",
 		"courseNo": 1597,
 		"courseCode": "HSS F329",
 		"courseName": "MUSICOLOGY-AN INTRODUCTN",
@@ -8025,11 +8024,11 @@
 				"instructors": ["Anil Rai"]
 			}
 		],
+		"IC": "Anil Rai",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Manoj Kannan",
 		"courseNo": 1599,
 		"courseCode": "HSS F334",
 		"courseName": "SRIMAD BHAGAVAD GITA",
@@ -8047,11 +8046,11 @@
 				"instructors": ["Manoj Kannan", "Vinay Chamola"]
 			}
 		],
+		"IC": "Manoj Kannan",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Kumar Neeraj Sachdev",
 		"courseNo": 1623,
 		"courseCode": "HSS F343",
 		"courseName": "PROFESSIONAL ETHICS",
@@ -8069,11 +8068,11 @@
 				"instructors": ["Kumar Neeraj Sachdev"]
 			}
 		],
+		"IC": "Kumar Neeraj Sachdev",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Harikrishnan Gopinadhan Nair",
 		"courseNo": 1625,
 		"courseCode": "HSS F345",
 		"courseName": "GANDHIAN THOUGHTS",
@@ -8091,11 +8090,11 @@
 				"instructors": ["Harikrishnan Gopinadhan Nair"]
 			}
 		],
+		"IC": "Harikrishnan Gopinadhan Nair",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Veena R",
 		"courseNo": 1626,
 		"courseCode": "HSS F346",
 		"courseName": "INTERNATIONAL RELATIONS",
@@ -8113,11 +8112,11 @@
 				"instructors": ["Veena R"]
 			}
 		],
+		"IC": "Veena R",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Nitin Chaturvedi",
 		"courseNo": 1341,
 		"courseCode": "INSTR F241",
 		"courseName": "MICROPROC & INTERFACING",
@@ -8138,8 +8137,8 @@
 				"section": "L2",
 				"dhString": "T Th 4 W 10",
 				"timings": [
-					{ "day": "Tuesday", "dayCode": "T", "time": "11:00 - 1:50" },
-					{ "day": "Thursday", "dayCode": "Th", "time": "11:00 - 1:50" },
+					{ "day": "Tuesday", "dayCode": "T", "time": "11:00 - 11:50" },
+					{ "day": "Thursday", "dayCode": "Th", "time": "11:00 - 11:50" },
 					{ "day": "Wednesday", "dayCode": "W", "time": "17:00 - 17:50" }
 				],
 				"instructors": ["Nitin Chaturvedi"]
@@ -8308,10 +8307,10 @@
 				],
 				"instructors": ["Gorla Praveen (RS)", "Sumitra (RS)"]
 			}
-		]
+		],
+		"IC": "Nitin Chaturvedi"
 	},
 	{
-		"IC": "Bijoy Krishna Mukherjee",
 		"courseNo": 1342,
 		"courseCode": "INSTR F242",
 		"courseName": "CONTROL SYSTEMS",
@@ -8389,10 +8388,10 @@
 				"instructors": ["Aditya Raw Gautam"]
 			}
 		],
+		"IC": "Bijoy Krishna Mukherjee",
 		"labs": []
 	},
 	{
-		"IC": "Anantha Krishna Chintanpalli",
 		"courseNo": 1343,
 		"courseCode": "INSTR F243",
 		"courseName": "SIGNALS & SYSTEMS",
@@ -8470,10 +8469,10 @@
 				"instructors": ["Anantha Krishna Chintanpalli"]
 			}
 		],
+		"IC": "Anantha Krishna Chintanpalli",
 		"labs": []
 	},
 	{
-		"IC": "Anu Gupta",
 		"courseNo": 1344,
 		"courseCode": "INSTR F244",
 		"courseName": "MICROELECTRONIC CIRCUITS",
@@ -8494,8 +8493,8 @@
 				"section": "L2",
 				"dhString": "T Th 4 W 10",
 				"timings": [
-					{ "day": "Tuesday", "dayCode": "T", "time": "11:00 - 1:50" },
-					{ "day": "Thursday", "dayCode": "Th", "time": "11:00 - 1:50" },
+					{ "day": "Tuesday", "dayCode": "T", "time": "11:00 - 11:50" },
+					{ "day": "Thursday", "dayCode": "Th", "time": "11:00 - 11:50" },
 					{ "day": "Wednesday", "dayCode": "W", "time": "17:00 - 17:50" }
 				],
 				"instructors": ["Anu Gupta"]
@@ -8543,10 +8542,10 @@
 				"instructors": ["Samatha Benedict"]
 			}
 		],
+		"IC": "Anu Gupta",
 		"labs": []
 	},
 	{
-		"IC": "H D Mathur",
 		"courseNo": 1660,
 		"courseCode": "INSTR F266",
 		"courseName": "STUDY PROJECT",
@@ -8560,11 +8559,11 @@
 				"instructors": ["H D Mathur"]
 			}
 		],
+		"IC": "H D Mathur",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "V K Chaubey",
 		"courseNo": 1348,
 		"courseCode": "INSTR F341",
 		"courseName": "ANALOG ELECTRONICS",
@@ -8575,9 +8574,9 @@
 				"section": "L1",
 				"dhString": "M W F 4",
 				"timings": [
-					{ "day": "Monday", "dayCode": "M", "time": "11:00 - 1:50" },
-					{ "day": "Wednesday", "dayCode": "W", "time": "11:00 - 1:50" },
-					{ "day": "Friday", "dayCode": "F", "time": "11:00 - 1:50" }
+					{ "day": "Monday", "dayCode": "M", "time": "11:00 - 11:50" },
+					{ "day": "Wednesday", "dayCode": "W", "time": "11:00 - 11:50" },
+					{ "day": "Friday", "dayCode": "F", "time": "11:00 - 11:50" }
 				],
 				"instructors": ["Arnab Hazra"]
 			},
@@ -8675,10 +8674,10 @@
 				],
 				"instructors": ["Ashish Kumar Verma (RS)", "Pavitra Sharma (RS)"]
 			}
-		]
+		],
+		"IC": "V K Chaubey"
 	},
 	{
-		"IC": "Rajneesh Kumar",
 		"courseNo": 1349,
 		"courseCode": "INSTR F342",
 		"courseName": "POWER ELECTRONICS",
@@ -8689,9 +8688,9 @@
 				"section": "L1",
 				"dhString": "M W F 4",
 				"timings": [
-					{ "day": "Monday", "dayCode": "M", "time": "11:00 - 1:50" },
-					{ "day": "Wednesday", "dayCode": "W", "time": "11:00 - 1:50" },
-					{ "day": "Friday", "dayCode": "F", "time": "11:00 - 1:50" }
+					{ "day": "Monday", "dayCode": "M", "time": "11:00 - 11:50" },
+					{ "day": "Wednesday", "dayCode": "W", "time": "11:00 - 11:50" },
+					{ "day": "Friday", "dayCode": "F", "time": "11:00 - 11:50" }
 				],
 				"instructors": ["Ashish Patel"]
 			},
@@ -8797,10 +8796,10 @@
 				],
 				"instructors": ["Asis Kumar Sahu(rs)", "Sisir Kumar Yadav (RS)"]
 			}
-		]
+		],
+		"IC": "Rajneesh Kumar"
 	},
 	{
-		"IC": "Puneet Mishra",
 		"courseNo": 1350,
 		"courseCode": "INSTR F343",
 		"courseName": "INDUS INSTRUMENT & CONT",
@@ -8836,10 +8835,10 @@
 				"instructors": ["Ankush Chandrakant Jahagirdar"]
 			}
 		],
+		"IC": "Puneet Mishra",
 		"labs": []
 	},
 	{
-		"IC": "H D Mathur",
 		"courseNo": 1734,
 		"courseCode": "INSTR F366",
 		"courseName": "LABORATORY PROJECT",
@@ -8853,11 +8852,11 @@
 				"instructors": ["H D Mathur"]
 			}
 		],
+		"IC": "H D Mathur",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "H D Mathur",
 		"courseNo": 1745,
 		"courseCode": "INSTR F367",
 		"courseName": "LABORATORY PROJECT",
@@ -8871,11 +8870,11 @@
 				"instructors": ["H D Mathur"]
 			}
 		],
+		"IC": "H D Mathur",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "H D Mathur",
 		"courseNo": 1694,
 		"courseCode": "INSTR F376",
 		"courseName": "DESIGN PROJECT",
@@ -8889,11 +8888,11 @@
 				"instructors": ["H D Mathur"]
 			}
 		],
+		"IC": "H D Mathur",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "H D Mathur",
 		"courseNo": 1761,
 		"courseCode": "INSTR F377",
 		"courseName": "DESIGN PROJECT",
@@ -8907,11 +8906,11 @@
 				"instructors": ["H D Mathur"]
 			}
 		],
+		"IC": "H D Mathur",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "H D Mathur",
 		"courseNo": 1719,
 		"courseCode": "INSTR F491",
 		"courseName": "SPECIAL PROJECT",
@@ -8925,11 +8924,11 @@
 				"instructors": ["H D Mathur"]
 			}
 		],
+		"IC": "H D Mathur",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Sundaresan Raman",
 		"courseNo": 1532,
 		"courseCode": "IS F311",
 		"courseName": "COMPUTER GRAPHICS",
@@ -8947,11 +8946,11 @@
 				"instructors": ["Sundaresan Raman"]
 			}
 		],
+		"IC": "Sundaresan Raman",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Hari Babu Kotakula",
 		"courseNo": 1331,
 		"courseCode": "IS F462",
 		"courseName": "NETWORK PROGRAMMING",
@@ -8969,11 +8968,11 @@
 				"instructors": ["Hari Babu Kotakula"]
 			}
 		],
+		"IC": "Hari Babu Kotakula",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Jitender Kumar",
 		"courseNo": 1011,
 		"courseCode": "MATH F112",
 		"courseName": "MATHEMATICS II",
@@ -9026,7 +9025,7 @@
 				"section": "T1",
 				"dhString": "F 4",
 				"timings": [
-					{ "day": "Friday", "dayCode": "F", "time": "11:00 - 1:50" }
+					{ "day": "Friday", "dayCode": "F", "time": "11:00 - 11:50" }
 				],
 				"instructors": ["Amol Holkundkar"]
 			},
@@ -9034,7 +9033,7 @@
 				"section": "T2",
 				"dhString": "F 4",
 				"timings": [
-					{ "day": "Friday", "dayCode": "F", "time": "11:00 - 1:50" }
+					{ "day": "Friday", "dayCode": "F", "time": "11:00 - 11:50" }
 				],
 				"instructors": ["Gaurav Dwivedi"]
 			},
@@ -9042,7 +9041,7 @@
 				"section": "T3",
 				"dhString": "F 4",
 				"timings": [
-					{ "day": "Friday", "dayCode": "F", "time": "11:00 - 1:50" }
+					{ "day": "Friday", "dayCode": "F", "time": "11:00 - 11:50" }
 				],
 				"instructors": ["Sangita Yadav"]
 			},
@@ -9066,7 +9065,7 @@
 				"section": "T6",
 				"dhString": "M 4",
 				"timings": [
-					{ "day": "Monday", "dayCode": "M", "time": "11:00 - 1:50" }
+					{ "day": "Monday", "dayCode": "M", "time": "11:00 - 11:50" }
 				],
 				"instructors": ["Amol Holkundkar"]
 			},
@@ -9074,7 +9073,7 @@
 				"section": "T7",
 				"dhString": "M 4",
 				"timings": [
-					{ "day": "Monday", "dayCode": "M", "time": "11:00 - 1:50" }
+					{ "day": "Monday", "dayCode": "M", "time": "11:00 - 11:50" }
 				],
 				"instructors": ["Sangita Yadav"]
 			},
@@ -9082,7 +9081,7 @@
 				"section": "T8",
 				"dhString": "M 4",
 				"timings": [
-					{ "day": "Monday", "dayCode": "M", "time": "11:00 - 1:50" }
+					{ "day": "Monday", "dayCode": "M", "time": "11:00 - 11:50" }
 				],
 				"instructors": ["Devendra Kumar"]
 			},
@@ -9186,7 +9185,7 @@
 				"section": "T21",
 				"dhString": "W  4",
 				"timings": [
-					{ "day": "Wednesday", "dayCode": "W", "time": "11:00 - 1:50" }
+					{ "day": "Wednesday", "dayCode": "W", "time": "11:00 - 11:50" }
 				],
 				"instructors": ["Jitender Kumar"]
 			},
@@ -9194,15 +9193,15 @@
 				"section": "T22",
 				"dhString": "W  4",
 				"timings": [
-					{ "day": "Wednesday", "dayCode": "W", "time": "11:00 - 1:50" }
+					{ "day": "Wednesday", "dayCode": "W", "time": "11:00 - 11:50" }
 				],
 				"instructors": ["Gaurav Dwivedi"]
 			}
 		],
+		"IC": "Jitender Kumar",
 		"labs": []
 	},
 	{
-		"IC": "Rakhee",
 		"courseNo": 1012,
 		"courseCode": "MATH F113",
 		"courseName": "PROBABILITY & STATISTICS",
@@ -9263,7 +9262,7 @@
 				"section": "T2",
 				"dhString": "F 4",
 				"timings": [
-					{ "day": "Friday", "dayCode": "F", "time": "11:00 - 1:50" }
+					{ "day": "Friday", "dayCode": "F", "time": "11:00 - 11:50" }
 				],
 				"instructors": ["Jitender Kumar"]
 			},
@@ -9271,7 +9270,7 @@
 				"section": "T3",
 				"dhString": "F 4",
 				"timings": [
-					{ "day": "Friday", "dayCode": "F", "time": "11:00 - 1:50" }
+					{ "day": "Friday", "dayCode": "F", "time": "11:00 - 11:50" }
 				],
 				"instructors": ["P K H Keskar"]
 			},
@@ -9279,7 +9278,7 @@
 				"section": "T4",
 				"dhString": "M 4",
 				"timings": [
-					{ "day": "Monday", "dayCode": "M", "time": "11:00 - 1:50" }
+					{ "day": "Monday", "dayCode": "M", "time": "11:00 - 11:50" }
 				],
 				"instructors": ["Rajesh Kumar"]
 			},
@@ -9287,7 +9286,7 @@
 				"section": "T5",
 				"dhString": "M 4",
 				"timings": [
-					{ "day": "Monday", "dayCode": "M", "time": "11:00 - 1:50" }
+					{ "day": "Monday", "dayCode": "M", "time": "11:00 - 11:50" }
 				],
 				"instructors": ["Shivi Agarwal"]
 			},
@@ -9295,7 +9294,7 @@
 				"section": "T6",
 				"dhString": "M 4",
 				"timings": [
-					{ "day": "Monday", "dayCode": "M", "time": "11:00 - 1:50" }
+					{ "day": "Monday", "dayCode": "M", "time": "11:00 - 11:50" }
 				],
 				"instructors": ["Anirudh Singh Rana"]
 			},
@@ -9303,7 +9302,7 @@
 				"section": "T7",
 				"dhString": "M 4",
 				"timings": [
-					{ "day": "Monday", "dayCode": "M", "time": "11:00 - 1:50" }
+					{ "day": "Monday", "dayCode": "M", "time": "11:00 - 11:50" }
 				],
 				"instructors": ["Gaurav Dwivedi"]
 			},
@@ -9311,7 +9310,7 @@
 				"section": "T8",
 				"dhString": "M 4",
 				"timings": [
-					{ "day": "Monday", "dayCode": "M", "time": "11:00 - 1:50" }
+					{ "day": "Monday", "dayCode": "M", "time": "11:00 - 11:50" }
 				],
 				"instructors": ["Jitender Kumar"]
 			},
@@ -9415,7 +9414,7 @@
 				"section": "T21",
 				"dhString": "W  4",
 				"timings": [
-					{ "day": "Wednesday", "dayCode": "W", "time": "11:00 - 1:50" }
+					{ "day": "Wednesday", "dayCode": "W", "time": "11:00 - 11:50" }
 				],
 				"instructors": ["P K H Keskar"]
 			},
@@ -9423,7 +9422,7 @@
 				"section": "T22",
 				"dhString": "W  4",
 				"timings": [
-					{ "day": "Wednesday", "dayCode": "W", "time": "11:00 - 1:50" }
+					{ "day": "Wednesday", "dayCode": "W", "time": "11:00 - 11:50" }
 				],
 				"instructors": ["Sourav Kumar Sasmal"]
 			},
@@ -9436,10 +9435,10 @@
 				"instructors": ["Sumanta Pasari"]
 			}
 		],
+		"IC": "Rakhee",
 		"labs": []
 	},
 	{
-		"IC": "Divyum Sharma",
 		"courseNo": 1340,
 		"courseCode": "MATH F231",
 		"courseName": "NUMBER THEORY",
@@ -9467,10 +9466,10 @@
 				"instructors": ["Divyum Sharma"]
 			}
 		],
+		"IC": "Divyum Sharma",
 		"labs": []
 	},
 	{
-		"IC": "B K Sharma",
 		"courseNo": 1465,
 		"courseCode": "MATH F241",
 		"courseName": "MATHEMATICAL METHODS",
@@ -9498,10 +9497,10 @@
 				"instructors": ["B K Sharma"]
 			}
 		],
+		"IC": "B K Sharma",
 		"labs": []
 	},
 	{
-		"IC": "Chandra Shekhar",
 		"courseNo": 1466,
 		"courseCode": "MATH F242",
 		"courseName": "OPERATIONS RESEARCH",
@@ -9512,8 +9511,8 @@
 				"section": "L1",
 				"dhString": "T Th 4 W 10",
 				"timings": [
-					{ "day": "Tuesday", "dayCode": "T", "time": "11:00 - 1:50" },
-					{ "day": "Thursday", "dayCode": "Th", "time": "11:00 - 1:50" },
+					{ "day": "Tuesday", "dayCode": "T", "time": "11:00 - 11:50" },
+					{ "day": "Thursday", "dayCode": "Th", "time": "11:00 - 11:50" },
 					{ "day": "Wednesday", "dayCode": "W", "time": "17:00 - 17:50" }
 				],
 				"instructors": ["Chandra Shekhar"]
@@ -9529,10 +9528,10 @@
 				"instructors": ["Chandra Shekhar"]
 			}
 		],
+		"IC": "Chandra Shekhar",
 		"labs": []
 	},
 	{
-		"IC": "Krishnendra Shekhawat",
 		"courseNo": 1467,
 		"courseCode": "MATH F243",
 		"courseName": "GRAPHS AND NETWORKS",
@@ -9560,10 +9559,10 @@
 				"instructors": ["Krishnendra Shekhawat"]
 			}
 		],
+		"IC": "Krishnendra Shekhawat",
 		"labs": []
 	},
 	{
-		"IC": "Rajiv Kumar",
 		"courseNo": 1468,
 		"courseCode": "MATH F244",
 		"courseName": "MEASURE & INTEGRATION",
@@ -9591,10 +9590,10 @@
 				"instructors": ["Rajiv Kumar"]
 			}
 		],
+		"IC": "Rajiv Kumar",
 		"labs": []
 	},
 	{
-		"IC": "Devendra Kumar",
 		"courseNo": 1662,
 		"courseCode": "MATH F266",
 		"courseName": "STUDY PROJECT",
@@ -9608,11 +9607,11 @@
 				"instructors": ["Devendra Kumar"]
 			}
 		],
+		"IC": "Devendra Kumar",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Ashish Tiwari",
 		"courseNo": 1472,
 		"courseCode": "MATH F341",
 		"courseName": "INTRO TO FUNCTIONAL ANAL",
@@ -9640,10 +9639,10 @@
 				"instructors": ["Ashish Tiwari"]
 			}
 		],
+		"IC": "Ashish Tiwari",
 		"labs": []
 	},
 	{
-		"IC": "P K H Keskar",
 		"courseNo": 1473,
 		"courseCode": "MATH F342",
 		"courseName": "DIFFERENTIAL GEOMETRY",
@@ -9666,15 +9665,15 @@
 				"section": "T1",
 				"dhString": "M 4",
 				"timings": [
-					{ "day": "Monday", "dayCode": "M", "time": "11:00 - 1:50" }
+					{ "day": "Monday", "dayCode": "M", "time": "11:00 - 11:50" }
 				],
 				"instructors": ["P K H Keskar"]
 			}
 		],
+		"IC": "P K H Keskar",
 		"labs": []
 	},
 	{
-		"IC": "Rajesh Kumar",
 		"courseNo": 1474,
 		"courseCode": "MATH F343",
 		"courseName": "PARTIAL DIFF EQUATIONS",
@@ -9697,15 +9696,15 @@
 				"section": "T1",
 				"dhString": "F 4",
 				"timings": [
-					{ "day": "Friday", "dayCode": "F", "time": "11:00 - 1:50" }
+					{ "day": "Friday", "dayCode": "F", "time": "11:00 - 11:50" }
 				],
 				"instructors": ["Rajesh Kumar"]
 			}
 		],
+		"IC": "Rajesh Kumar",
 		"labs": []
 	},
 	{
-		"IC": "Rakhee",
 		"courseNo": 1479,
 		"courseCode": "MATH F353",
 		"courseName": "STATISTICAL INFER & APP",
@@ -9723,11 +9722,11 @@
 				"instructors": ["Rakhee"]
 			}
 		],
+		"IC": "Rakhee",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Devendra Kumar",
 		"courseNo": 1679,
 		"courseCode": "MATH F366",
 		"courseName": "LABORATORY PROJECT",
@@ -9741,11 +9740,11 @@
 				"instructors": ["Devendra Kumar"]
 			}
 		],
+		"IC": "Devendra Kumar",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Devendra Kumar",
 		"courseNo": 1747,
 		"courseCode": "MATH F367",
 		"courseName": "LABORATORY PROJECT",
@@ -9759,11 +9758,11 @@
 				"instructors": ["Devendra Kumar"]
 			}
 		],
+		"IC": "Devendra Kumar",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Devendra Kumar",
 		"courseNo": 1696,
 		"courseCode": "MATH F376",
 		"courseName": "DESIGN PROJECT",
@@ -9777,11 +9776,11 @@
 				"instructors": ["Devendra Kumar"]
 			}
 		],
+		"IC": "Devendra Kumar",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Devendra Kumar",
 		"courseNo": 1763,
 		"courseCode": "MATH F377",
 		"courseName": "DESIGN PROJECT",
@@ -9795,11 +9794,11 @@
 				"instructors": ["Devendra Kumar"]
 			}
 		],
+		"IC": "Devendra Kumar",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Balram Dubey",
 		"courseNo": 1882,
 		"courseCode": "MATH F420",
 		"courseName": "MATHEMATICAL MODELLING",
@@ -9817,11 +9816,11 @@
 				"instructors": ["Balram Dubey"]
 			}
 		],
+		"IC": "Balram Dubey",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Devendra Kumar",
 		"courseNo": 1921,
 		"courseCode": "MATH F422",
 		"courseName": "NUM MTHD FOR PARTIAL DIFF EQ",
@@ -9849,10 +9848,10 @@
 				"instructors": ["Devendra Kumar"]
 			}
 		],
+		"IC": "Devendra Kumar",
 		"tutorials": []
 	},
 	{
-		"IC": "Anirudh Singh Rana",
 		"courseNo": 2191,
 		"courseCode": "MATH F424",
 		"courseName": "APPLIED STOCHASTIC PROCE",
@@ -9880,10 +9879,10 @@
 				"instructors": ["Anirudh Singh Rana"]
 			}
 		],
+		"IC": "Anirudh Singh Rana",
 		"tutorials": []
 	},
 	{
-		"IC": "Sumanta Pasari",
 		"courseNo": 2273,
 		"courseCode": "MATH F432",
 		"courseName": "APPLIED STATISTICAL METHODS",
@@ -9901,11 +9900,11 @@
 				"instructors": ["Sumanta Pasari"]
 			}
 		],
+		"IC": "Sumanta Pasari",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Devendra Kumar",
 		"courseNo": 1721,
 		"courseCode": "MATH F491",
 		"courseName": "SPECIAL PROJECT",
@@ -9919,11 +9918,11 @@
 				"instructors": ["Devendra Kumar"]
 			}
 		],
+		"IC": "Devendra Kumar",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Saurabh Chadha",
 		"courseNo": 2212,
 		"courseCode": "MBA G509",
 		"courseName": "INVEST BANK & FIN SERV",
@@ -9941,11 +9940,11 @@
 				"instructors": ["Saurabh Chadha"]
 			}
 		],
+		"IC": "Saurabh Chadha",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Jayashree Mahesh",
 		"courseNo": 2214,
 		"courseCode": "MBA G510",
 		"courseName": "HUMAN RESOURCE & MGMT",
@@ -9963,11 +9962,11 @@
 				"instructors": ["Jayashree Mahesh"]
 			}
 		],
+		"IC": "Jayashree Mahesh",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Arya Kumar",
 		"courseNo": 2235,
 		"courseCode": "MBA G537",
 		"courseName": "SECURE ANAL AND PORTFOL",
@@ -9985,11 +9984,11 @@
 				"instructors": ["Arya Kumar"]
 			}
 		],
+		"IC": "Arya Kumar",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Rajesh Matai",
 		"courseNo": 2429,
 		"courseCode": "MBA G541",
 		"courseName": "OPERATIONS STRATEGY",
@@ -10007,11 +10006,11 @@
 				"instructors": ["Rajesh Matai"]
 			}
 		],
+		"IC": "Rajesh Matai",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Rajesh Matai",
 		"courseNo": 2350,
 		"courseCode": "MBA G545",
 		"courseName": "MANAGEMENT SCIENCE",
@@ -10029,11 +10028,11 @@
 				"instructors": ["Rajesh Matai"]
 			}
 		],
+		"IC": "Rajesh Matai",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Mohammad Faraz Naim",
 		"courseNo": 1910,
 		"courseCode": "MBA G556",
 		"courseName": "PERFORMANCE MANAGEMENT",
@@ -10051,11 +10050,11 @@
 				"instructors": ["Mohammad Faraz Naim"]
 			}
 		],
+		"IC": "Mohammad Faraz Naim",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Praveen Goyal",
 		"courseNo": 2356,
 		"courseCode": "MBA G557",
 		"courseName": "ECONOMIC ENVIRONMENT OF BUSINESS",
@@ -10073,11 +10072,11 @@
 				"instructors": ["Praveen Goyal"]
 			}
 		],
+		"IC": "Praveen Goyal",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Satyendra Kr Sharma",
 		"courseNo": 2357,
 		"courseCode": "MBA G558",
 		"courseName": "OPERATIONS AND SUPPLY CHAIN MA",
@@ -10088,18 +10087,18 @@
 				"section": "L1",
 				"dhString": "M W F 4",
 				"timings": [
-					{ "day": "Monday", "dayCode": "M", "time": "11:00 - 1:50" },
-					{ "day": "Wednesday", "dayCode": "W", "time": "11:00 - 1:50" },
-					{ "day": "Friday", "dayCode": "F", "time": "11:00 - 1:50" }
+					{ "day": "Monday", "dayCode": "M", "time": "11:00 - 11:50" },
+					{ "day": "Wednesday", "dayCode": "W", "time": "11:00 - 11:50" },
+					{ "day": "Friday", "dayCode": "F", "time": "11:00 - 11:50" }
 				],
 				"instructors": ["Satyendra Kr Sharma"]
 			}
 		],
+		"IC": "Satyendra Kr Sharma",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Saurabh Chadha",
 		"courseNo": 2358,
 		"courseCode": "MBA G559",
 		"courseName": "CORPORATE FINANCE",
@@ -10117,11 +10116,11 @@
 				"instructors": ["Saurabh Chadha"]
 			}
 		],
+		"IC": "Saurabh Chadha",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Achint Nigam",
 		"courseNo": 2359,
 		"courseCode": "MBA G560",
 		"courseName": "MARKETING RESEARCH & METRICS",
@@ -10139,11 +10138,11 @@
 				"instructors": ["Achint Nigam"]
 			}
 		],
+		"IC": "Achint Nigam",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Nirankush Dutta",
 		"courseNo": 2360,
 		"courseCode": "MBA G561",
 		"courseName": "BUSINESS ANALYTICS",
@@ -10154,18 +10153,18 @@
 				"section": "L1",
 				"dhString": "T Th 4 W 10",
 				"timings": [
-					{ "day": "Tuesday", "dayCode": "T", "time": "11:00 - 1:50" },
-					{ "day": "Thursday", "dayCode": "Th", "time": "11:00 - 1:50" },
+					{ "day": "Tuesday", "dayCode": "T", "time": "11:00 - 11:50" },
+					{ "day": "Thursday", "dayCode": "Th", "time": "11:00 - 11:50" },
 					{ "day": "Wednesday", "dayCode": "W", "time": "17:00 - 17:50" }
 				],
 				"instructors": ["Nirankush Dutta", "Udayan Chanda"]
 			}
 		],
+		"IC": "Nirankush Dutta",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Anil Kumar Bhat",
 		"courseNo": 2361,
 		"courseCode": "MBA G564",
 		"courseName": "DECISION MAKING",
@@ -10183,11 +10182,11 @@
 				"instructors": ["Anil Kumar Bhat", "Shaili Singh"]
 			}
 		],
+		"IC": "Anil Kumar Bhat",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Udayan Chanda",
 		"courseNo": 2243,
 		"courseCode": "MBA G575",
 		"courseName": "FINANCIAL ENGINEERING",
@@ -10205,11 +10204,11 @@
 				"instructors": ["Udayan Chanda"]
 			}
 		],
+		"IC": "Udayan Chanda",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Achint Nigam",
 		"courseNo": 2328,
 		"courseCode": "MBA G576",
 		"courseName": "DIGITAL MARKETING",
@@ -10227,11 +10226,11 @@
 				"instructors": ["Achint Nigam"]
 			}
 		],
+		"IC": "Achint Nigam",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Anil Kumar Bhat",
 		"courseNo": 2247,
 		"courseCode": "MBA G586",
 		"courseName": "PRODUCT AND BRAND MGMT",
@@ -10249,11 +10248,11 @@
 				"instructors": ["Anil Kumar Bhat"]
 			}
 		],
+		"IC": "Anil Kumar Bhat",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Girish Kant Garg",
 		"courseNo": 2379,
 		"courseCode": "ME F112",
 		"courseName": "WORKSHOP PRACTICE",
@@ -10319,10 +10318,10 @@
 				"instructors": ["Tba By Me Dept."]
 			}
 		],
+		"IC": "Girish Kant Garg",
 		"tutorials": []
 	},
 	{
-		"IC": "Mani Sankar Dasgupta",
 		"courseNo": 2397,
 		"courseCode": "ME F218",
 		"courseName": "ADVANCED MECHANICS OF SOLIDS",
@@ -10365,10 +10364,10 @@
 				"instructors": ["Venkatesh Kadbur Prabhakar Rao"]
 			}
 		],
+		"IC": "Mani Sankar Dasgupta",
 		"labs": []
 	},
 	{
-		"IC": "Tufan Chandra Bera",
 		"courseNo": 2398,
 		"courseCode": "ME F219",
 		"courseName": "MANUFACTURING PROCESSES",
@@ -10445,10 +10444,10 @@
 				],
 				"instructors": ["Pawar Shrikant Shankarrao (RS)"]
 			}
-		]
+		],
+		"IC": "Tufan Chandra Bera"
 	},
 	{
-		"IC": "P Srinivasan",
 		"courseNo": 2430,
 		"courseCode": "ME F220",
 		"courseName": "HEAT TRANSFER",
@@ -10525,10 +10524,10 @@
 				],
 				"instructors": ["Devendra Kumar Vishwakarma (RS)"]
 			}
-		]
+		],
+		"IC": "P Srinivasan"
 	},
 	{
-		"IC": "J S Rathore",
 		"courseNo": 2399,
 		"courseCode": "ME F221",
 		"courseName": "MECHANISMS AND MACHINES",
@@ -10539,8 +10538,8 @@
 				"section": "L1",
 				"dhString": "T Th 4 W 10",
 				"timings": [
-					{ "day": "Tuesday", "dayCode": "T", "time": "11:00 - 1:50" },
-					{ "day": "Thursday", "dayCode": "Th", "time": "11:00 - 1:50" },
+					{ "day": "Tuesday", "dayCode": "T", "time": "11:00 - 11:50" },
+					{ "day": "Thursday", "dayCode": "Th", "time": "11:00 - 11:50" },
 					{ "day": "Wednesday", "dayCode": "W", "time": "17:00 - 17:50" }
 				],
 				"instructors": ["J S Rathore"]
@@ -10580,10 +10579,10 @@
 				"instructors": ["Venkatesh Kadbur Prabhakar Rao"]
 			}
 		],
+		"IC": "J S Rathore",
 		"labs": []
 	},
 	{
-		"IC": "Mani Sankar Dasgupta",
 		"courseNo": 1663,
 		"courseCode": "ME F266",
 		"courseName": "STUDY PROJECT",
@@ -10597,11 +10596,11 @@
 				"instructors": ["Mani Sankar Dasgupta"]
 			}
 		],
+		"IC": "Mani Sankar Dasgupta",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Mani Sankar Dasgupta",
 		"courseNo": 2286,
 		"courseCode": "ME F340",
 		"courseName": "INTRO TO SPORT ENGINEER",
@@ -10619,11 +10618,11 @@
 				"instructors": ["Mani Sankar Dasgupta"]
 			}
 		],
+		"IC": "Mani Sankar Dasgupta",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Manoj Kumar Soni",
 		"courseNo": 1270,
 		"courseCode": "ME F341",
 		"courseName": "PRIMEMOVERS & FLUID MACH",
@@ -10674,10 +10673,10 @@
 				"instructors": ["Vishwjeet Choudhary (RS)"]
 			}
 		],
+		"IC": "Manoj Kumar Soni",
 		"tutorials": []
 	},
 	{
-		"IC": "Murali P",
 		"courseNo": 1272,
 		"courseCode": "ME F342",
 		"courseName": "COMPUTER AIDED DESIGN",
@@ -10688,9 +10687,9 @@
 				"section": "L1",
 				"dhString": "M W F 4",
 				"timings": [
-					{ "day": "Monday", "dayCode": "M", "time": "11:00 - 1:50" },
-					{ "day": "Wednesday", "dayCode": "W", "time": "11:00 - 1:50" },
-					{ "day": "Friday", "dayCode": "F", "time": "11:00 - 1:50" }
+					{ "day": "Monday", "dayCode": "M", "time": "11:00 - 11:50" },
+					{ "day": "Wednesday", "dayCode": "W", "time": "11:00 - 11:50" },
+					{ "day": "Friday", "dayCode": "F", "time": "11:00 - 11:50" }
 				],
 				"instructors": ["Murali P"]
 			},
@@ -10739,10 +10738,10 @@
 				"instructors": ["Deshmankar Atharv Pramod (RS)"]
 			}
 		],
+		"IC": "Murali P",
 		"labs": []
 	},
 	{
-		"IC": "Arun Kumar Jalan",
 		"courseNo": 1271,
 		"courseCode": "ME F343",
 		"courseName": "MECHANICAL VIBRATIONS",
@@ -10786,10 +10785,10 @@
 				"instructors": ["Tba_me"]
 			}
 		],
+		"IC": "Arun Kumar Jalan",
 		"labs": []
 	},
 	{
-		"IC": "Rajesh Prasad Mishra",
 		"courseNo": 1273,
 		"courseCode": "ME F344",
 		"courseName": "ENGINEERING OPTIMIZATION",
@@ -10800,8 +10799,8 @@
 				"section": "L1",
 				"dhString": "M W 4",
 				"timings": [
-					{ "day": "Monday", "dayCode": "M", "time": "11:00 - 1:50" },
-					{ "day": "Wednesday", "dayCode": "W", "time": "11:00 - 1:50" }
+					{ "day": "Monday", "dayCode": "M", "time": "11:00 - 11:50" },
+					{ "day": "Wednesday", "dayCode": "W", "time": "11:00 - 11:50" }
 				],
 				"instructors": ["Rajesh Prasad Mishra"]
 			},
@@ -10849,10 +10848,10 @@
 				"instructors": ["S U Belgamwar"]
 			}
 		],
+		"IC": "Rajesh Prasad Mishra",
 		"labs": []
 	},
 	{
-		"IC": "Mani Sankar Dasgupta",
 		"courseNo": 1680,
 		"courseCode": "ME F366",
 		"courseName": "LABORATORY PROJECT",
@@ -10866,11 +10865,11 @@
 				"instructors": ["Mani Sankar Dasgupta"]
 			}
 		],
+		"IC": "Mani Sankar Dasgupta",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Mani Sankar Dasgupta",
 		"courseNo": 1748,
 		"courseCode": "ME F367",
 		"courseName": "LABORATORY PROJECT",
@@ -10884,11 +10883,11 @@
 				"instructors": ["Mani Sankar Dasgupta"]
 			}
 		],
+		"IC": "Mani Sankar Dasgupta",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Mani Sankar Dasgupta",
 		"courseNo": 1697,
 		"courseCode": "ME F376",
 		"courseName": "DESIGN PROJECT",
@@ -10902,11 +10901,11 @@
 				"instructors": ["Mani Sankar Dasgupta"]
 			}
 		],
+		"IC": "Mani Sankar Dasgupta",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Mani Sankar Dasgupta",
 		"courseNo": 1764,
 		"courseCode": "ME F377",
 		"courseName": "DESIGN PROJECT",
@@ -10920,11 +10919,11 @@
 				"instructors": ["Mani Sankar Dasgupta"]
 			}
 		],
+		"IC": "Mani Sankar Dasgupta",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "P Srinivasan",
 		"courseNo": 1281,
 		"courseCode": "ME F420",
 		"courseName": "POWER PLANT ENGINEERING",
@@ -10952,10 +10951,10 @@
 				"instructors": ["Vivek Tiwari (RS)"]
 			}
 		],
+		"IC": "P Srinivasan",
 		"labs": []
 	},
 	{
-		"IC": "Aneesh A M",
 		"courseNo": 1810,
 		"courseCode": "ME F423",
 		"courseName": "MICRO FLUIDICS & ITS APP",
@@ -10973,11 +10972,11 @@
 				"instructors": ["Aneesh A M"]
 			}
 		],
+		"IC": "Aneesh A M",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Radha Raman Mishra",
 		"courseNo": 2310,
 		"courseCode": "ME F425",
 		"courseName": "ADDITIVE MANUFACTURING",
@@ -10995,11 +10994,11 @@
 				"instructors": ["Radha Raman Mishra"]
 			}
 		],
+		"IC": "Radha Raman Mishra",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Manoj Kumar Soni",
 		"courseNo": 1778,
 		"courseCode": "ME F433",
 		"courseName": "SOLAR THERMAL PROCESS EN",
@@ -11017,11 +11016,11 @@
 				"instructors": ["Manoj Kumar Soni"]
 			}
 		],
+		"IC": "Manoj Kumar Soni",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Saket Verma",
 		"courseNo": 1283,
 		"courseCode": "ME F441",
 		"courseName": "AUTOMOTIVE VEHICLES",
@@ -11039,11 +11038,11 @@
 				"instructors": ["Saket Verma"]
 			}
 		],
+		"IC": "Saket Verma",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Faizan Mohammad Rashid",
 		"courseNo": 1286,
 		"courseCode": "ME F452",
 		"courseName": "COMPOSITE MATERIAL & DES",
@@ -11054,18 +11053,18 @@
 				"section": "L1",
 				"dhString": "T Th 4 W 10",
 				"timings": [
-					{ "day": "Tuesday", "dayCode": "T", "time": "11:00 - 1:50" },
-					{ "day": "Thursday", "dayCode": "Th", "time": "11:00 - 1:50" },
+					{ "day": "Tuesday", "dayCode": "T", "time": "11:00 - 11:50" },
+					{ "day": "Thursday", "dayCode": "Th", "time": "11:00 - 11:50" },
 					{ "day": "Wednesday", "dayCode": "W", "time": "17:00 - 17:50" }
 				],
 				"instructors": ["Faizan Mohammad Rashid"]
 			}
 		],
+		"IC": "Faizan Mohammad Rashid",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Suvanjan Bhattacharyya",
 		"courseNo": 1287,
 		"courseCode": "ME F461",
 		"courseName": "REFRIGERATION & AIRCOND",
@@ -11076,18 +11075,18 @@
 				"section": "L1",
 				"dhString": "T Th 4 W 10",
 				"timings": [
-					{ "day": "Tuesday", "dayCode": "T", "time": "11:00 - 1:50" },
-					{ "day": "Thursday", "dayCode": "Th", "time": "11:00 - 1:50" },
+					{ "day": "Tuesday", "dayCode": "T", "time": "11:00 - 11:50" },
+					{ "day": "Thursday", "dayCode": "Th", "time": "11:00 - 11:50" },
 					{ "day": "Wednesday", "dayCode": "W", "time": "17:00 - 17:50" }
 				],
 				"instructors": ["Suvanjan Bhattacharyya"]
 			}
 		],
+		"IC": "Suvanjan Bhattacharyya",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Tribeni Roy",
 		"courseNo": 1288,
 		"courseCode": "ME F472",
 		"courseName": "PRECISION ENGINEERING",
@@ -11098,18 +11097,18 @@
 				"section": "L1",
 				"dhString": "T Th 4 W 10",
 				"timings": [
-					{ "day": "Tuesday", "dayCode": "T", "time": "11:00 - 1:50" },
-					{ "day": "Thursday", "dayCode": "Th", "time": "11:00 - 1:50" },
+					{ "day": "Tuesday", "dayCode": "T", "time": "11:00 - 11:50" },
+					{ "day": "Thursday", "dayCode": "Th", "time": "11:00 - 11:50" },
 					{ "day": "Wednesday", "dayCode": "W", "time": "17:00 - 17:50" }
 				],
 				"instructors": ["Tribeni Roy"]
 			}
 		],
+		"IC": "Tribeni Roy",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Shyam Sunder",
 		"courseNo": 1869,
 		"courseCode": "ME F485",
 		"courseName": "NUM FL FLOW & HEAT TRANS",
@@ -11127,11 +11126,11 @@
 				"instructors": ["Shyam Sunder"]
 			}
 		],
+		"IC": "Shyam Sunder",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Mani Sankar Dasgupta",
 		"courseNo": 1290,
 		"courseCode": "ME F491",
 		"courseName": "SPECIAL PROJECTS",
@@ -11145,11 +11144,11 @@
 				"instructors": ["Mani Sankar Dasgupta"]
 			}
 		],
+		"IC": "Mani Sankar Dasgupta",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Aakash Chand Rai",
 		"courseNo": 2059,
 		"courseCode": "ME G513",
 		"courseName": "HEATING & COOL OF BUILD",
@@ -11167,11 +11166,11 @@
 				"instructors": ["Aakash Chand Rai"]
 			}
 		],
+		"IC": "Aakash Chand Rai",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Shyam Sunder",
 		"courseNo": 410,
 		"courseCode": "ME G515",
 		"courseName": "COMPUT FLUID DYNAMICS",
@@ -11189,11 +11188,11 @@
 				"instructors": ["Shyam Sunder"]
 			}
 		],
+		"IC": "Shyam Sunder",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Ranganayukulu C",
 		"courseNo": 2118,
 		"courseCode": "ME G534",
 		"courseName": "CONVECT HEAT & MASS TRAN",
@@ -11211,11 +11210,11 @@
 				"instructors": ["Ranganayukulu C"]
 			}
 		],
+		"IC": "Ranganayukulu C",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Amol M Marathe",
 		"courseNo": 266,
 		"courseCode": "ME G611",
 		"courseName": "COMP AIDED ANAL & DESIGN",
@@ -11233,11 +11232,11 @@
 				"instructors": ["Amol M Marathe"]
 			}
 		],
+		"IC": "Amol M Marathe",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Anu Gupta",
 		"courseNo": 224,
 		"courseCode": "MEL G632",
 		"courseName": "ANALOG IC DESIGN",
@@ -11248,18 +11247,18 @@
 				"section": "L1",
 				"dhString": "M W F 4",
 				"timings": [
-					{ "day": "Monday", "dayCode": "M", "time": "11:00 - 1:50" },
-					{ "day": "Wednesday", "dayCode": "W", "time": "11:00 - 1:50" },
-					{ "day": "Friday", "dayCode": "F", "time": "11:00 - 1:50" }
+					{ "day": "Monday", "dayCode": "M", "time": "11:00 - 11:50" },
+					{ "day": "Wednesday", "dayCode": "W", "time": "11:00 - 11:50" },
+					{ "day": "Friday", "dayCode": "F", "time": "11:00 - 11:50" }
 				],
 				"instructors": ["Anu Gupta"]
 			}
 		],
+		"IC": "Anu Gupta",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Abhijit Rameshwar Asati",
 		"courseNo": 484,
 		"courseCode": "MEL G641",
 		"courseName": "CAD FOR IC DESIGN",
@@ -11277,11 +11276,11 @@
 				"instructors": ["Abhijit Rameshwar Asati"]
 			}
 		],
+		"IC": "Abhijit Rameshwar Asati",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "S Gurunarayanan",
 		"courseNo": 817,
 		"courseCode": "MEL G642",
 		"courseName": "VLSI ARCHITECTURE",
@@ -11309,10 +11308,10 @@
 				"instructors": ["Abheek Gupta (RS)", "Kanika (RS)"]
 			}
 		],
+		"IC": "S Gurunarayanan",
 		"tutorials": []
 	},
 	{
-		"IC": "Abhijeet Keshaorao Digalwar",
 		"courseNo": 2412,
 		"courseCode": "MF F219",
 		"courseName": "OPERATIONS MANAGEMENT",
@@ -11340,10 +11339,10 @@
 				"instructors": ["Abhijeet Keshaorao Digalwar", "Santosh Kumar Saraswat"]
 			}
 		],
+		"IC": "Abhijeet Keshaorao Digalwar",
 		"labs": []
 	},
 	{
-		"IC": "Tribeni Roy",
 		"courseNo": 2413,
 		"courseCode": "MF F220",
 		"courseName": "METROLOGY AND QUALITY ASSU.",
@@ -11380,10 +11379,10 @@
 				],
 				"instructors": ["Girish Kant Garg", "Ayush Owhal"]
 			}
-		]
+		],
+		"IC": "Tribeni Roy"
 	},
 	{
-		"IC": "J S Rathore",
 		"courseNo": 2400,
 		"courseCode": "MF F221",
 		"courseName": "MECHANISMS AND MACHINES",
@@ -11394,8 +11393,8 @@
 				"section": "L1",
 				"dhString": "T Th 4 W 10",
 				"timings": [
-					{ "day": "Tuesday", "dayCode": "T", "time": "11:00 - 1:50" },
-					{ "day": "Thursday", "dayCode": "Th", "time": "11:00 - 1:50" },
+					{ "day": "Tuesday", "dayCode": "T", "time": "11:00 - 11:50" },
+					{ "day": "Thursday", "dayCode": "Th", "time": "11:00 - 11:50" },
 					{ "day": "Wednesday", "dayCode": "W", "time": "17:00 - 17:50" }
 				],
 				"instructors": ["J S Rathore"]
@@ -11435,10 +11434,10 @@
 				"instructors": ["Venkatesh Kadbur Prabhakar Rao"]
 			}
 		],
+		"IC": "J S Rathore",
 		"labs": []
 	},
 	{
-		"IC": "Radha Raman Mishra",
 		"courseNo": 2414,
 		"courseCode": "MF F222",
 		"courseName": "CASTING FORMING AND WELDING",
@@ -11475,10 +11474,10 @@
 				],
 				"instructors": ["Pradnya Chabbi(rs)"]
 			}
-		]
+		],
+		"IC": "Radha Raman Mishra"
 	},
 	{
-		"IC": "Mani Sankar Dasgupta",
 		"courseNo": 1664,
 		"courseCode": "MF F266",
 		"courseName": "STUDY PROJECT",
@@ -11492,11 +11491,11 @@
 				"instructors": ["Mani Sankar Dasgupta"]
 			}
 		],
+		"IC": "Mani Sankar Dasgupta",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Sharad Shrivastava",
 		"courseNo": 1405,
 		"courseCode": "MF F341",
 		"courseName": "DESIGN OF MACHINE TOOLS",
@@ -11524,6 +11523,7 @@
 				"instructors": ["Sharad Shrivastava"]
 			}
 		],
+		"IC": "Sharad Shrivastava",
 		"labs": []
 	},
 	{
@@ -11537,9 +11537,9 @@
 				"section": "L1",
 				"dhString": "M W F 4",
 				"timings": [
-					{ "day": "Monday", "dayCode": "M", "time": "11:00 - 1:50" },
-					{ "day": "Wednesday", "dayCode": "W", "time": "11:00 - 1:50" },
-					{ "day": "Friday", "dayCode": "F", "time": "11:00 - 1:50" }
+					{ "day": "Monday", "dayCode": "M", "time": "11:00 - 11:50" },
+					{ "day": "Wednesday", "dayCode": "W", "time": "11:00 - 11:50" },
+					{ "day": "Friday", "dayCode": "F", "time": "11:00 - 11:50" }
 				],
 				"instructors": ["Murali P"]
 			},
@@ -11591,7 +11591,6 @@
 		"labs": []
 	},
 	{
-		"IC": "Tufan Chandra Bera",
 		"courseNo": 1406,
 		"courseCode": "MF F343",
 		"courseName": "CASTING & WELDING",
@@ -11627,10 +11626,10 @@
 				"instructors": ["Amresh Kumar (RS)"]
 			}
 		],
+		"IC": "Tufan Chandra Bera",
 		"tutorials": []
 	},
 	{
-		"IC": "Rajesh Prasad Mishra",
 		"courseNo": 1408,
 		"courseCode": "MF F344",
 		"courseName": "ENGINEERING OPTIMIZATION",
@@ -11641,8 +11640,8 @@
 				"section": "L1",
 				"dhString": "M W 4",
 				"timings": [
-					{ "day": "Monday", "dayCode": "M", "time": "11:00 - 1:50" },
-					{ "day": "Wednesday", "dayCode": "W", "time": "11:00 - 1:50" }
+					{ "day": "Monday", "dayCode": "M", "time": "11:00 - 11:50" },
+					{ "day": "Wednesday", "dayCode": "W", "time": "11:00 - 11:50" }
 				],
 				"instructors": ["Rajesh Prasad Mishra"]
 			},
@@ -11690,10 +11689,10 @@
 				"instructors": ["S U Belgamwar"]
 			}
 		],
+		"IC": "Rajesh Prasad Mishra",
 		"labs": []
 	},
 	{
-		"IC": "Mani Sankar Dasgupta",
 		"courseNo": 1681,
 		"courseCode": "MF F366",
 		"courseName": "LABORATORY PROJECT",
@@ -11707,11 +11706,11 @@
 				"instructors": ["Mani Sankar Dasgupta"]
 			}
 		],
+		"IC": "Mani Sankar Dasgupta",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Mani Sankar Dasgupta",
 		"courseNo": 1749,
 		"courseCode": "MF F367",
 		"courseName": "LABORATORY PROJECT",
@@ -11725,11 +11724,11 @@
 				"instructors": ["Mani Sankar Dasgupta"]
 			}
 		],
+		"IC": "Mani Sankar Dasgupta",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Mani Sankar Dasgupta",
 		"courseNo": 1698,
 		"courseCode": "MF F376",
 		"courseName": "DESIGN PROJECT",
@@ -11743,11 +11742,11 @@
 				"instructors": ["Mani Sankar Dasgupta"]
 			}
 		],
+		"IC": "Mani Sankar Dasgupta",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Mani Sankar Dasgupta",
 		"courseNo": 1765,
 		"courseCode": "MF F377",
 		"courseName": "DESIGN PROJECT",
@@ -11761,11 +11760,11 @@
 				"instructors": ["Mani Sankar Dasgupta"]
 			}
 		],
+		"IC": "Mani Sankar Dasgupta",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Abhijeet Keshaorao Digalwar",
 		"courseNo": 1417,
 		"courseCode": "MF F418",
 		"courseName": "LEAN MANUFACTURING",
@@ -11783,11 +11782,11 @@
 				"instructors": ["Abhijeet Keshaorao Digalwar"]
 			}
 		],
+		"IC": "Abhijeet Keshaorao Digalwar",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Srikanta Routroy",
 		"courseNo": 1418,
 		"courseCode": "MF F421",
 		"courseName": "SUPPLY CHAIN MANAGEMENT",
@@ -11805,11 +11804,11 @@
 				"instructors": ["Srikanta Routroy", "Abdulla Sultan"]
 			}
 		],
+		"IC": "Srikanta Routroy",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Kuldip Singh Sangwan",
 		"courseNo": 1884,
 		"courseCode": "MF F485",
 		"courseName": "SUSTAINABLE MANUFACTURING",
@@ -11827,11 +11826,11 @@
 				"instructors": ["Kuldip Singh Sangwan"]
 			}
 		],
+		"IC": "Kuldip Singh Sangwan",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Mani Sankar Dasgupta",
 		"courseNo": 1422,
 		"courseCode": "MF F491",
 		"courseName": "SPECIAL PROJECTS",
@@ -11845,11 +11844,11 @@
 				"instructors": ["Mani Sankar Dasgupta"]
 			}
 		],
+		"IC": "Mani Sankar Dasgupta",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Jyoti",
 		"courseNo": 1024,
 		"courseCode": "MGTS F211",
 		"courseName": "PRINCIPLES OF MANAGEMENT",
@@ -11911,10 +11910,10 @@
 				"instructors": ["Neetu Yadav"]
 			}
 		],
+		"IC": "Jyoti",
 		"labs": []
 	},
 	{
-		"IC": "Prateek Kala",
 		"courseNo": 369,
 		"courseCode": "MSE G511",
 		"courseName": "MECHATRONICS",
@@ -11925,13 +11924,14 @@
 				"section": "L1",
 				"dhString": "T Th 4 W 10",
 				"timings": [
-					{ "day": "Tuesday", "dayCode": "T", "time": "11:00 - 1:50" },
-					{ "day": "Thursday", "dayCode": "Th", "time": "11:00 - 1:50" },
+					{ "day": "Tuesday", "dayCode": "T", "time": "11:00 - 11:50" },
+					{ "day": "Thursday", "dayCode": "Th", "time": "11:00 - 11:50" },
 					{ "day": "Wednesday", "dayCode": "W", "time": "17:00 - 17:50" }
 				],
 				"instructors": ["Prateek Kala"]
 			}
 		],
+		"IC": "Prateek Kala",
 		"tutorials": [],
 		"labs": []
 	},
@@ -11957,7 +11957,6 @@
 		"labs": []
 	},
 	{
-		"IC": "Anil Rai",
 		"courseNo": 667,
 		"courseCode": "MUSIC N113T",
 		"courseName": "INDIA CLASS MUSIC(INS) I",
@@ -11971,11 +11970,11 @@
 				"instructors": ["Anil Rai"]
 			}
 		],
+		"IC": "Anil Rai",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Anil Rai",
 		"courseNo": 673,
 		"courseCode": "MUSIC N114T",
 		"courseName": "INDIA CLASS MUSIC(INS)II",
@@ -11989,11 +11988,11 @@
 				"instructors": ["Anil Rai"]
 			}
 		],
+		"IC": "Anil Rai",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Gautam Singhvi",
 		"courseNo": 1089,
 		"courseCode": "PHA F212",
 		"courseName": "DISPENSING PHARMACY",
@@ -12004,8 +12003,8 @@
 				"section": "L1",
 				"dhString": "M W 4",
 				"timings": [
-					{ "day": "Monday", "dayCode": "M", "time": "11:00 - 1:50" },
-					{ "day": "Wednesday", "dayCode": "W", "time": "11:00 - 1:50" }
+					{ "day": "Monday", "dayCode": "M", "time": "11:00 - 11:50" },
+					{ "day": "Wednesday", "dayCode": "W", "time": "11:00 - 11:50" }
 				],
 				"instructors": ["Tba_pha1"]
 			},
@@ -12013,8 +12012,8 @@
 				"section": "L2",
 				"dhString": "T Th 4",
 				"timings": [
-					{ "day": "Tuesday", "dayCode": "T", "time": "11:00 - 1:50" },
-					{ "day": "Thursday", "dayCode": "Th", "time": "11:00 - 1:50" }
+					{ "day": "Tuesday", "dayCode": "T", "time": "11:00 - 11:50" },
+					{ "day": "Thursday", "dayCode": "Th", "time": "11:00 - 11:50" }
 				],
 				"instructors": ["Gautam Singhvi"]
 			}
@@ -12024,7 +12023,7 @@
 				"section": "T1",
 				"dhString": "F 4",
 				"timings": [
-					{ "day": "Friday", "dayCode": "F", "time": "11:00 - 1:50" }
+					{ "day": "Friday", "dayCode": "F", "time": "11:00 - 11:50" }
 				],
 				"instructors": ["Tba_pha1"]
 			},
@@ -12067,10 +12066,10 @@
 					"Choudhari Manisha Vinayak (RS)"
 				]
 			}
-		]
+		],
+		"IC": "Gautam Singhvi"
 	},
 	{
-		"IC": "Aniruddha Roy",
 		"courseNo": 1088,
 		"courseCode": "PHA F213",
 		"courseName": "MICROBIOLOGY",
@@ -12125,10 +12124,10 @@
 					"Maravajjala Kavya Sree (RS)"
 				]
 			}
-		]
+		],
+		"IC": "Aniruddha Roy"
 	},
 	{
-		"IC": "Rajeev Taliyan",
 		"courseNo": 1087,
 		"courseCode": "PHA F214",
 		"courseName": "ANATOMY PHYSIO & HYGIENE",
@@ -12181,10 +12180,10 @@
 					"Shreya Das (RS)"
 				]
 			}
-		]
+		],
+		"IC": "Rajeev Taliyan"
 	},
 	{
-		"IC": "Aniruddha Roy",
 		"courseNo": 1863,
 		"courseCode": "PHA F215",
 		"courseName": "INTR TO MOL BIO & IMMUNO",
@@ -12211,10 +12210,10 @@
 				"instructors": ["Aniruddha Roy"]
 			}
 		],
+		"IC": "Aniruddha Roy",
 		"labs": []
 	},
 	{
-		"IC": "Sandeep Sundriyal",
 		"courseNo": 1291,
 		"courseCode": "PHA F241",
 		"courseName": "PHARMACEUTICAL CHEMISTRY",
@@ -12268,10 +12267,10 @@
 					"Sharyu Kesharwani (RS)"
 				]
 			}
-		]
+		],
+		"IC": "Sandeep Sundriyal"
 	},
 	{
-		"IC": "Anupama Mittal",
 		"courseNo": 1294,
 		"courseCode": "PHA F244",
 		"courseName": "PHYSICAL PHARMACY",
@@ -12325,10 +12324,10 @@
 					"Moumita Basak (RS)"
 				]
 			}
-		]
+		],
+		"IC": "Anupama Mittal"
 	},
 	{
-		"IC": "H R Jadhav",
 		"courseNo": 1665,
 		"courseCode": "PHA F266",
 		"courseName": "STUDY PROJECT",
@@ -12342,11 +12341,11 @@
 				"instructors": ["H R Jadhav"]
 			}
 		],
+		"IC": "H R Jadhav",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "G Anil Bhanudas",
 		"courseNo": 1296,
 		"courseCode": "PHA F341",
 		"courseName": "PHARMACOLOGY II",
@@ -12357,8 +12356,8 @@
 				"section": "L1",
 				"dhString": "M W 4",
 				"timings": [
-					{ "day": "Monday", "dayCode": "M", "time": "11:00 - 1:50" },
-					{ "day": "Wednesday", "dayCode": "W", "time": "11:00 - 1:50" }
+					{ "day": "Monday", "dayCode": "M", "time": "11:00 - 11:50" },
+					{ "day": "Wednesday", "dayCode": "W", "time": "11:00 - 11:50" }
 				],
 				"instructors": ["G Anil Bhanudas"]
 			}
@@ -12368,7 +12367,7 @@
 				"section": "T1",
 				"dhString": "F 4",
 				"timings": [
-					{ "day": "Friday", "dayCode": "F", "time": "11:00 - 1:50" }
+					{ "day": "Friday", "dayCode": "F", "time": "11:00 - 11:50" }
 				],
 				"instructors": ["G Anil Bhanudas"]
 			}
@@ -12387,10 +12386,10 @@
 					"Shelke Vishwadeep Madhukar(rs)"
 				]
 			}
-		]
+		],
+		"IC": "G Anil Bhanudas"
 	},
 	{
-		"IC": "R Mahesh",
 		"courseNo": 1298,
 		"courseCode": "PHA F342",
 		"courseName": "MEDICINAL CHEMISTRY II",
@@ -12446,10 +12445,10 @@
 					"Shivam Kumar Vyas (RS)"
 				]
 			}
-		]
+		],
+		"IC": "R Mahesh"
 	},
 	{
-		"IC": "Dixit Vaibhav Anil",
 		"courseNo": 1301,
 		"courseCode": "PHA F343",
 		"courseName": "FORENSIC PHARMACY",
@@ -12476,10 +12475,10 @@
 				"instructors": ["Dixit Vaibhav Anil"]
 			}
 		],
+		"IC": "Dixit Vaibhav Anil",
 		"labs": []
 	},
 	{
-		"IC": "Paul Atish Tulshiram",
 		"courseNo": 1302,
 		"courseCode": "PHA F344",
 		"courseName": "NATURAL DRUGS",
@@ -12533,10 +12532,10 @@
 					"Reena (RS)"
 				]
 			}
-		]
+		],
+		"IC": "Paul Atish Tulshiram"
 	},
 	{
-		"IC": "H R Jadhav",
 		"courseNo": 1682,
 		"courseCode": "PHA F366",
 		"courseName": "LABORATORY PROJECT",
@@ -12550,11 +12549,11 @@
 				"instructors": ["H R Jadhav"]
 			}
 		],
+		"IC": "H R Jadhav",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "H R Jadhav",
 		"courseNo": 1750,
 		"courseCode": "PHA F367",
 		"courseName": "LABORATORY PROJECT",
@@ -12568,11 +12567,11 @@
 				"instructors": ["H R Jadhav"]
 			}
 		],
+		"IC": "H R Jadhav",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "H R Jadhav",
 		"courseNo": 1699,
 		"courseCode": "PHA F376",
 		"courseName": "DESIGN PROJECT",
@@ -12586,11 +12585,11 @@
 				"instructors": ["H R Jadhav"]
 			}
 		],
+		"IC": "H R Jadhav",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "H R Jadhav",
 		"courseNo": 1766,
 		"courseCode": "PHA F377",
 		"courseName": "DESIGN PROJECT",
@@ -12604,11 +12603,11 @@
 				"instructors": ["H R Jadhav"]
 			}
 		],
+		"IC": "H R Jadhav",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Gautam Singhvi",
 		"courseNo": 1304,
 		"courseCode": "PHA F414",
 		"courseName": "BIOPHARMACEUTICS",
@@ -12626,11 +12625,11 @@
 				"instructors": ["Gautam Singhvi"]
 			}
 		],
+		"IC": "Gautam Singhvi",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Dixit Vaibhav Anil",
 		"courseNo": 1306,
 		"courseCode": "PHA F416",
 		"courseName": "CHEM OF SYNTHETIC DRUGS",
@@ -12648,11 +12647,11 @@
 				"instructors": ["Dixit Vaibhav Anil"]
 			}
 		],
+		"IC": "Dixit Vaibhav Anil",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "M M Pandey",
 		"courseNo": 1307,
 		"courseCode": "PHA F417",
 		"courseName": "PHARMACOECONOMICS",
@@ -12670,11 +12669,11 @@
 				"instructors": ["M M Pandey"]
 			}
 		],
+		"IC": "M M Pandey",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "M M Pandey",
 		"courseNo": 1308,
 		"courseCode": "PHA F422",
 		"courseName": "COSMETICS SCIENCE",
@@ -12685,8 +12684,8 @@
 				"section": "L1",
 				"dhString": "T Th 4 W 10",
 				"timings": [
-					{ "day": "Tuesday", "dayCode": "T", "time": "11:00 - 1:50" },
-					{ "day": "Thursday", "dayCode": "Th", "time": "11:00 - 1:50" },
+					{ "day": "Tuesday", "dayCode": "T", "time": "11:00 - 11:50" },
+					{ "day": "Thursday", "dayCode": "Th", "time": "11:00 - 11:50" },
 					{ "day": "Wednesday", "dayCode": "W", "time": "17:00 - 17:50" }
 				],
 				"instructors": ["M M Pandey"]
@@ -12706,10 +12705,10 @@
 				]
 			}
 		],
+		"IC": "M M Pandey",
 		"tutorials": []
 	},
 	{
-		"IC": "H R Jadhav",
 		"courseNo": 1724,
 		"courseCode": "PHA F491",
 		"courseName": "SPECIAL PROJECT",
@@ -12723,11 +12722,11 @@
 				"instructors": ["H R Jadhav"]
 			}
 		],
+		"IC": "H R Jadhav",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Paul Atish Tulshiram",
 		"courseNo": 525,
 		"courseCode": "PHA G522",
 		"courseName": "CHEM OF MACROMOLECULES",
@@ -12745,11 +12744,11 @@
 				"instructors": ["Paul Atish Tulshiram"]
 			}
 		],
+		"IC": "Paul Atish Tulshiram",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Sandeep Sundriyal",
 		"courseNo": 2380,
 		"courseCode": "PHA G533",
 		"courseName": "PHARMACEUTICAL PROCESS CHEMIST",
@@ -12767,11 +12766,11 @@
 				"instructors": ["Sandeep Sundriyal"]
 			}
 		],
+		"IC": "Sandeep Sundriyal",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Deepak Chitkara",
 		"courseNo": 2382,
 		"courseCode": "PHA G535",
 		"courseName": "BIOMATERIALS",
@@ -12789,6 +12788,7 @@
 				"instructors": ["Deepak Chitkara"]
 			}
 		],
+		"IC": "Deepak Chitkara",
 		"tutorials": [],
 		"labs": []
 	},
@@ -12803,7 +12803,6 @@
 		"labs": []
 	},
 	{
-		"IC": "Richa Srivastava",
 		"courseNo": 2386,
 		"courseCode": "PHA G539",
 		"courseName": "PRINCIPLES OF DRUG DISCOVERY",
@@ -12821,11 +12820,11 @@
 				"instructors": ["Richa Srivastava"]
 			}
 		],
+		"IC": "Richa Srivastava",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "H R Jadhav",
 		"courseNo": 2132,
 		"courseCode": "PHA G545",
 		"courseName": "IPR AND PHARMACEUTICALS",
@@ -12836,18 +12835,18 @@
 				"section": "L1",
 				"dhString": "M W F 4",
 				"timings": [
-					{ "day": "Monday", "dayCode": "M", "time": "11:00 - 1:50" },
-					{ "day": "Wednesday", "dayCode": "W", "time": "11:00 - 1:50" },
-					{ "day": "Friday", "dayCode": "F", "time": "11:00 - 1:50" }
+					{ "day": "Monday", "dayCode": "M", "time": "11:00 - 11:50" },
+					{ "day": "Wednesday", "dayCode": "W", "time": "11:00 - 11:50" },
+					{ "day": "Friday", "dayCode": "F", "time": "11:00 - 11:50" }
 				],
 				"instructors": ["H R Jadhav"]
 			}
 		],
+		"IC": "H R Jadhav",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Richa Srivastava",
 		"courseNo": 2292,
 		"courseCode": "PHA G546",
 		"courseName": "PHRMACEUTICAL BIOSTATISTICS",
@@ -12876,10 +12875,10 @@
 				"instructors": ["Sarathlal K", "Violina Kakoty"]
 			}
 		],
+		"IC": "Richa Srivastava",
 		"tutorials": []
 	},
 	{
-		"IC": "Taliyan Rajeev",
 		"courseNo": 67,
 		"courseCode": "PHA G611",
 		"courseName": "ADVANCED PHARMACOLOGY",
@@ -12905,10 +12904,10 @@
 				"instructors": ["Sarathlal K C", "Violina Kakoty"]
 			}
 		],
+		"IC": "Taliyan Rajeev",
 		"tutorials": []
 	},
 	{
-		"IC": "R Mahesh",
 		"courseNo": 953,
 		"courseCode": "PHA G614",
 		"courseName": "CLINICAL PHARMA & THERAP",
@@ -12926,11 +12925,11 @@
 				"instructors": ["R Mahesh"]
 			}
 		],
+		"IC": "R Mahesh",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "H R Jadhav",
 		"courseNo": 677,
 		"courseCode": "PHA G621",
 		"courseName": "ADVANCED MEDICINAL CHEM",
@@ -12963,10 +12962,10 @@
 				]
 			}
 		],
+		"IC": "H R Jadhav",
 		"tutorials": []
 	},
 	{
-		"IC": "Rajeev Taliyan",
 		"courseNo": 2390,
 		"courseCode": "PHA G624",
 		"courseName": "PRINCIPLES OF TOXICOLOGY",
@@ -12984,11 +12983,11 @@
 				"instructors": ["Rajeev Taliyan"]
 			}
 		],
+		"IC": "Rajeev Taliyan",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Anil Jindal",
 		"courseNo": 721,
 		"courseCode": "PHA G632",
 		"courseName": "DOSAGE FORM DESIGN",
@@ -12999,8 +12998,8 @@
 				"section": "L1",
 				"dhString": "T Th 4 W 10",
 				"timings": [
-					{ "day": "Tuesday", "dayCode": "T", "time": "11:00 - 1:50" },
-					{ "day": "Thursday", "dayCode": "Th", "time": "11:00 - 1:50" },
+					{ "day": "Tuesday", "dayCode": "T", "time": "11:00 - 11:50" },
+					{ "day": "Thursday", "dayCode": "Th", "time": "11:00 - 11:50" },
 					{ "day": "Wednesday", "dayCode": "W", "time": "17:00 - 17:50" }
 				],
 				"instructors": ["Anil Jindal"]
@@ -13019,10 +13018,10 @@
 				]
 			}
 		],
+		"IC": "Anil Jindal",
 		"tutorials": []
 	},
 	{
-		"IC": "Jayendra Nath Bandyopadhyay",
 		"courseNo": 1015,
 		"courseCode": "PHY F111",
 		"courseName": "MECH OSCILLATIONS & WAVE",
@@ -13166,10 +13165,10 @@
 				"instructors": ["Jayendra Nath Bandyopadhyay"]
 			}
 		],
+		"IC": "Jayendra Nath Bandyopadhyay",
 		"labs": []
 	},
 	{
-		"IC": "Kaushar Vaidya",
 		"courseNo": 1493,
 		"courseCode": "PHY F215",
 		"courseName": "INTRO TO ASTRO & ASTROPH",
@@ -13187,11 +13186,11 @@
 				"instructors": ["Kaushar Vaidya"]
 			}
 		],
+		"IC": "Kaushar Vaidya",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Madhukar Mishra",
 		"courseNo": 1482,
 		"courseCode": "PHY F241",
 		"courseName": "ELECTROMAGNETIC THEO II",
@@ -13219,10 +13218,10 @@
 				"instructors": ["Madhukar Mishra"]
 			}
 		],
+		"IC": "Madhukar Mishra",
 		"labs": []
 	},
 	{
-		"IC": "Niladri Sarkar",
 		"courseNo": 1483,
 		"courseCode": "PHY F242",
 		"courseName": "QUANTUM MECHANICS I",
@@ -13233,8 +13232,8 @@
 				"section": "L1",
 				"dhString": "T Th 4 W 10",
 				"timings": [
-					{ "day": "Tuesday", "dayCode": "T", "time": "11:00 - 1:50" },
-					{ "day": "Thursday", "dayCode": "Th", "time": "11:00 - 1:50" },
+					{ "day": "Tuesday", "dayCode": "T", "time": "11:00 - 11:50" },
+					{ "day": "Thursday", "dayCode": "Th", "time": "11:00 - 11:50" },
 					{ "day": "Wednesday", "dayCode": "W", "time": "17:00 - 17:50" }
 				],
 				"instructors": ["Niladri Sarkar"]
@@ -13250,10 +13249,10 @@
 				"instructors": ["Niladri Sarkar"]
 			}
 		],
+		"IC": "Niladri Sarkar",
 		"labs": []
 	},
 	{
-		"IC": "Rashmi Ranjan Mishra",
 		"courseNo": 1484,
 		"courseCode": "PHY F243",
 		"courseName": "MATH METHODS OF PHYSICS",
@@ -13281,10 +13280,10 @@
 				"instructors": ["Rashmi Ranjan Mishra"]
 			}
 		],
+		"IC": "Rashmi Ranjan Mishra",
 		"labs": []
 	},
 	{
-		"IC": "Madhukar Mishra",
 		"courseNo": 1485,
 		"courseCode": "PHY F244",
 		"courseName": "MODREN PHYSICS LAB",
@@ -13308,11 +13307,11 @@
 				"instructors": ["Debi Datt Pant", "Srijata Dey"]
 			}
 		],
+		"IC": "Madhukar Mishra",
 		"lectures": [],
 		"tutorials": []
 	},
 	{
-		"IC": "Rakesh Choubisa",
 		"courseNo": 1666,
 		"courseCode": "PHY F266",
 		"courseName": "STUDY PROJECT",
@@ -13326,11 +13325,11 @@
 				"instructors": ["Rakesh Choubisa"]
 			}
 		],
+		"IC": "Rakesh Choubisa",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "S Gangopadhyay",
 		"courseNo": 1489,
 		"courseCode": "PHY F341",
 		"courseName": "SOLID STATE PHYSICS",
@@ -13341,9 +13340,9 @@
 				"section": "L1",
 				"dhString": "M W F 4",
 				"timings": [
-					{ "day": "Monday", "dayCode": "M", "time": "11:00 - 1:50" },
-					{ "day": "Wednesday", "dayCode": "W", "time": "11:00 - 1:50" },
-					{ "day": "Friday", "dayCode": "F", "time": "11:00 - 1:50" }
+					{ "day": "Monday", "dayCode": "M", "time": "11:00 - 11:50" },
+					{ "day": "Wednesday", "dayCode": "W", "time": "11:00 - 11:50" },
+					{ "day": "Friday", "dayCode": "F", "time": "11:00 - 11:50" }
 				],
 				"instructors": ["S Gangopadhyay"]
 			}
@@ -13358,10 +13357,10 @@
 				"instructors": ["S Gangopadhyay"]
 			}
 		],
+		"IC": "S Gangopadhyay",
 		"labs": []
 	},
 	{
-		"IC": "Amol Holkundkar",
 		"courseNo": 1490,
 		"courseCode": "PHY F342",
 		"courseName": "ATOMIC & MOLECULAR PHY",
@@ -13389,10 +13388,10 @@
 				"instructors": ["Amol Holkundkar"]
 			}
 		],
+		"IC": "Amol Holkundkar",
 		"labs": []
 	},
 	{
-		"IC": "Biswanath Layek",
 		"courseNo": 1491,
 		"courseCode": "PHY F343",
 		"courseName": "NUCLEAR & PARTICLE PHY",
@@ -13420,10 +13419,10 @@
 				"instructors": ["Biswanath Layek"]
 			}
 		],
+		"IC": "Biswanath Layek",
 		"labs": []
 	},
 	{
-		"IC": "Raj Kumar Gupta",
 		"courseNo": 1492,
 		"courseCode": "PHY F344",
 		"courseName": "ADVANCED PHYSICS LAB",
@@ -13461,10 +13460,10 @@
 				]
 			}
 		],
+		"IC": "Raj Kumar Gupta",
 		"tutorials": []
 	},
 	{
-		"IC": "Rakesh Choubisa",
 		"courseNo": 1683,
 		"courseCode": "PHY F366",
 		"courseName": "LABORATORY PROJECT",
@@ -13478,11 +13477,11 @@
 				"instructors": ["Rakesh Choubisa"]
 			}
 		],
+		"IC": "Rakesh Choubisa",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Rakesh Choubisa",
 		"courseNo": 1751,
 		"courseCode": "PHY F367",
 		"courseName": "LABORATORY PROJECT",
@@ -13496,11 +13495,11 @@
 				"instructors": ["Rakesh Choubisa"]
 			}
 		],
+		"IC": "Rakesh Choubisa",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Rakesh Choubisa",
 		"courseNo": 1700,
 		"courseCode": "PHY F376",
 		"courseName": "DESIGN PROJECT",
@@ -13514,11 +13513,11 @@
 				"instructors": ["Rakesh Choubisa"]
 			}
 		],
+		"IC": "Rakesh Choubisa",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Rakesh Choubisa",
 		"courseNo": 1767,
 		"courseCode": "PHY F377",
 		"courseName": "DESIGN PROJECT",
@@ -13532,11 +13531,11 @@
 				"instructors": ["Rakesh Choubisa"]
 			}
 		],
+		"IC": "Rakesh Choubisa",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Navin Singh",
 		"courseNo": 1499,
 		"courseCode": "PHY F416",
 		"courseName": "SOFT CONDEN MATTER PHY",
@@ -13554,11 +13553,11 @@
 				"instructors": ["Navin Singh"]
 			}
 		],
+		"IC": "Navin Singh",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "J N Bandyopadhyay",
 		"courseNo": 1502,
 		"courseCode": "PHY F419",
 		"courseName": "ADV SOLID STATE PHYSICS",
@@ -13569,18 +13568,18 @@
 				"section": "L1",
 				"dhString": "T Th 4 W 10",
 				"timings": [
-					{ "day": "Tuesday", "dayCode": "T", "time": "11:00 - 1:50" },
-					{ "day": "Thursday", "dayCode": "Th", "time": "11:00 - 1:50" },
+					{ "day": "Tuesday", "dayCode": "T", "time": "11:00 - 11:50" },
+					{ "day": "Thursday", "dayCode": "Th", "time": "11:00 - 11:50" },
 					{ "day": "Wednesday", "dayCode": "W", "time": "17:00 - 17:50" }
 				],
 				"instructors": ["J N Bandyopadhyay"]
 			}
 		],
+		"IC": "J N Bandyopadhyay",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Rakesh Choubisa",
 		"courseNo": 1505,
 		"courseCode": "PHY F421",
 		"courseName": "ADV QUANTUM MECHANICS",
@@ -13598,11 +13597,11 @@
 				"instructors": ["Rakesh Choubisa"]
 			}
 		],
+		"IC": "Rakesh Choubisa",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Vaidya Rishikesh D",
 		"courseNo": 1503,
 		"courseCode": "PHY F422",
 		"courseName": "GROUP THEORY & APPLI",
@@ -13620,11 +13619,11 @@
 				"instructors": ["Vaidya Rishikesh D"]
 			}
 		],
+		"IC": "Vaidya Rishikesh D",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "Rakesh Choubisa",
 		"courseNo": 1725,
 		"courseCode": "PHY F491",
 		"courseName": "SPECIAL PROJECT",
@@ -13638,11 +13637,11 @@
 				"instructors": ["Rakesh Choubisa"]
 			}
 		],
+		"IC": "Rakesh Choubisa",
 		"tutorials": [],
 		"labs": []
 	},
 	{
-		"IC": "L. Rajya Lakshmi",
 		"courseNo": 958,
 		"courseCode": "SS G515",
 		"courseName": "DATA WAREHOUSING",
@@ -13670,10 +13669,10 @@
 				"instructors": ["Neha Choudhary (RS)"]
 			}
 		],
+		"IC": "L. Rajya Lakshmi",
 		"tutorials": []
 	},
 	{
-		"IC": "Tanmaya Mahapatra",
 		"courseNo": 333,
 		"courseCode": "SS G653",
 		"courseName": "SOFTWARE ARCHITECHTURES",
@@ -13691,6 +13690,7 @@
 				"instructors": ["Tanmaya Mahapatra"]
 			}
 		],
+		"IC": "Tanmaya Mahapatra",
 		"tutorials": [],
 		"labs": []
 	}

@@ -1,12 +1,12 @@
 {
-  "name": "tt-nodejs",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+	"name": "bits-timetable-json",
+	"version": "1.0.0",
+	"description": "Parsing from raw JSON data to structured JSON for APIs",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [],
+	"author": "Nilanjan Deb",
+	"license": "ISC"
 }
