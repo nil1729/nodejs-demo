@@ -7,25 +7,41 @@ const msgContainer = document.querySelector('.msg-container');
 const listGroup = document.querySelector('.list-group');
 const roomName = document.querySelector('#roomName');
 
-const {username, room} = Qs.parse(location.search, {ignoreQueryPrefix: true})
+const { username, room } = Qs.parse(location.search, { ignoreQueryPrefix: true });
 
-socket.on('message', (message)=>{
-    const d = new Date();
-    const time = d.toLocaleTimeString();
-    msgContainer.innerHTML += `
+// joining Event
+socket.emit('join', { username, room });
+
+// prevent users to reload the tab
+window.onbeforeunload = function () {
+	return 'Dude, are you sure you want to leave?';
+};
+
+// prevent users to go back
+history.pushState(null, null, document.URL);
+window.addEventListener('popstate', function () {
+	history.pushState(null, null, document.URL);
+});
+
+// New Messages
+socket.on('message', (message) => {
+	const d = new Date();
+	const time = d.toLocaleTimeString();
+	msgContainer.innerHTML += `
     <div class="row msg mr-auto ml-2 bg-light d-flex flex-column">
         <p><span class="badge badge-warning">${message.from}</span></p>
         <p>${message.text}</p>
         <p><span class="time text-secondary p-0">${time}</span></p>
     </div>
     `;
-    scrollDown(msgContainer);
+	scrollDown(msgContainer);
 });
 
-socket.on('serverMessage', (message)=>{
-    const d = new Date();
-    const time = d.toLocaleTimeString();
-    msgContainer.innerHTML += `
+// Error Messages From Server
+socket.on('serverMessage', (message) => {
+	const d = new Date();
+	const time = d.toLocaleTimeString();
+	msgContainer.innerHTML += `
     <div class="row msg mr-auto ml-2 bg-light d-flex flex-column">
         <p class="text-primary">
             <p><span class="badge badge-danger">${message.from}</span></p>
@@ -34,13 +50,14 @@ socket.on('serverMessage', (message)=>{
         </p>
     </div>
     `;
-    scrollDown(msgContainer);
+	scrollDown(msgContainer);
 });
 
-socket.on('locationMsg', (message)=>{
-    const d = new Date();
-    const time = d.toLocaleTimeString();
-    msgContainer.innerHTML += `
+// Incoming Location Msg
+socket.on('locationMsg', (message) => {
+	const d = new Date();
+	const time = d.toLocaleTimeString();
+	msgContainer.innerHTML += `
     <div class="row msg mr-auto ml-2 bg-light d-flex flex-column">
         <p class="text-primary">
             <p><span class="badge badge-warning">${message.from}</span></p>
@@ -49,33 +66,35 @@ socket.on('locationMsg', (message)=>{
         </p>
     </div>
     `;
-    scrollDown(msgContainer);
+	scrollDown(msgContainer);
 });
-socket.on('roomUsers', (roomUsers)=>{
-    roomName.textContent = roomUsers[0].room;
-    listGroup.innerHTML = '';
-    roomUsers.forEach(user=>{
-        listGroup.innerHTML += `
+
+// Room user list
+socket.on('roomUsers', (roomUsers) => {
+	roomName.textContent = roomUsers[0].room;
+	listGroup.innerHTML = '';
+	roomUsers.forEach((user) => {
+		listGroup.innerHTML += `
         <li class="list-group-item">${user.username}</li>
         `;
-    });
-    scrollDown(listGroup);
+	});
+	scrollDown(listGroup);
 });
-socket.emit('join', {username, room});
 
-sendForm.addEventListener('submit', (e)=>{
-    e.preventDefault();
-    const message = sendFormInput.value;
-    if(message != ''){
-        sendBtn.setAttribute('disabled', 'disabled');
-        socket.emit('incomingMessage', message, (err)=>{
-            sendFormInput.value = '';
-            sendBtn.removeAttribute('disabled');
-            sendFormInput.focus();
-            const d = new Date();
-            const time = d.toLocaleTimeString();
-            if(err){
-                msgContainer.innerHTML += `
+// Send Message Handler
+sendForm.addEventListener('submit', (e) => {
+	e.preventDefault();
+	const message = sendFormInput.value;
+	if (message != '') {
+		sendBtn.setAttribute('disabled', 'disabled');
+		socket.emit('incomingMessage', message, (err) => {
+			sendFormInput.value = '';
+			sendBtn.removeAttribute('disabled');
+			sendFormInput.focus();
+			const d = new Date();
+			const time = d.toLocaleTimeString();
+			if (err) {
+				msgContainer.innerHTML += `
                 <div class="row msg ml-auto mr-2 bg-light d-flex flex-column">
                     <p><span class="badge badge-success">You</span></p>
                     <p>${message}</p>
@@ -83,8 +102,8 @@ sendForm.addEventListener('submit', (e)=>{
                     <p><span class="time text-secondary p-0">${time}</span></p>
                 </div>
                 `;
-            }else{
-                msgContainer.innerHTML += `
+			} else {
+				msgContainer.innerHTML += `
                 <div class="row msg ml-auto mr-2 bg-light d-flex flex-column">
                     <p><span class="badge badge-success">You</span></p>
                     <p>${message}</p>
@@ -92,62 +111,70 @@ sendForm.addEventListener('submit', (e)=>{
                     <p><span class="time text-secondary p-0">${time}</span></p>
                     </div>
                 `;
-            }
-            scrollDown(msgContainer);
-        });
-    }
+			}
+			scrollDown(msgContainer);
+		});
+	}
 });
 
-// Location Retrieveing
+// Location Retrieving
 function setPosition(position) {
-    const latitude = position.coords.latitude;
-    const longitude = position.coords.longitude;
-    getPosition(latitude, longitude);
+	const latitude = position.coords.latitude;
+	const longitude = position.coords.longitude;
+	getPosition(latitude, longitude);
 }
 
-async function getPosition(lat, long){
-    const response = await fetch(`https://api.opencagedata.com/geocode/v1/json?key=50511ee31e7b4d52a9415b2471962c08&q=${lat},${long}`);
-    const data = await response.json();
-    const currLocation=`${data.results[0].formatted}`;
-    socket.emit('locationMsg', currLocation, ()=>{
-        const d = new Date();
-        const time = d.toLocaleTimeString();
-        msgContainer.innerHTML += `
+// API Calling for Getting Formatted Address
+async function getPosition(lat, long) {
+	const response = await fetch(
+		`https://api.opencagedata.com/geocode/v1/json?key=50511ee31e7b4d52a9415b2471962c08&q=${lat},${long}`
+	);
+	const data = await response.json();
+	const currLocation = `${data.results[0].formatted}`;
+	socket.emit('locationMsg', currLocation, () => {
+		const d = new Date();
+		const time = d.toLocaleTimeString();
+		msgContainer.innerHTML += `
             <div class="row msg ml-auto mr-2 bg-light d-flex flex-column">
                 <p><span class="badge text-success p-0">Location shared Successfully</span></p>
                 <p><span class="time text-secondary p-0">${time}</span></p>
             </div>
             `;
-            scrollDown(msgContainer);
-            locationBtn.removeAttribute('disabled', 'disabled');
-    });
+		scrollDown(msgContainer);
+		locationBtn.removeAttribute('disabled', 'disabled');
+	});
 }
+
+// Showing Error for Denied GeoLocationAPI
 function showError(error) {
-    socket.emit('errorMessage', `You denied Geolocation`, (err)=>{
-        const d = new Date();
-        const time = d.toLocaleTimeString();
-        msgContainer.innerHTML += `
+	socket.emit('errorMessage', `You denied Geolocation`, (err) => {
+		const d = new Date();
+		const time = d.toLocaleTimeString();
+		msgContainer.innerHTML += `
             <div class="row msg ml-auto mr-2 bg-light d-flex flex-column">
                 <p><span class="badge text-danger p-0">Error!! Location Coundn't be shared!</span></p>
                 <p><span class="time text-secondary p-0">${time}</span></p>    
             </div>
         `;
-        scrollDown(msgContainer);
-    });
-    locationBtn.removeAttribute('disabled', 'disabled');
+		scrollDown(msgContainer);
+	});
+	locationBtn.removeAttribute('disabled', 'disabled');
 }
 
+// Location Btn Handler
 locationBtn.addEventListener('click', getLocation);
 
+// GeoLocation API
 function getLocation() {
-    locationBtn.setAttribute('disabled', 'disabled');
-    if (navigator.geolocation) {
-        navigator.geolocation.getCurrentPosition(setPosition, showError);
-    } else {
-        console.log('not supported');
-    }
+	locationBtn.setAttribute('disabled', 'disabled');
+	if (navigator.geolocation) {
+		navigator.geolocation.getCurrentPosition(setPosition, showError);
+	} else {
+		console.log('not supported');
+	}
 }
 
-function scrollDown(container){
-    container.scrollTop = container.scrollHeight;
+// Scroll Down The Respective Container
+function scrollDown(container) {
+	container.scrollTop = container.scrollHeight;
 }
