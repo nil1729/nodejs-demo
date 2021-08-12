@@ -152,7 +152,7 @@ exports.getAllTickets = asyncHandler(async (req, res, next) => {
 });
 
 exports.updateTicket = asyncHandler(async (req, res, next) => {
-	let { ticketId, issue_date, end_date, comments, policy_number } = req.body;
+	let { ticketId, issue_date, end_date, comments, policy_number, status } = req.body;
 
 	if (!ticketId || (ticketId && !checker.uuid(ticketId)))
 		throw new ErrorResponse('Invalid Ticket Id', 400);
@@ -186,6 +186,10 @@ exports.updateTicket = asyncHandler(async (req, res, next) => {
 
 	if (comments) {
 		ticket.comments = comments;
+	}
+
+	if (status) {
+		ticket.status = status;
 	}
 
 	if (issue_date) {
