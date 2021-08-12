@@ -4,6 +4,7 @@ const checker = require('../utils/checkFields'),
 	Employee = require('../models/Employee'),
 	jwt = require('jsonwebtoken'),
 	bcrypt = require('bcrypt'),
+	{ Sequelize, DataTypes } = require('sequelize'),
 	sequelize = require('../db'),
 	Insurance = require('../models/Insurance'),
 	{ GoldInsurance, HealthInsurance, CovidInsurance } = require('../models/InsuranceTypes'),
@@ -169,10 +170,14 @@ exports.updateTicket = asyncHandler(async (req, res, next) => {
 	}
 
 	if (insurance.insuranceType === 'health') {
-		await HealthInsurance.findOne({ where: { insuranceId: ticket.insuranceId } });
+		insuranceTypeInstance = await HealthInsurance.findOne({
+			where: { insuranceId: ticket.insuranceId },
+		});
 	}
 	if (insurance.insuranceType === 'gold') {
-		await GoldInsurance.findOne({ where: { insuranceId: ticket.insuranceId } });
+		insuranceTypeInstance = await GoldInsurance.findOne({
+			where: { insuranceId: ticket.insuranceId },
+		});
 	}
 
 	if (policy_number) {
@@ -184,10 +189,10 @@ exports.updateTicket = asyncHandler(async (req, res, next) => {
 	}
 
 	if (issue_date) {
-		insurance.issue_date = new Date(issue_date);
+		insurance.issueDate = new Date(issue_date).toISOString();
 	}
 	if (end_date) {
-		insurance.end_date = new Date(end_date);
+		insurance.endDate = new Date(end_date).toISOString();
 	}
 
 	await insurance.save();
