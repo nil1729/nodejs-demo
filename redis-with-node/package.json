@@ -1,0 +1,19 @@
+{
+	"name": "redis-with-node",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "node .",
+		"start:dev": "nodemon ."
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"axios": "^0.26.1",
+		"express": "^4.17.3",
+		"redis": "^4.0.6"
+	}
+}
